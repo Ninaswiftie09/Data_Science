@@ -1,73 +1,105 @@
 # Librerías
 import warnings
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from statsmodels.tsa.stattools import adfuller, kpss
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.stattools import (
+    adfuller,
+    kpss
+)
+
+from statsmodels.graphics.tsaplots import (
+    plot_acf,
+    plot_pacf
+)
+
 from statsmodels.tools.sm_exceptions import (
-    ConvergenceWarning,
     InterpolationWarning
 )
+
 
 # Funciones del proyecto
 from utils import (
     cargar_datos,
     crear_carpeta_processed,
+    crear_serie,
+    entrenar_modelos_sarima,
     PROCESSED_DIR
 )
 
 
 # Ocultar advertencias
-warnings.simplefilter("ignore", ConvergenceWarning)
-warnings.simplefilter("ignore", InterpolationWarning)
+warnings.simplefilter(
+    "ignore",
+    InterpolationWarning
+)
 
 
 # Configuración
 COLUMNA = "temperature_2m_c"
 MESES_PRUEBA = 36
-PERIODO_ESTACIONAL = 12
+PERIODO = 12
 
 
 # Cargar datos
 df = cargar_datos()
 
-# Crear carpeta de resultados
+# Crear carpeta
 crear_carpeta_processed()
 
 
 # Separar entrenamiento
-train = df.iloc[:-MESES_PRUEBA].copy()
+train = df.iloc[
+    :-MESES_PRUEBA
+].copy()
 
 
 # Crear serie temporal
-serie = train.set_index("month")[COLUMNA]
-
-# Indicar frecuencia mensual
-serie = serie.asfreq("MS")
+serie = crear_serie(
+    train,
+    COLUMNA
+)
 
 
 # Diferenciación estacional
-serie_estacionaria = serie.diff(
-    PERIODO_ESTACIONAL
-).dropna()
+serie_transformada = (
+    serie
+    .diff(PERIODO)
+    .dropna()
+)
 
 
-# Mostrar información
-print("\n--- TRANSFORMACIÓN DE LA SERIE ---")
+# Información
+print(
+    "\n--- TRANSFORMACIÓN DE LA SERIE ---"
+)
 
-print("Datos originales:", len(serie))
-print("Datos transformados:", len(serie_estacionaria))
-print("Diferenciación aplicada: 12 meses")
+print(
+    "Datos originales:",
+    len(serie)
+)
+
+print(
+    "Datos transformados:",
+    len(serie_transformada)
+)
+
+print(
+    "Diferenciación aplicada:",
+    PERIODO,
+    "meses"
+)
 
 
 # Gráfica transformada
-plt.figure(figsize=(12, 5))
+plt.figure(
+    figsize=(12, 5)
+)
 
 plt.plot(
-    serie_estacionaria.index,
-    serie_estacionaria.values
+    serie_transformada.index,
+    serie_transformada.values
 )
 
 plt.axhline(
@@ -75,7 +107,10 @@ plt.axhline(
     linestyle="--"
 )
 
-plt.title("Serie con diferenciación estacional")
+plt.title(
+    "Serie con diferenciación estacional"
+)
+
 plt.xlabel("Fecha")
 plt.ylabel("Diferencia de temperatura")
 plt.grid(alpha=0.3)
@@ -85,7 +120,7 @@ plt.show()
 
 # Prueba ADF
 resultado_adf = adfuller(
-    serie_estacionaria,
+    serie_transformada,
     autolag="AIC"
 )
 
@@ -93,7 +128,9 @@ estadistico_adf = resultado_adf[0]
 p_valor_adf = resultado_adf[1]
 
 
-print("\n--- ADF DESPUÉS DE LA TRANSFORMACIÓN ---")
+print(
+    "\n--- ADF DESPUÉS DE LA TRANSFORMACIÓN ---"
+)
 
 print(
     "Estadístico:",
@@ -106,14 +143,18 @@ print(
 )
 
 if p_valor_adf < 0.05:
-    print("La serie transformada es estacionaria según ADF.")
+    print(
+        "La serie es estacionaria según ADF."
+    )
 else:
-    print("La serie transformada no es estacionaria según ADF.")
+    print(
+        "La serie no es estacionaria según ADF."
+    )
 
 
 # Prueba KPSS
 resultado_kpss = kpss(
-    serie_estacionaria,
+    serie_transformada,
     regression="c",
     nlags="auto"
 )
@@ -122,7 +163,9 @@ estadistico_kpss = resultado_kpss[0]
 p_valor_kpss = resultado_kpss[1]
 
 
-print("\n--- KPSS DESPUÉS DE LA TRANSFORMACIÓN ---")
+print(
+    "\n--- KPSS DESPUÉS DE LA TRANSFORMACIÓN ---"
+)
 
 print(
     "Estadístico:",
@@ -135,18 +178,25 @@ print(
 )
 
 if p_valor_kpss < 0.05:
-    print("La serie transformada no es estacionaria según KPSS.")
+    print(
+        "La serie no es estacionaria según KPSS."
+    )
 else:
-    print("La serie transformada es estacionaria según KPSS.")
+    print(
+        "La serie es estacionaria según KPSS."
+    )
 
 
 # Gráfica ACF
 plot_acf(
-    serie_estacionaria,
+    serie_transformada,
     lags=36
 )
 
-plt.title("Función de autocorrelación")
+plt.title(
+    "Función de autocorrelación"
+)
+
 plt.xlabel("Rezagos")
 plt.ylabel("Autocorrelación")
 plt.tight_layout()
@@ -155,142 +205,135 @@ plt.show()
 
 # Gráfica PACF
 plot_pacf(
-    serie_estacionaria,
+    serie_transformada,
     lags=36,
     method="ywm"
 )
 
-plt.title("Función de autocorrelación parcial")
+plt.title(
+    "Autocorrelación parcial"
+)
+
 plt.xlabel("Rezagos")
-plt.ylabel("Autocorrelación parcial")
+plt.ylabel(
+    "Autocorrelación parcial"
+)
+
 plt.tight_layout()
 plt.show()
 
 
-# Configuración de modelos
-modelos = {
-    "modelo_1": {
-        "order": (1, 0, 1),
-        "seasonal_order": (0, 1, 1, 12)
-    },
+# Entrenar modelos
+print(
+    "\n--- ENTRENAMIENTO DE MODELOS ---"
+)
 
-    "modelo_2": {
-        "order": (2, 0, 0),
-        "seasonal_order": (0, 1, 1, 12)
-    },
-
-    "modelo_3": {
-        "order": (0, 0, 2),
-        "seasonal_order": (0, 1, 1, 12)
-    }
-}
+ajustes, metricas = (
+    entrenar_modelos_sarima(
+        serie
+    )
+)
 
 
-# Lista de resultados
-resultados_modelos = []
+# Mostrar resultados
+for _, fila in metricas.iterrows():
 
-
-# Entrenar los modelos
-print("\n--- ENTRENAMIENTO DE MODELOS ---")
-
-for nombre, parametros in modelos.items():
-
-    print("\nEntrenando:", nombre)
-
-    # Crear modelo
-    modelo = SARIMAX(
-        serie,
-        order=parametros["order"],
-        seasonal_order=parametros["seasonal_order"],
-        trend="c",
-        enforce_stationarity=False,
-        enforce_invertibility=False
+    print(
+        "\nModelo:",
+        fila["modelo"]
     )
 
-    # Entrenar modelo
-    ajuste = modelo.fit(
-        disp=False,
-        maxiter=300
+    print(
+        "Orden:",
+        fila["order"]
     )
 
-    # Guardar resultados
-    resultados_modelos.append({
-        "modelo": nombre,
-        "order": str(parametros["order"]),
-        "seasonal_order": str(
-            parametros["seasonal_order"]
-        ),
-        "aic": ajuste.aic,
-        "bic": ajuste.bic,
-        "convergencia": ajuste.mle_retvals.get(
-            "converged",
-            False
-        )
-    })
+    print(
+        "Orden estacional:",
+        fila["seasonal_order"]
+    )
 
-    # Mostrar métricas
-    print("AIC:", round(ajuste.aic, 4))
-    print("BIC:", round(ajuste.bic, 4))
+    print(
+        "AIC:",
+        round(fila["aic"], 4)
+    )
 
-    # Guardar resumen
-    ruta_resumen = (
+    print(
+        "BIC:",
+        round(fila["bic"], 4)
+    )
+
+    print(
+        "Convergencia:",
+        fila["convergencia"]
+    )
+
+
+# Mejor modelo
+mejor_nombre = (
+    metricas
+    .iloc[0]["modelo"]
+)
+
+mejor_ajuste = ajustes[
+    mejor_nombre
+]
+
+
+print(
+    "\n--- MEJOR MODELO ---"
+)
+
+print(
+    "Modelo:",
+    mejor_nombre
+)
+
+print(
+    "AIC:",
+    round(
+        mejor_ajuste.aic,
+        4
+    )
+)
+
+print(
+    "BIC:",
+    round(
+        mejor_ajuste.bic,
+        4
+    )
+)
+
+
+# Guardar resúmenes
+for nombre, ajuste in ajustes.items():
+
+    ruta = (
         PROCESSED_DIR
         / f"resumen_{nombre}.txt"
     )
 
     with open(
-        ruta_resumen,
+        ruta,
         "w",
         encoding="utf-8"
     ) as archivo:
 
         archivo.write(
-            ajuste.summary().as_text()
+            ajuste
+            .summary()
+            .as_text()
         )
 
 
-# Crear tabla
-metricas = pd.DataFrame(
-    resultados_modelos
-)
-
-
-# Ordenar por AIC
-metricas = metricas.sort_values(
-    by="aic"
-)
-
-
-# Mostrar comparación
-print("\n--- COMPARACIÓN DE MODELOS ---")
-
-print(
-    metricas.to_string(index=False)
-)
-
-
-# Mostrar mejor modelo
-mejor_modelo = metricas.iloc[0]
-
-print("\nMejor modelo según AIC:")
-print(mejor_modelo["modelo"])
-
-print(
-    "AIC:",
-    round(mejor_modelo["aic"], 4)
-)
-
-print(
-    "BIC:",
-    round(mejor_modelo["bic"], 4)
-)
-
-
-# Guardar serie transformada
-serie_estacionaria.to_csv(
+# Guardar serie
+serie_transformada.to_csv(
     PROCESSED_DIR
     / "serie_transformada.csv",
-    header=["temperature_diff_12"]
+    header=[
+        "temperature_diff_12"
+    ]
 )
 
 
@@ -302,4 +345,30 @@ metricas.to_csv(
 )
 
 
-print("\nResultados guardados correctamente.")
+# Guardar pruebas
+pruebas = pd.DataFrame({
+    "prueba": [
+        "ADF",
+        "KPSS"
+    ],
+    "estadistico": [
+        estadistico_adf,
+        estadistico_kpss
+    ],
+    "p_valor": [
+        p_valor_adf,
+        p_valor_kpss
+    ]
+})
+
+
+pruebas.to_csv(
+    PROCESSED_DIR
+    / "pruebas_transformacion.csv",
+    index=False
+)
+
+
+print(
+    "\nResultados guardados correctamente."
+)
