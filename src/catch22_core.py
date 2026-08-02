@@ -1,10 +1,3 @@
-"""Implementación autocontenida de las 22 características canónicas de catch22.
-
-La función pública ``catch22_all`` devuelve los nombres y valores de las 22
-características. La implementación usa NumPy y SciPy para mantener el análisis
-reproducible sin depender de binarios externos.
-"""
-
 from __future__ import annotations
 
 import math
