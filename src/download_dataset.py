@@ -4,7 +4,7 @@ from pathlib import Path
 
 import kagglehub
 
-from utils import RAW_DATA_DIR, resolve_train_directory
+from .utils import RAW_DATA_DIR, resolve_train_directory
 
 DATASET_HANDLE = "grassknoted/asl-alphabet"
 

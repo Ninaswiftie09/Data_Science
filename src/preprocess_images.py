@@ -11,7 +11,7 @@ import pandas as pd
 from PIL import Image
 from tqdm import tqdm
 
-from utils import (
+from .utils import (
     FIGURES_DIR,
     PROCESSED_DATA_DIR,
     PROJECT_ROOT,

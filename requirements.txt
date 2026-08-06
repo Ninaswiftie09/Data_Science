@@ -1,1 +1,8 @@
 kagglehub
+matplotlib
+numpy
+pandas
+Pillow
+tqdm
+jupyter
+ipykernel

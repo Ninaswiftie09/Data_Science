@@ -10,28 +10,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from PIL import Image, UnidentifiedImageError
 
-try:
-    from .utils import (
-        FIGURES_DIR,
-        REPORTS_DIR,
-        choose_files,
-        class_directories,
-        ensure_output_directories,
-        list_image_files,
-        resolve_test_directory,
-        resolve_train_directory,
-    )
-except ImportError:
-    from .utils import (
-        FIGURES_DIR,
-        REPORTS_DIR,
-        choose_files,
-        class_directories,
-        ensure_output_directories,
-        list_image_files,
-        resolve_test_directory,
-        resolve_train_directory,
-    )
+from .utils import (
+    FIGURES_DIR,
+    REPORTS_DIR,
+    choose_files,
+    class_directories,
+    ensure_output_directories,
+    list_image_files,
+    resolve_test_directory,
+    resolve_train_directory,
+)
 
 RANDOM_SEED = 42
 DEFAULT_PROPERTY_SAMPLE_PER_CLASS = 50
