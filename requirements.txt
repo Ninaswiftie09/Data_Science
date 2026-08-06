@@ -1,11 +1,1 @@
-pandas
-numpy
-matplotlib
-scipy
-statsmodels
-scikit-learn
-openpyxl
-jupyter
-nbconvert
-prophet
-torch
+kagglehub
