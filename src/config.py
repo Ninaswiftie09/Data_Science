@@ -37,17 +37,14 @@ MAX_FECHAS = None
 # Bandas necesarias para:
 # NDVI -> B04 y B08
 # NDWI -> B03 y B08
-# CyanoLakes -> B02, B03, B04, B05, B06, B08, B11 y B12
-# SCL -> máscara de nubes y píxeles no válidos
+# Cianobacteria -> B04, B05, B06 y B08
+# SCL -> máscara de nubes
 BANDAS = [
-    "B02",
     "B03",
     "B04",
     "B05",
     "B06",
     "B08",
-    "B11",
-    "B12",
     "SCL"
 ]
 
