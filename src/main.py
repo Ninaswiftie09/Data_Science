@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 from tqdm.auto import tqdm
@@ -6,34 +8,37 @@ from config import (
     LAGOS,
     MAX_FECHAS,
     NUBOSIDAD_OFICIAL,
+    PROJECT_ROOT,
     RESOLUCION_METROS,
     RESULTADOS_DIR
 )
 
 from funciones import (
+    analizar_correlacion,
+    analizar_estacionalidad,
     analizar_temporal,
+    boxplot_fechas,
+    calcular_persistencia,
     conectar_copernicus,
+    crear_comparacion_lagos,
     descargar_bandas_fecha,
     grafica_comparacion_lagos,
+    grafica_extension_floracion,
     grafica_temporal_lago,
     leer_y_calcular_indices,
+    mapa_comparativo_fechas,
+    mapa_diferencia,
     mapa_fecha_pico,
     mostrar_mapa,
     nombre_seguro
 )
 
 
-# ============================================================
-# 1. CONEXIÓN CON COPERNICUS / OPENEO
-# ============================================================
-
+# aca se conecta con copernicus
 conn = conectar_copernicus()
 
 
-# ============================================================
-# 2. REVISIÓN DE FECHAS OFICIALES
-# ============================================================
-
+# aca se revisan las fechas oficiales
 nubosidad = pd.DataFrame(
     NUBOSIDAD_OFICIAL,
     columns=[
@@ -44,11 +49,9 @@ nubosidad = pd.DataFrame(
     ]
 )
 
-
 nubosidad["fecha"] = pd.to_datetime(
     nubosidad["fecha"]
 )
-
 
 print(
     "\nFechas oficiales del laboratorio:"
@@ -61,10 +64,7 @@ print(
 )
 
 
-# ============================================================
-# 3. PRUEBA CON UNA SOLA FECHA
-# ============================================================
-
+# aca se prueba una fecha
 lago_prueba = "Atitlán"
 
 fecha_prueba = (
@@ -72,7 +72,6 @@ fecha_prueba = (
         lago_prueba
     ]["fechas"][0]
 )
-
 
 archivo_prueba = descargar_bandas_fecha(
     conn=conn,
@@ -84,16 +83,13 @@ archivo_prueba = descargar_bandas_fecha(
     resolucion=RESOLUCION_METROS
 )
 
-
 indices_prueba = leer_y_calcular_indices(
     archivo_prueba
 )
 
-
 print(
     "\nPrueba de índices:"
 )
-
 
 print(
     "NDVI promedio:",
@@ -102,7 +98,6 @@ print(
     )
 )
 
-
 print(
     "NDWI promedio:",
     np.nanmean(
@@ -110,14 +105,12 @@ print(
     )
 )
 
-
 print(
     "Cianobacteria promedio:",
     np.nanmean(
         indices_prueba["cyano"]
     )
 )
-
 
 print(
     "Píxeles válidos de agua:",
@@ -127,11 +120,6 @@ print(
         ]
     )
 )
-
-
-# ============================================================
-# MAPA DE CIANOBACTERIA DE PRUEBA
-# ============================================================
 
 mostrar_mapa(
     indices_prueba["cyano"],
@@ -148,11 +136,6 @@ mostrar_mapa(
     etiqueta="Bloom Index"
 )
 
-
-# ============================================================
-# MAPA NDVI DE PRUEBA
-# ============================================================
-
 mostrar_mapa(
     indices_prueba["ndvi"],
     (
@@ -167,11 +150,6 @@ mostrar_mapa(
     ),
     etiqueta="NDVI"
 )
-
-
-# ============================================================
-# MAPA NDWI DE PRUEBA
-# ============================================================
 
 mostrar_mapa(
     indices_prueba["ndwi"],
@@ -189,34 +167,23 @@ mostrar_mapa(
 )
 
 
-# ============================================================
-# 4. PROCESAMIENTO DE TODAS LAS FECHAS
-# ============================================================
-
+# aca se procesan todas las fechas
 registros = []
 
-
 for lago, info in LAGOS.items():
-
     fechas = info["fechas"]
 
-
     if MAX_FECHAS is not None:
-
         fechas = fechas[
             :MAX_FECHAS
         ]
-
 
     print(
         f"\nProcesando {lago}..."
     )
 
-
     for fecha in tqdm(fechas):
-
         try:
-
             ruta = descargar_bandas_fecha(
                 conn=conn,
                 lago=lago,
@@ -225,26 +192,19 @@ for lago, info in LAGOS.items():
                 resolucion=RESOLUCION_METROS
             )
 
-
             indices = leer_y_calcular_indices(
                 ruta
             )
 
-
             cyano = indices["cyano"]
-
             ndvi = indices["ndvi"]
-
             ndwi = indices["ndwi"]
-
 
             validos_cyano = cyano[
                 np.isfinite(cyano)
             ]
 
-
             if validos_cyano.size > 0:
-
                 porcentaje_alto = (
                     np.mean(
                         validos_cyano
@@ -252,42 +212,34 @@ for lago, info in LAGOS.items():
                     )
                     * 100
                 )
-
             else:
-
                 porcentaje_alto = np.nan
 
-
-            registro = {
-                "lago": lago,
-
-                "fecha": pd.Timestamp(
-                    fecha
-                ),
-
+            registros.append({
+                "lago":
+                    lago,
+                "fecha":
+                    pd.Timestamp(
+                        fecha
+                    ),
                 "cyano_promedio":
                     np.nanmean(
                         cyano
                     ),
-
                 "cyano_mediana":
                     np.nanmedian(
                         cyano
                     ),
-
                 "ndvi_promedio":
                     np.nanmean(
                         ndvi
                     ),
-
                 "ndwi_promedio":
                     np.nanmean(
                         ndwi
                     ),
-
                 "porcentaje_cyano_alto":
                     porcentaje_alto,
-
                 "pixeles_validos":
                     int(
                         np.sum(
@@ -296,19 +248,11 @@ for lago, info in LAGOS.items():
                             )
                         )
                     ),
-
                 "archivo":
                     str(ruta)
-            }
-
-
-            registros.append(
-                registro
-            )
-
+            })
 
         except Exception as error:
-
             print(
                 f"Error en "
                 f"{lago} - "
@@ -317,22 +261,16 @@ for lago, info in LAGOS.items():
             )
 
 
-# ============================================================
-# 5. TABLA DE RESULTADOS
-# ============================================================
-
+# aca se guarda la tabla base
 resultados = pd.DataFrame(
     registros
 )
 
-
 if resultados.empty:
-
     raise RuntimeError(
         "No se pudo procesar "
         "ninguna fecha."
     )
-
 
 resultados = (
     resultados
@@ -347,85 +285,64 @@ resultados = (
     )
 )
 
-
 ruta_csv = (
     RESULTADOS_DIR
     / "resumen_indices.csv"
 )
 
+resultados_exportar = (
+    resultados.copy()
+)
 
-resultados.to_csv(
+resultados_exportar[
+    "archivo"
+] = resultados_exportar[
+    "archivo"
+].apply(
+    lambda ruta: str(
+        Path(ruta).relative_to(
+            PROJECT_ROOT
+        )
+    )
+)
+
+resultados_exportar.to_csv(
     ruta_csv,
     index=False
 )
 
-
 print(
-    "\nResumen de resultados:"
-)
-
-
-print(
-    resultados.to_string(
-        index=False
-    )
-)
-
-
-print(
-    "\nCSV guardado en:",
+    "\nResultados guardados en:",
     ruta_csv
 )
 
 
-# ============================================================
-# 6. ANÁLISIS TEMPORAL
-# ============================================================
-
+# aca se hace el analisis temporal
 grafica_temporal_lago(
     resultados,
     "Atitlán"
 )
 
-
 grafica_temporal_lago(
     resultados,
     "Amatitlán"
 )
-
 
 grafica_comparacion_lagos(
     resultados
 )
 
-
-# ============================================================
-# 7. RESUMEN AUTOMÁTICO
-# ============================================================
-
-print(
-    "\nHallazgos temporales:"
-)
-
-
 for texto in analizar_temporal(
     resultados
 ):
-
     print(
         "- " + texto
     )
-
-
-# ============================================================
-# 8. MAPAS DE LAS FECHAS PICO
-# ============================================================
 
 mapa_fecha_pico(
     resultados,
     "Atitlán"
 )
-
 
 mapa_fecha_pico(
     resultados,
@@ -433,64 +350,160 @@ mapa_fecha_pico(
 )
 
 
-# ============================================================
-# 9. TABLA FINAL DEL AVANCE
-# ============================================================
+# aca se hace el analisis espacial
+mapa_comparativo_fechas(
+    resultados,
+    "Atitlán"
+)
 
-tabla_avance = resultados[
-    [
-        "lago",
-        "fecha",
-        "cyano_promedio",
-        "cyano_mediana",
-        "ndvi_promedio",
-        "ndwi_promedio",
-        "porcentaje_cyano_alto",
-        "pixeles_validos"
-    ]
-].copy()
+mapa_comparativo_fechas(
+    resultados,
+    "Amatitlán"
+)
 
-
-tabla_avance["fecha"] = (
-    tabla_avance["fecha"]
-    .dt.strftime(
-        "%Y-%m-%d"
+persistencia = pd.DataFrame([
+    calcular_persistencia(
+        resultados,
+        "Atitlán"
+    ),
+    calcular_persistencia(
+        resultados,
+        "Amatitlán"
     )
-)
+])
 
-
-ruta_tabla = (
+persistencia.to_csv(
     RESULTADOS_DIR
-    / "tabla_avance.csv"
-)
-
-
-tabla_avance.to_csv(
-    ruta_tabla,
+    / "resumen_persistencia.csv",
     index=False
 )
 
-
 print(
-    "\nTabla final del avance:"
+    "\nPersistencia:"
 )
 
-
 print(
-    tabla_avance.to_string(
+    persistencia.to_string(
         index=False
     )
 )
 
 
+# aca se hacen las correlaciones
+correlaciones = pd.DataFrame([
+    analizar_correlacion(
+        resultados,
+        "Atitlán"
+    ),
+    analizar_correlacion(
+        resultados,
+        "Amatitlán"
+    )
+])
+
+correlaciones.to_csv(
+    RESULTADOS_DIR
+    / "correlaciones_indices.csv",
+    index=False
+)
+
 print(
-    "\nTabla guardada en:",
-    ruta_tabla
+    "\nCorrelaciones:"
+)
+
+print(
+    correlaciones.to_string(
+        index=False
+    )
 )
 
 
+# aca se comparan los lagos
+comparacion = crear_comparacion_lagos(
+    resultados
+)
+
+comparacion.to_csv(
+    RESULTADOS_DIR
+    / "comparacion_lagos.csv",
+    index=False
+)
+
 print(
-    "\nListo. El avance de los "
-    "ejercicios 1 al 4 "
-    "quedó procesado."
+    "\nComparación de lagos:"
+)
+
+print(
+    comparacion.to_string(
+        index=False
+    )
+)
+
+
+# aca se hace el analisis adicional
+grafica_extension_floracion(
+    resultados
+)
+
+boxplot_fechas(
+    resultados,
+    "Atitlán"
+)
+
+boxplot_fechas(
+    resultados,
+    "Amatitlán"
+)
+
+diferencias = pd.DataFrame([
+    mapa_diferencia(
+        resultados,
+        "Atitlán"
+    ),
+    mapa_diferencia(
+        resultados,
+        "Amatitlán"
+    )
+])
+
+diferencias.to_csv(
+    RESULTADOS_DIR
+    / "diferencias_espaciales.csv",
+    index=False
+)
+
+resumen_estacional = (
+    analizar_estacionalidad(
+        resultados
+    )
+)
+
+resumen_estacional.to_csv(
+    RESULTADOS_DIR
+    / "resumen_estacional.csv",
+    index=False
+)
+
+print(
+    "\nDiferencias espaciales:"
+)
+
+print(
+    diferencias.to_string(
+        index=False
+    )
+)
+
+print(
+    "\nResumen estacional:"
+)
+
+print(
+    resumen_estacional.to_string(
+        index=False
+    )
+)
+
+print(
+    "\nLaboratorio completo."
 )
