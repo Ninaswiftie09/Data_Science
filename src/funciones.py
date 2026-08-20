@@ -253,6 +253,7 @@ def leer_y_calcular_indices(ruta_tif):
         "ndwi": ndwi_mask,
         "cyano": cyano_mask,
         "mascara_valida": mascara_valida,
+        "bandas": valores,
         "transform": transform,
         "crs": crs,
         "perfil": perfil,
@@ -1535,3 +1536,537 @@ def analizar_estacionalidad(df):
     plt.close()
 
     return resumen
+
+# aca se convierten las coordenadas del raster a longitud y latitud
+def obtener_coordenadas_geograficas(
+    transform,
+    crs,
+    filas,
+    columnas
+):
+    xs, ys = rasterio.transform.xy(
+        transform,
+        filas,
+        columnas,
+        offset="center"
+    )
+
+    xs = np.asarray(xs, dtype="float64")
+    ys = np.asarray(ys, dtype="float64")
+
+    if crs is not None:
+        crs_texto = str(crs).upper()
+
+        if "4326" not in crs_texto:
+            from rasterio.warp import transform as transformar_coordenadas
+
+            xs, ys = transformar_coordenadas(
+                crs,
+                "EPSG:4326",
+                xs.tolist(),
+                ys.tolist()
+            )
+
+            xs = np.asarray(xs, dtype="float64")
+            ys = np.asarray(ys, dtype="float64")
+
+    return xs, ys
+
+
+# aca se toma una muestra que conserva la proporcion de las clases
+def seleccionar_muestra_estratificada(
+    posiciones,
+    objetivo,
+    max_observaciones,
+    semilla
+):
+    if (
+        max_observaciones is None
+        or len(posiciones) <= max_observaciones
+    ):
+        return posiciones
+
+    rng = np.random.default_rng(semilla)
+
+    objetivo = np.asarray(
+        objetivo,
+        dtype="int8"
+    )
+
+    pos_alta = posiciones[
+        objetivo == 1
+    ]
+
+    pos_baja = posiciones[
+        objetivo == 0
+    ]
+
+    proporcion_alta = (
+        len(pos_alta)
+        / len(posiciones)
+    )
+
+    n_alta = int(
+        round(
+            max_observaciones
+            * proporcion_alta
+        )
+    )
+
+    n_alta = min(
+        n_alta,
+        len(pos_alta)
+    )
+
+    n_baja = (
+        max_observaciones
+        - n_alta
+    )
+
+    if n_baja > len(pos_baja):
+        faltantes = n_baja - len(pos_baja)
+        n_baja = len(pos_baja)
+        n_alta = min(
+            len(pos_alta),
+            n_alta + faltantes
+        )
+
+    muestra_alta = rng.choice(
+        pos_alta,
+        size=n_alta,
+        replace=False
+    ) if n_alta > 0 else np.array([], dtype=posiciones.dtype)
+
+    muestra_baja = rng.choice(
+        pos_baja,
+        size=n_baja,
+        replace=False
+    ) if n_baja > 0 else np.array([], dtype=posiciones.dtype)
+
+    muestra = np.concatenate([
+        muestra_alta,
+        muestra_baja
+    ])
+
+    rng.shuffle(muestra)
+
+    return muestra
+
+
+# aca se construyen observaciones para una fecha
+def construir_observaciones_ml_fecha(
+    ruta_tif,
+    lago,
+    fecha,
+    nubosidad_pct,
+    umbral_cyano=0.05,
+    max_observaciones=30000,
+    random_state=42
+):
+    indices = leer_y_calcular_indices(
+        ruta_tif
+    )
+
+    valores = indices["bandas"]
+
+    mascara = (
+        indices["mascara_valida"]
+        & np.isfinite(indices["ndvi"])
+        & np.isfinite(indices["ndwi"])
+        & np.isfinite(indices["cyano"])
+    )
+
+    for banda in [
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B08"
+    ]:
+        mascara &= np.isfinite(
+            valores[banda]
+        )
+
+    posiciones = np.flatnonzero(
+        mascara
+    )
+
+    if len(posiciones) == 0:
+        return pd.DataFrame()
+
+    objetivo_completo = (
+        indices["cyano"].ravel()[
+            posiciones
+        ] > umbral_cyano
+    ).astype("int8")
+
+    semilla_fecha = (
+        random_state
+        + int(
+            pd.Timestamp(fecha).strftime(
+                "%Y%m%d"
+            )
+        )
+        + sum(ord(letra) for letra in lago)
+    )
+
+    posiciones = seleccionar_muestra_estratificada(
+        posiciones,
+        objetivo_completo,
+        max_observaciones,
+        semilla_fecha
+    )
+
+    filas, columnas = np.unravel_index(
+        posiciones,
+        mascara.shape
+    )
+
+    longitud, latitud = obtener_coordenadas_geograficas(
+        indices["transform"],
+        indices["crs"],
+        filas,
+        columnas
+    )
+
+    fecha_dt = pd.Timestamp(fecha)
+
+    datos = pd.DataFrame({
+        "longitud": longitud,
+        "latitud": latitud,
+        "fecha": fecha_dt,
+        "lago": lago,
+        "B03": valores["B03"].ravel()[posiciones],
+        "B04": valores["B04"].ravel()[posiciones],
+        "B05": valores["B05"].ravel()[posiciones],
+        "B06": valores["B06"].ravel()[posiciones],
+        "B08": valores["B08"].ravel()[posiciones],
+        "SCL": valores["SCL"].ravel()[posiciones].astype("int16"),
+        "ndvi": indices["ndvi"].ravel()[posiciones],
+        "ndwi": indices["ndwi"].ravel()[posiciones],
+        "cyano": indices["cyano"].ravel()[posiciones],
+        "cyano_alta": (
+            indices["cyano"].ravel()[posiciones]
+            > umbral_cyano
+        ).astype("int8"),
+        "nubosidad_pct": float(nubosidad_pct)
+    })
+
+    datos["mes"] = datos["fecha"].dt.month.astype("int8")
+    datos["dia_anio"] = datos["fecha"].dt.dayofyear.astype("int16")
+
+    datos["mes_sin"] = np.sin(
+        2 * np.pi * datos["mes"] / 12
+    ).astype("float32")
+
+    datos["mes_cos"] = np.cos(
+        2 * np.pi * datos["mes"] / 12
+    ).astype("float32")
+
+    datos["dia_anio_sin"] = np.sin(
+        2 * np.pi * datos["dia_anio"] / 366
+    ).astype("float32")
+
+    datos["dia_anio_cos"] = np.cos(
+        2 * np.pi * datos["dia_anio"] / 366
+    ).astype("float32")
+
+    return datos
+
+
+# aca se construye el conjunto de datos de todos los lagos y fechas
+def construir_dataset_ml(
+    lagos,
+    nubosidad_oficial,
+    salida_csv,
+    umbral_cyano=0.05,
+    max_observaciones_fecha=30000,
+    random_state=42,
+    reutilizar=True
+):
+    salida_csv = Path(
+        salida_csv
+    )
+
+    if reutilizar and salida_csv.exists():
+        print(
+            "Se reutiliza el conjunto de datos:",
+            salida_csv
+        )
+
+        datos = pd.read_csv(
+            salida_csv,
+            parse_dates=["fecha"]
+        )
+
+        return datos
+
+    nubosidad = pd.DataFrame(
+        nubosidad_oficial,
+        columns=[
+            "lago",
+            "fecha",
+            "nubosidad_pct",
+            "satelite"
+        ]
+    )
+
+    nubosidad["fecha"] = pd.to_datetime(
+        nubosidad["fecha"]
+    )
+
+    partes = []
+
+    for lago, info in lagos.items():
+        for fecha in info["fechas"]:
+            ruta = (
+                DATOS_DIR
+                / f"{nombre_seguro(lago)}_{fecha}.tif"
+            )
+
+            if not ruta.exists():
+                raise FileNotFoundError(
+                    f"No se encontró el raster de {lago} para {fecha}: {ruta}"
+                )
+
+            fila_nubosidad = nubosidad[
+                (nubosidad["lago"] == lago)
+                & (
+                    nubosidad["fecha"]
+                    == pd.Timestamp(fecha)
+                )
+            ]
+
+            nubosidad_pct = (
+                float(
+                    fila_nubosidad[
+                        "nubosidad_pct"
+                    ].iloc[0]
+                )
+                if not fila_nubosidad.empty
+                else np.nan
+            )
+
+            parte = construir_observaciones_ml_fecha(
+                ruta_tif=ruta,
+                lago=lago,
+                fecha=fecha,
+                nubosidad_pct=nubosidad_pct,
+                umbral_cyano=umbral_cyano,
+                max_observaciones=max_observaciones_fecha,
+                random_state=random_state
+            )
+
+            partes.append(
+                parte
+            )
+
+            print(
+                f"{lago} - {fecha}: "
+                f"{len(parte):,} observaciones"
+            )
+
+    datos = pd.concat(
+        partes,
+        ignore_index=True
+    )
+
+    salida_csv.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    datos.to_csv(
+        salida_csv,
+        index=False,
+        compression="gzip"
+    )
+
+    print(
+        "Conjunto de datos guardado en:",
+        salida_csv
+    )
+
+    return datos
+
+
+# aca se resume el conjunto de datos para el avance
+def resumir_dataset_ml(datos):
+    total = len(datos)
+
+    por_lago = (
+        datos
+        .groupby("lago")
+        .size()
+        .rename("observaciones")
+        .reset_index()
+    )
+
+    por_fecha = (
+        datos
+        .groupby([
+            "lago",
+            "fecha"
+        ])
+        .size()
+        .rename("observaciones")
+        .reset_index()
+    )
+
+    faltantes = pd.DataFrame({
+        "variable": datos.columns,
+        "tipo": [
+            str(datos[columna].dtype)
+            for columna in datos.columns
+        ],
+        "faltantes_pct": [
+            datos[columna].isna().mean() * 100
+            for columna in datos.columns
+        ]
+    })
+
+    return {
+        "total": total,
+        "por_lago": por_lago,
+        "por_fecha": por_fecha,
+        "faltantes": faltantes
+    }
+
+
+# aca se grafica la distribucion de la variable respuesta
+def graficar_distribucion_objetivo(datos):
+    conteo = (
+        datos["cyano_alta"]
+        .value_counts()
+        .sort_index()
+    )
+
+    plt.figure(
+        figsize=(7, 4)
+    )
+
+    plt.bar(
+        ["Baja o ausente", "Alta"],
+        [
+            conteo.get(0, 0),
+            conteo.get(1, 0)
+        ]
+    )
+
+    plt.title(
+        "Distribución global de la variable respuesta"
+    )
+    plt.ylabel("Observaciones")
+    plt.tight_layout()
+
+    salida = (
+        GRAFICOS_DIR
+        / "distribucion_objetivo_global.png"
+    )
+
+    plt.savefig(
+        salida,
+        dpi=180,
+        bbox_inches="tight"
+    )
+
+    plt.show()
+    plt.close()
+
+
+# aca se hace un analisis exploratorio de las variables principales
+def graficar_eda_ml(datos):
+    muestra = datos.sample(
+        min(80000, len(datos)),
+        random_state=42
+    )
+
+    variables = [
+        "B03",
+        "ndvi",
+        "ndwi",
+        "cyano"
+    ]
+
+    for variable in variables:
+        plt.figure(
+            figsize=(7, 4)
+        )
+
+        plt.hist(
+            muestra[variable],
+            bins=60
+        )
+
+        plt.title(
+            f"Distribución de {variable}"
+        )
+        plt.xlabel(variable)
+        plt.ylabel("Frecuencia")
+        plt.tight_layout()
+
+        salida = (
+            GRAFICOS_DIR
+            / f"eda_{variable.lower()}.png"
+        )
+
+        plt.savefig(
+            salida,
+            dpi=180,
+            bbox_inches="tight"
+        )
+
+        plt.show()
+        plt.close()
+
+    for lago in sorted(
+        datos["lago"].unique()
+    ):
+        parte = datos[
+            datos["lago"] == lago
+        ]
+
+        parte = parte.sample(
+            min(25000, len(parte)),
+            random_state=42
+        )
+
+        plt.figure(
+            figsize=(7, 6)
+        )
+
+        imagen = plt.scatter(
+            parte["longitud"],
+            parte["latitud"],
+            c=parte["cyano_alta"],
+            s=4,
+            alpha=0.45
+        )
+
+        plt.colorbar(
+            imagen,
+            label="Clase de cianobacteria"
+        )
+        plt.title(
+            f"Observaciones geográficas - {lago}"
+        )
+        plt.xlabel("Longitud")
+        plt.ylabel("Latitud")
+        plt.tight_layout()
+
+        salida = (
+            GRAFICOS_DIR
+            / (
+                f"eda_mapa_observaciones_"
+                f"{nombre_seguro(lago)}.png"
+            )
+        )
+
+        plt.savefig(
+            salida,
+            dpi=180,
+            bbox_inches="tight"
+        )
+
+        plt.show()
+        plt.close()

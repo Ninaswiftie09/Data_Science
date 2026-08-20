@@ -131,3 +131,13 @@ NUBOSIDAD_OFICIAL = [
     ("Atitlán", "2026-04-28", 4.96, "Sentinel-2C"),
     ("Atitlán", "2026-07-22", 4.02, "Sentinel-2B")
 ]
+
+# ============================================================
+# CONFIGURACIÓN PARA MACHINE LEARNING
+# ============================================================
+
+UMBRAL_CYANO_ALTO = 0.05
+MUESTRA_ML_POR_FECHA = 30000
+RANDOM_STATE = 42
+DATASET_ML_PATH = PROCESSED_DATA_DIR / "dataset_ml_parte2.csv.gz"
+
