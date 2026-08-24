@@ -2070,3 +2070,830 @@ def graficar_eda_ml(datos):
 
         plt.show()
         plt.close()
+
+
+# aca se calculan las metricas de clasificacion
+def calcular_metricas_modelo(
+    y_real,
+    probabilidades,
+    umbral=0.5,
+    modelo=None,
+    validacion=None
+):
+    from sklearn.metrics import (
+        accuracy_score,
+        confusion_matrix,
+        f1_score,
+        fbeta_score,
+        precision_score,
+        recall_score,
+        roc_auc_score
+    )
+
+    y_real = np.asarray(y_real, dtype="int8")
+    probabilidades = np.asarray(probabilidades, dtype="float64")
+    prediccion = (probabilidades >= umbral).astype("int8")
+
+    tn, fp, fn, tp = confusion_matrix(
+        y_real,
+        prediccion,
+        labels=[0, 1]
+    ).ravel()
+
+    salida = {
+        "Accuracy": accuracy_score(y_real, prediccion),
+        "Precision": precision_score(
+            y_real,
+            prediccion,
+            zero_division=0
+        ),
+        "Recall": recall_score(
+            y_real,
+            prediccion,
+            zero_division=0
+        ),
+        "F1": f1_score(
+            y_real,
+            prediccion,
+            zero_division=0
+        ),
+        "F2": fbeta_score(
+            y_real,
+            prediccion,
+            beta=2,
+            zero_division=0
+        ),
+        "ROC_AUC": (
+            roc_auc_score(y_real, probabilidades)
+            if np.unique(y_real).size == 2
+            else np.nan
+        ),
+        "TN": int(tn),
+        "FP": int(fp),
+        "FN": int(fn),
+        "TP": int(tp),
+        "umbral": float(umbral)
+    }
+
+    if modelo is not None:
+        salida["modelo"] = modelo
+
+    if validacion is not None:
+        salida["validacion"] = validacion
+
+    return salida
+
+
+# aca se selecciona un umbral que da mas peso al recall
+def seleccionar_umbral_f2(y_real, probabilidades):
+    from sklearn.metrics import precision_recall_curve
+
+    precision, recall, umbrales = precision_recall_curve(
+        y_real,
+        probabilidades
+    )
+
+    if len(umbrales) == 0:
+        return 0.5
+
+    precision = precision[:-1]
+    recall = recall[:-1]
+
+    f2 = (
+        5 * precision * recall
+        / (4 * precision + recall + 1e-12)
+    )
+
+    return float(
+        umbrales[int(np.nanargmax(f2))]
+    )
+
+
+# aca se construyen los modelos y sus valores de ajuste
+def crear_candidatos_modelos(random_state=42):
+    from sklearn.ensemble import (
+        HistGradientBoostingClassifier,
+        RandomForestClassifier
+    )
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.pipeline import make_pipeline
+    from sklearn.preprocessing import StandardScaler
+
+    return {
+        "Regresion logistica": [
+            (
+                {"C": valor_c},
+                make_pipeline(
+                    StandardScaler(),
+                    LogisticRegression(
+                        C=valor_c,
+                        class_weight="balanced",
+                        max_iter=500,
+                        random_state=random_state
+                    )
+                )
+            )
+            for valor_c in [0.1, 1.0, 10.0]
+        ],
+        "Random Forest": [
+            (
+                {
+                    "max_depth": profundidad,
+                    "min_samples_leaf": 5
+                },
+                RandomForestClassifier(
+                    n_estimators=80,
+                    max_depth=profundidad,
+                    min_samples_leaf=5,
+                    class_weight="balanced_subsample",
+                    max_samples=0.7,
+                    n_jobs=-1,
+                    random_state=random_state
+                )
+            )
+            for profundidad in [12, 18]
+        ],
+        "Gradient Boosting": [
+            (
+                {
+                    "learning_rate": tasa,
+                    "max_leaf_nodes": hojas
+                },
+                HistGradientBoostingClassifier(
+                    learning_rate=tasa,
+                    max_leaf_nodes=hojas,
+                    max_iter=180,
+                    min_samples_leaf=30,
+                    l2_regularization=1.0,
+                    class_weight="balanced",
+                    early_stopping=True,
+                    random_state=random_state
+                )
+            )
+            for tasa, hojas in [
+                (0.05, 31),
+                (0.08, 31),
+                (0.08, 63)
+            ]
+        ]
+    }
+
+
+# aca se ajustan hiperparametros sin usar el conjunto de prueba
+def entrenar_modelos_aleatorios(
+    datos,
+    predictores,
+    objetivo="cyano_alta",
+    random_state=42,
+    max_ajuste=180000
+):
+    from sklearn.base import clone
+    from sklearn.model_selection import train_test_split
+
+    indices = np.arange(len(datos))
+
+    indice_entreno, indice_prueba = train_test_split(
+        indices,
+        test_size=0.30,
+        stratify=datos[objetivo],
+        random_state=random_state
+    )
+
+    indice_ajuste, indice_validacion = train_test_split(
+        indice_entreno,
+        test_size=0.20,
+        stratify=datos.iloc[indice_entreno][objetivo],
+        random_state=random_state
+    )
+
+    if len(indice_ajuste) > max_ajuste:
+        indice_ajuste, _ = train_test_split(
+            indice_ajuste,
+            train_size=max_ajuste,
+            stratify=datos.iloc[indice_ajuste][objetivo],
+            random_state=random_state
+        )
+
+    X_ajuste = datos.iloc[indice_ajuste][predictores]
+    y_ajuste = datos.iloc[indice_ajuste][objetivo]
+    X_validacion = datos.iloc[indice_validacion][predictores]
+    y_validacion = datos.iloc[indice_validacion][objetivo]
+
+    mejores_modelos = {}
+    umbrales = {}
+    filas_ajuste = []
+
+    for nombre, candidatos in crear_candidatos_modelos(
+        random_state
+    ).items():
+        mejor_f2 = -np.inf
+        mejor_modelo = None
+        mejor_umbral = 0.5
+        mejores_parametros = None
+
+        for parametros, candidato in candidatos:
+            modelo = clone(candidato)
+            modelo.fit(X_ajuste, y_ajuste)
+
+            probabilidades = modelo.predict_proba(
+                X_validacion
+            )[:, 1]
+
+            umbral = seleccionar_umbral_f2(
+                y_validacion,
+                probabilidades
+            )
+
+            metricas = calcular_metricas_modelo(
+                y_validacion,
+                probabilidades,
+                umbral=umbral,
+                modelo=nombre,
+                validacion="Ajuste interno"
+            )
+
+            filas_ajuste.append({
+                **metricas,
+                "parametros": str(parametros)
+            })
+
+            if metricas["F2"] > mejor_f2:
+                mejor_f2 = metricas["F2"]
+                mejor_modelo = clone(candidato)
+                mejor_umbral = umbral
+                mejores_parametros = parametros
+
+        mejor_modelo.fit(
+            datos.iloc[indice_entreno][predictores],
+            datos.iloc[indice_entreno][objetivo]
+        )
+
+        mejores_modelos[nombre] = mejor_modelo
+        umbrales[nombre] = mejor_umbral
+
+        print(
+            f"{nombre}: {mejores_parametros}, "
+            f"umbral={mejor_umbral:.4f}"
+        )
+
+    filas_prueba = []
+    predicciones = {}
+    X_prueba = datos.iloc[indice_prueba][predictores]
+    y_prueba = datos.iloc[indice_prueba][objetivo]
+
+    for nombre, modelo in mejores_modelos.items():
+        probabilidades = modelo.predict_proba(
+            X_prueba
+        )[:, 1]
+
+        predicciones[nombre] = probabilidades
+        filas_prueba.append(
+            calcular_metricas_modelo(
+                y_prueba,
+                probabilidades,
+                umbral=umbrales[nombre],
+                modelo=nombre,
+                validacion="Aleatoria 70/30"
+            )
+        )
+
+    return {
+        "modelos": mejores_modelos,
+        "umbrales": umbrales,
+        "ajuste": pd.DataFrame(filas_ajuste),
+        "metricas": pd.DataFrame(filas_prueba),
+        "indice_entreno": indice_entreno,
+        "indice_prueba": indice_prueba,
+        "predicciones_prueba": predicciones
+    }
+
+
+# aca se crean bloques de un kilometro en UTM 15N
+def crear_bloques_espaciales(datos, tamano_metros=1000):
+    from pyproj import Transformer
+
+    salida = datos.copy()
+
+    transformador = Transformer.from_crs(
+        "EPSG:4326",
+        "EPSG:32615",
+        always_xy=True
+    )
+
+    x_utm, y_utm = transformador.transform(
+        salida["longitud"].to_numpy(),
+        salida["latitud"].to_numpy()
+    )
+
+    salida["x_utm"] = x_utm
+    salida["y_utm"] = y_utm
+    salida["bloque_x"] = np.floor(
+        x_utm / tamano_metros
+    ).astype("int32")
+    salida["bloque_y"] = np.floor(
+        y_utm / tamano_metros
+    ).astype("int32")
+
+    salida["bloque_espacial"] = (
+        salida["lago"].astype(str)
+        + "_"
+        + salida["bloque_x"].astype(str)
+        + "_"
+        + salida["bloque_y"].astype(str)
+    )
+
+    return salida
+
+
+# aca se resume y grafica la cuadricula espacial
+def resumir_y_graficar_bloques(datos_bloques):
+    from matplotlib.collections import PatchCollection
+    from matplotlib.patches import Rectangle
+
+    resumen = (
+        datos_bloques
+        .groupby(["lago", "bloque_espacial"])
+        .size()
+        .rename("observaciones")
+        .reset_index()
+    )
+
+    estadisticas = (
+        resumen
+        .groupby("lago")["observaciones"]
+        .agg(
+            bloques="count",
+            minimo="min",
+            mediana="median",
+            promedio="mean",
+            maximo="max"
+        )
+        .reset_index()
+    )
+
+    fig, axes = plt.subplots(
+        1,
+        2,
+        figsize=(13, 5.5)
+    )
+
+    for eje, lago in zip(
+        axes,
+        sorted(datos_bloques["lago"].unique())
+    ):
+        parte = (
+            datos_bloques[
+                datos_bloques["lago"] == lago
+            ]
+            .drop_duplicates("bloque_espacial")
+        )
+
+        rectangulos = [
+            Rectangle(
+                (fila["bloque_x"] * 1000, fila["bloque_y"] * 1000),
+                1000,
+                1000
+            )
+            for _, fila in parte.iterrows()
+        ]
+
+        coleccion = PatchCollection(
+            rectangulos,
+            cmap="tab20",
+            edgecolor="black",
+            linewidth=0.25,
+            alpha=0.75
+        )
+        coleccion.set_array(np.arange(len(rectangulos)))
+        eje.add_collection(coleccion)
+        eje.autoscale_view()
+
+        eje.set_title(f"Bloques espaciales de 1 km - {lago}")
+        eje.set_xlabel("Este UTM (m)")
+        eje.set_ylabel("Norte UTM (m)")
+        eje.set_aspect("equal", adjustable="box")
+
+    plt.tight_layout()
+    salida = GRAFICOS_DIR / "bloques_espaciales_1km.png"
+    plt.savefig(salida, dpi=180, bbox_inches="tight")
+    plt.show()
+    plt.close()
+
+    return estadisticas, resumen
+
+
+# aca se valida sin separar observaciones del mismo bloque
+def validar_modelos_espacialmente(
+    datos_bloques,
+    predictores,
+    modelos,
+    umbrales,
+    objetivo="cyano_alta",
+    n_splits=5
+):
+    from sklearn.base import clone
+    from sklearn.model_selection import GroupKFold
+
+    X = datos_bloques[predictores]
+    y = datos_bloques[objetivo].to_numpy()
+    grupos = datos_bloques["bloque_espacial"]
+
+    division = GroupKFold(n_splits=n_splits)
+    filas = []
+
+    for nombre, modelo_base in modelos.items():
+        probabilidades = np.full(len(datos_bloques), np.nan)
+
+        for numero, (entreno, validacion) in enumerate(
+            division.split(X, y, grupos),
+            start=1
+        ):
+            modelo = clone(modelo_base)
+            modelo.fit(X.iloc[entreno], y[entreno])
+            probabilidades[validacion] = modelo.predict_proba(
+                X.iloc[validacion]
+            )[:, 1]
+
+            print(
+                f"{nombre} - bloque espacial {numero}/{n_splits}"
+            )
+
+        filas.append(
+            calcular_metricas_modelo(
+                y,
+                probabilidades,
+                umbral=umbrales[nombre],
+                modelo=nombre,
+                validacion="Espacial GroupKFold"
+            )
+        )
+
+    return pd.DataFrame(filas)
+
+
+# aca se evalua con las ultimas tres fechas de cada lago
+def validar_modelos_temporalmente(
+    datos,
+    predictores,
+    modelos,
+    umbrales,
+    objetivo="cyano_alta",
+    fechas_prueba_por_lago=3
+):
+    from sklearn.base import clone
+
+    fechas_prueba = {}
+    mascara_prueba = np.zeros(len(datos), dtype=bool)
+
+    for lago, parte in datos.groupby("lago"):
+        fechas = sorted(pd.to_datetime(parte["fecha"]).unique())
+        seleccionadas = fechas[-fechas_prueba_por_lago:]
+        fechas_prueba[lago] = [
+            pd.Timestamp(fecha).date().isoformat()
+            for fecha in seleccionadas
+        ]
+        mascara_prueba |= (
+            (datos["lago"] == lago)
+            & pd.to_datetime(datos["fecha"]).isin(seleccionadas)
+        ).to_numpy()
+
+    entreno = np.flatnonzero(~mascara_prueba)
+    prueba = np.flatnonzero(mascara_prueba)
+    filas = []
+
+    for nombre, modelo_base in modelos.items():
+        modelo = clone(modelo_base)
+        modelo.fit(
+            datos.iloc[entreno][predictores],
+            datos.iloc[entreno][objetivo]
+        )
+        probabilidades = modelo.predict_proba(
+            datos.iloc[prueba][predictores]
+        )[:, 1]
+        filas.append(
+            calcular_metricas_modelo(
+                datos.iloc[prueba][objetivo],
+                probabilidades,
+                umbral=umbrales[nombre],
+                modelo=nombre,
+                validacion="Temporal"
+            )
+        )
+
+    return pd.DataFrame(filas), fechas_prueba
+
+
+# aca se entrena en un lago y se evalua en el otro
+def evaluar_generalizacion_lagos(
+    datos,
+    predictores,
+    modelos,
+    umbrales,
+    objetivo="cyano_alta"
+):
+    from sklearn.base import clone
+
+    lagos = sorted(datos["lago"].unique())
+    filas = []
+
+    for lago_entreno in lagos:
+        lago_prueba = next(
+            lago for lago in lagos
+            if lago != lago_entreno
+        )
+
+        entreno = datos["lago"] == lago_entreno
+        prueba = datos["lago"] == lago_prueba
+
+        for nombre, modelo_base in modelos.items():
+            modelo = clone(modelo_base)
+            modelo.fit(
+                datos.loc[entreno, predictores],
+                datos.loc[entreno, objetivo]
+            )
+            probabilidades = modelo.predict_proba(
+                datos.loc[prueba, predictores]
+            )[:, 1]
+
+            metricas = calcular_metricas_modelo(
+                datos.loc[prueba, objetivo],
+                probabilidades,
+                umbral=umbrales[nombre],
+                modelo=nombre,
+                validacion="Entre lagos"
+            )
+            metricas["entrenamiento"] = lago_entreno
+            metricas["prueba"] = lago_prueba
+            filas.append(metricas)
+
+    return pd.DataFrame(filas)
+
+
+# aca se muestran las matrices de confusion de los tres modelos
+def graficar_matrices_confusion(metricas, titulo, nombre_archivo):
+    modelos = metricas["modelo"].tolist()
+    fig, axes = plt.subplots(
+        1,
+        len(modelos),
+        figsize=(5 * len(modelos), 4)
+    )
+
+    if len(modelos) == 1:
+        axes = [axes]
+
+    for eje, (_, fila) in zip(axes, metricas.iterrows()):
+        matriz = np.array([
+            [fila["TN"], fila["FP"]],
+            [fila["FN"], fila["TP"]]
+        ])
+        imagen = eje.imshow(matriz, cmap="Blues")
+
+        for i in range(2):
+            for j in range(2):
+                eje.text(
+                    j,
+                    i,
+                    f"{int(matriz[i, j]):,}",
+                    ha="center",
+                    va="center"
+                )
+
+        eje.set_title(fila["modelo"])
+        eje.set_xlabel("Prediccion")
+        eje.set_ylabel("Valor real")
+        eje.set_xticks([0, 1])
+        eje.set_yticks([0, 1])
+
+    fig.suptitle(titulo)
+    plt.tight_layout()
+    plt.savefig(
+        GRAFICOS_DIR / nombre_archivo,
+        dpi=180,
+        bbox_inches="tight"
+    )
+    plt.show()
+    plt.close()
+
+
+# aca se calcula importancia global y un resumen SHAP
+def explicar_modelo(
+    modelo,
+    X,
+    y,
+    predictores,
+    nombre_modelo,
+    random_state=42
+):
+    import shap
+    from sklearn.inspection import permutation_importance
+
+    muestra = pd.concat([
+        X.loc[y == 1].sample(
+            min(1200, int((y == 1).sum())),
+            random_state=random_state
+        ),
+        X.loc[y == 0].sample(
+            min(2400, int((y == 0).sum())),
+            random_state=random_state
+        )
+    ]).sample(frac=1, random_state=random_state)
+
+    y_muestra = y.loc[muestra.index]
+
+    permutacion = permutation_importance(
+        modelo,
+        muestra,
+        y_muestra,
+        scoring="roc_auc",
+        n_repeats=5,
+        random_state=random_state,
+        n_jobs=-1
+    )
+
+    importancia = pd.DataFrame({
+        "variable": predictores,
+        "importancia": permutacion.importances_mean
+    }).sort_values("importancia", ascending=False)
+
+    plt.figure(figsize=(8, 5))
+    orden = importancia.sort_values("importancia")
+    plt.barh(orden["variable"], orden["importancia"])
+    plt.xlabel("Disminucion de ROC-AUC al permutar")
+    plt.title(f"Importancia global - {nombre_modelo}")
+    plt.tight_layout()
+    plt.savefig(
+        GRAFICOS_DIR / "importancia_global_mejor_modelo.png",
+        dpi=180,
+        bbox_inches="tight"
+    )
+    plt.show()
+    plt.close()
+
+    if hasattr(modelo, "named_steps"):
+        estimador = modelo.named_steps["logisticregression"]
+        transformada = modelo.named_steps["standardscaler"].transform(
+            muestra
+        )
+        explicador = shap.LinearExplainer(estimador, transformada)
+        valores = explicador(transformada)
+        datos_grafica = transformada
+    else:
+        explicador = shap.TreeExplainer(modelo)
+        valores = explicador(muestra)
+        datos_grafica = muestra
+
+    if valores.values.ndim == 3:
+        valores = shap.Explanation(
+            values=valores.values[:, :, 1],
+            base_values=valores.base_values[:, 1],
+            data=valores.data,
+            feature_names=predictores
+        )
+
+    shap.summary_plot(
+        valores,
+        datos_grafica,
+        feature_names=predictores,
+        show=False
+    )
+    plt.title(f"Resumen SHAP - {nombre_modelo}")
+    plt.tight_layout()
+    plt.savefig(
+        GRAFICOS_DIR / "shap_summary_mejor_modelo.png",
+        dpi=180,
+        bbox_inches="tight"
+    )
+    plt.show()
+    plt.close()
+
+    shap_medio = pd.DataFrame({
+        "variable": predictores,
+        "shap_abs_medio": np.abs(valores.values).mean(axis=0)
+    }).sort_values("shap_abs_medio", ascending=False)
+
+    return importancia, shap_medio
+
+
+# aca se crean mapas de probabilidad y de errores
+def generar_mapas_predictivos(
+    datos,
+    probabilidades,
+    umbral,
+    random_state=42
+):
+    from matplotlib.colors import BoundaryNorm, ListedColormap
+
+    salida = datos[[
+        "longitud",
+        "latitud",
+        "lago",
+        "cyano_alta"
+    ]].copy()
+
+    salida["probabilidad"] = probabilidades
+    salida["prediccion"] = (
+        salida["probabilidad"] >= umbral
+    ).astype("int8")
+
+    salida["error"] = np.select(
+        [
+            (salida["cyano_alta"] == 1)
+            & (salida["prediccion"] == 1),
+            (salida["cyano_alta"] == 0)
+            & (salida["prediccion"] == 1),
+            (salida["cyano_alta"] == 1)
+            & (salida["prediccion"] == 0)
+        ],
+        ["Verdadero positivo", "Falso positivo", "Falso negativo"],
+        default="Verdadero negativo"
+    )
+
+    colores = ListedColormap([
+        "#2166ac",
+        "#67a9cf",
+        "#fdae61",
+        "#b2182b"
+    ])
+    limites = [0, 0.25, 0.50, 0.75, 1.00001]
+    norma = BoundaryNorm(limites, colores.N)
+
+    for lago in sorted(salida["lago"].unique()):
+        parte = salida[salida["lago"] == lago]
+        mapa = parte.sample(
+            min(120000, len(parte)),
+            random_state=random_state
+        )
+
+        fig, axes = plt.subplots(1, 2, figsize=(13, 5.5))
+        puntos = axes[0].scatter(
+            mapa["longitud"],
+            mapa["latitud"],
+            c=mapa["probabilidad"],
+            s=2,
+            cmap=colores,
+            norm=norma
+        )
+        barra = fig.colorbar(
+            puntos,
+            ax=axes[0],
+            ticks=[0.125, 0.375, 0.625, 0.875]
+        )
+        barra.ax.set_yticklabels([
+            "Muy baja",
+            "Baja",
+            "Alta",
+            "Muy alta"
+        ])
+        axes[0].set_title(f"Probabilidad de cianobacteria alta - {lago}")
+        axes[0].set_xlabel("Longitud")
+        axes[0].set_ylabel("Latitud")
+
+        colores_error = {
+            "Verdadero negativo": "#d9d9d9",
+            "Verdadero positivo": "#1b9e77",
+            "Falso positivo": "#d95f02",
+            "Falso negativo": "#7570b3"
+        }
+
+        for categoria in [
+            "Verdadero negativo",
+            "Verdadero positivo",
+            "Falso positivo",
+            "Falso negativo"
+        ]:
+            puntos_error = mapa[mapa["error"] == categoria]
+            axes[1].scatter(
+                puntos_error["longitud"],
+                puntos_error["latitud"],
+                s=2 if categoria == "Verdadero negativo" else 8,
+                alpha=0.35 if categoria == "Verdadero negativo" else 0.75,
+                color=colores_error[categoria],
+                label=categoria
+            )
+
+        axes[1].set_title(f"Distribucion espacial de errores - {lago}")
+        axes[1].set_xlabel("Longitud")
+        axes[1].set_ylabel("Latitud")
+        axes[1].legend(markerscale=3, fontsize=8)
+
+        for eje in axes:
+            eje.set_aspect("equal", adjustable="box")
+
+        plt.tight_layout()
+        plt.savefig(
+            GRAFICOS_DIR / f"mapa_predictivo_{nombre_seguro(lago)}.png",
+            dpi=180,
+            bbox_inches="tight"
+        )
+        plt.show()
+        plt.close()
+
+    resumen = (
+        salida
+        .groupby(["lago", "error"])
+        .size()
+        .rename("observaciones")
+        .reset_index()
+    )
+
+    return salida, resumen
