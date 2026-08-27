@@ -1,9 +1,6 @@
-openeo
+jupyter
+matplotlib
 numpy
 pandas
-matplotlib
-rasterio
-tqdm
 scikit-learn
-pyproj
-shap
+wordcloud
