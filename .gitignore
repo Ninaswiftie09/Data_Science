@@ -16,9 +16,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Datos generados
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-data/raw/*
-data/processed/*
+# Archivos temporales
+tmp/
