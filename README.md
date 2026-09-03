@@ -80,4 +80,3 @@ Los identificadores se mantienen como llaves y los nombres se usan solo como eti
 
 reply_count no se usa para crear relaciones entre autores porque el archivo no indica quién respondió. Una arista de la red solo representa que un autor comentó en un video.
 
-Los resultados describen la muestra recolectada. No representan a todos los usuarios de YouTube ni a toda la población de Guatemala.
