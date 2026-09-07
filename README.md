@@ -1,4 +1,4 @@
-﻿# Laboratorio 6
+# Laboratorio 6
 
 ## Integrante
 
@@ -20,7 +20,7 @@ Los notebooks ejecutados contienen las actividades 1 a 10:
 - notebooks/02.Red_Bipartita.ipynb: construcción, tablas y visualización completa.
 - notebooks/03.Resultados_Finales.ipynb: proyecciones, topología, comunidades, centralidades, sentimiento y conclusiones.
 
-Los archivos originales se conservan en data/raw. Las tablas reproducibles están en data/processed y las figuras finales en output/figures. El código reutilizable y los generadores están en scripts; se conservan los módulos existentes como base del análisis.
+Los archivos originales se conservan en data/raw. Las tablas reproducibles están en data/processed y las figuras finales en output/figures. El código de limpieza y análisis está en scripts.
 
 ## Instalación
 
@@ -32,24 +32,23 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-## Reproducción completa
+## Ejecución
 
-Desde la raíz del repositorio:
-
-```bash
-python -m scripts.generar_entrega
-python -m scripts.verificar_final
-```
-
-El primer comando procesa los datos, crea las tablas y figuras, regenera los tres notebooks, ejecuta sus celdas y construye el PDF. Sobrescribe los resultados generados. No requiere modelos ni servicios externos. El segundo comprueba llaves, integración, pesos de ambas proyecciones mediante conjuntos independientes, cobertura de comunidades, conteos de sentimiento y ejecución de notebooks.
-
-Para generar solo las tablas y figuras:
+Desde la raíz del repositorio se procesan los datos y se calculan las tablas, redes y figuras:
 
 ```bash
 python -m scripts.analisis_final
 ```
 
-Los módulos scripts.analisis_avance y scripts.crear_notebooks conservan sus nombres por compatibilidad. crear_notebooks genera los dos primeros notebooks sin ejecutar; generar_entrega es el comando de entrega completa.
+Para consultar los resultados y ejecutar nuevamente las celdas de los notebooks:
+
+```bash
+jupyter notebook
+```
+
+Los notebooks se ejecutan en orden: 01, 02 y 03. Las tablas y figuras del tercero se actualizan con el comando de análisis anterior. El informe PDF se entrega como documento final.
+
+scripts/analisis_avance.py contiene la carga, limpieza, exploración y construcción de la red bipartita. scripts/analisis_final.py contiene las proyecciones, métricas, comunidades, centralidades y tablas de sentimiento.
 
 ## Decisiones metodológicas
 

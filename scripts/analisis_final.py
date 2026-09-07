@@ -123,6 +123,18 @@ def ejecutar_final():
     return r
 
 
+def tabla(nombre, limite=20):
+    from IPython.display import display
+    datos=pd.read_csv(RAIZ/'data/processed'/f'{nombre}.csv')
+    with pd.option_context('display.max_columns',None,'display.max_colwidth',70):
+        display(datos.head(limite).round(4))
+
+
+def figura(nombre):
+    from IPython.display import display, Image
+    display(Image(filename=str(RAIZ/'output/figures'/f'{nombre}.png')))
+
+
 if __name__ == '__main__':
     r=ejecutar_final()
     print(r['final']['topologia'].to_string(index=False))
