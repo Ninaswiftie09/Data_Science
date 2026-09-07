@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import math
 import re
@@ -386,7 +386,7 @@ def popularidad_participacion(tabla_video: pd.DataFrame) -> pd.DataFrame:
 def clasificar_sentimiento(texto_limpio: str) -> tuple[int, str]:
     texto = unicodedata.normalize("NFKD", str(texto_limpio).lower())
     texto = "".join(c for c in texto if not unicodedata.combining(c))
-    tokens = re.findall(r"[a-z?]+|[.!?;,]", texto)
+    tokens = re.findall(r"[a-z]+|[.!?;,]", texto)
     puntuacion = 0
     for i, token in enumerate(tokens):
         valor = int(token in PALABRAS_POSITIVAS) - int(token in PALABRAS_NEGATIVAS)
@@ -685,3 +685,4 @@ if __name__ == "__main__":
     print(f"Comentarios procesados: {len(resultado['comentarios'])}")
     print(f"Nodos de la red: {resultado['red'].number_of_nodes()}")
     print(f"Aristas de la red: {resultado['red'].number_of_edges()}")
+

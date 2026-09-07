@@ -1,352 +1,626 @@
 nodo_id,tipo,etiqueta,handle,author_channel_id,video_id,channel_id,canal,comentarios,videos_comentados,autores_unicos,visualizaciones,categoria
-autor:UC-HeUTT6_g-VoiWds2a4H-w,autor,@JorgeMunoz-gd9et,/@JorgeMunoz-gd9et,UC-HeUTT6_g-VoiWds2a4H-w,,,,1,1.0,,,
-autor:UC-Iul5tDYH_oiAMXQH-KaaQ,autor,@AlbertoMancilla-p9h,/@AlbertoMancilla-p9h,UC-Iul5tDYH_oiAMXQH-KaaQ,,,,1,1.0,,,
-autor:UC-QOpE7GOxlXcHZ8b7HbQKA,autor,@mariaalexander427,/@mariaalexander427,UC-QOpE7GOxlXcHZ8b7HbQKA,,,,2,1.0,,,
-autor:UC-fiZBS5Gp1eCJd9ucgWnCg,autor,@Tommii.10,/@Tommii.10,UC-fiZBS5Gp1eCJd9ucgWnCg,,,,1,1.0,,,
-autor:UC-hfX8J5JPJ-dfuakzegMLA,autor,@normaleticiaorozcojuarez2418,/@normaleticiaorozcojuarez2418,UC-hfX8J5JPJ-dfuakzegMLA,,,,1,1.0,,,
-autor:UC-jS_kA9w-OmpupXDx156Rg,autor,@simoncreyesc7579,/@simoncreyesc7579,UC-jS_kA9w-OmpupXDx156Rg,,,,1,1.0,,,
-autor:UC-pNP6RMFuLg_-x7Ah_0kEA,autor,@almacatalan2717,/@almacatalan2717,UC-pNP6RMFuLg_-x7Ah_0kEA,,,,1,1.0,,,
-autor:UC094EFEmMSdwVa8NQjjYBXg,autor,@CelestinoQuej-j7k,/@CelestinoQuej-j7k,UC094EFEmMSdwVa8NQjjYBXg,,,,1,1.0,,,
-autor:UC0HvfEWozTHbwl_iEmJNvVA,autor,@OttoPalencia-b7r,/@OttoPalencia-b7r,UC0HvfEWozTHbwl_iEmJNvVA,,,,1,1.0,,,
-autor:UC0RpuMwkDKJYqgKHtsJRuWQ,autor,@sabinamarinaguerra3248,/@sabinamarinaguerra3248,UC0RpuMwkDKJYqgKHtsJRuWQ,,,,1,1.0,,,
-autor:UC0aEyakBPqcBkVJiErfSupQ,autor,@jhonymanuel9891,/@jhonymanuel9891,UC0aEyakBPqcBkVJiErfSupQ,,,,1,1.0,,,
-autor:UC14qlobYKqD-DO0j6b75lcA,autor,@megavision4488,/@megavision4488,UC14qlobYKqD-DO0j6b75lcA,,,,1,1.0,,,
-autor:UC1DpqK6vaPEkBOMNvypsKYg,autor,@HectorCarranza-u4j4o,/@HectorCarranza-u4j4o,UC1DpqK6vaPEkBOMNvypsKYg,,,,1,1.0,,,
-autor:UC1NiEdJ7gk6FlDexIalWnGg,autor,@BorisTebalán,/@BorisTebal%C3%A1n,UC1NiEdJ7gk6FlDexIalWnGg,,,,1,1.0,,,
-autor:UC1WlJfQmaIskYhP4gmWoamw,autor,@marthareiss5434,/@marthareiss5434,UC1WlJfQmaIskYhP4gmWoamw,,,,1,1.0,,,
-autor:UC1Y7x3h0c95Z8kUhi-Tzaeg,autor,@rosadiaz9235,/@rosadiaz9235,UC1Y7x3h0c95Z8kUhi-Tzaeg,,,,1,1.0,,,
-autor:UC1vr9aaMI2crB0NvwFHUeoQ,autor,@JoseSimilox-p6e,/@JoseSimilox-p6e,UC1vr9aaMI2crB0NvwFHUeoQ,,,,1,1.0,,,
-autor:UC2Y_EHWQKevubk4vOEBBFxw,autor,@alfonsomorales2653,/@alfonsomorales2653,UC2Y_EHWQKevubk4vOEBBFxw,,,,1,1.0,,,
-autor:UC2ngpd8UBQu4gcUYy0goAtg,autor,@juliohernandez7438,/@juliohernandez7438,UC2ngpd8UBQu4gcUYy0goAtg,,,,1,1.0,,,
-autor:UC2weSE8rpqkGMOp6StYtVfg,autor,@katerynsantiago2907,/@katerynsantiago2907,UC2weSE8rpqkGMOp6StYtVfg,,,,1,1.0,,,
-autor:UC32oozucwCF3q8d4m8fyOUg,autor,@RauldejesusOlivagonzalez,/@RauldejesusOlivagonzalez,UC32oozucwCF3q8d4m8fyOUg,,,,1,1.0,,,
-autor:UC3E9mAgP7VoAE5mZoAexl5g,autor,@EnnioAroche,/@EnnioAroche,UC3E9mAgP7VoAE5mZoAexl5g,,,,1,1.0,,,
-autor:UC3MYTqpQqlWBuCB7Th0e0PA,autor,@isaaclopez7220,/@isaaclopez7220,UC3MYTqpQqlWBuCB7Th0e0PA,,,,1,1.0,,,
-autor:UC3NMzdMYryaw82kPTnsaljg,autor,@marisosa7832,/@marisosa7832,UC3NMzdMYryaw82kPTnsaljg,,,,1,1.0,,,
-autor:UC3UVO7pTbeYvZ3ILEyRDskQ,autor,@rosaelenaargueta79,/@rosaelenaargueta79,UC3UVO7pTbeYvZ3ILEyRDskQ,,,,1,1.0,,,
-autor:UC3XTwHxygNCgjndsg-UiCQA,autor,@marioajset4283,/@marioajset4283,UC3XTwHxygNCgjndsg-UiCQA,,,,3,1.0,,,
-autor:UC3YpzAr7pcdKC7BVFEpYzog,autor,@carmenfigueroa1232,/@carmenfigueroa1232,UC3YpzAr7pcdKC7BVFEpYzog,,,,1,1.0,,,
-autor:UC3iIU62XKUOWuqL8BqBzj9A,autor,@antonioduarte2288,/@antonioduarte2288,UC3iIU62XKUOWuqL8BqBzj9A,,,,1,1.0,,,
-autor:UC3qn1yJA5PeW9rkGPatQxiw,autor,@VICTOREST19,/@VICTOREST19,UC3qn1yJA5PeW9rkGPatQxiw,,,,1,1.0,,,
-autor:UC4Avya4kmR4Q0FrfFdBozSQ,autor,@davidlima1348,/@davidlima1348,UC4Avya4kmR4Q0FrfFdBozSQ,,,,1,1.0,,,
-autor:UC4cXueR2bKGFJV0Fk76gwmA,autor,@aluxdel4792,/@aluxdel4792,UC4cXueR2bKGFJV0Fk76gwmA,,,,1,1.0,,,
-autor:UC4kg7zuTfqQKLd2bkZrSYBA,autor,@zoilagarcia9019,/@zoilagarcia9019,UC4kg7zuTfqQKLd2bkZrSYBA,,,,1,1.0,,,
-autor:UC4wq3DcbfaG6dtCqn8Oyu3w,autor,@hugoasencio7764,/@hugoasencio7764,UC4wq3DcbfaG6dtCqn8Oyu3w,,,,1,1.0,,,
-autor:UC5H8ASmMC9WrURmzeB4ySog,autor,@ManuelEdran,/@ManuelEdran,UC5H8ASmMC9WrURmzeB4ySog,,,,5,1.0,,,
-autor:UC5PrBbmUlQolwqmiru7yZhw,autor,@lazarochavez8269,/@lazarochavez8269,UC5PrBbmUlQolwqmiru7yZhw,,,,1,1.0,,,
-autor:UC5PyGvSfFM--OVKmQ3COu6g,autor,@FreddyGmez,/@FreddyGmez,UC5PyGvSfFM--OVKmQ3COu6g,,,,1,1.0,,,
-autor:UC5bG9nc_JV3FsNP2KseQiYw,autor,@giovannirodas4836,/@giovannirodas4836,UC5bG9nc_JV3FsNP2KseQiYw,,,,1,1.0,,,
-autor:UC5fvhAfm89JH8eDFdvc0xYw,autor,@isaidiaz2388,/@isaidiaz2388,UC5fvhAfm89JH8eDFdvc0xYw,,,,1,1.0,,,
-autor:UC5hvEnRUzI4Kfvwnyi4QxqQ,autor,@leonelsantizo5281,/@leonelsantizo5281,UC5hvEnRUzI4Kfvwnyi4QxqQ,,,,1,1.0,,,
-autor:UC5wuDq3U3vRAhOQI3D7gNdw,autor,@allanreneramirezgonzalez534,/@allanreneramirezgonzalez534,UC5wuDq3U3vRAhOQI3D7gNdw,,,,1,1.0,,,
-autor:UC63tFvbQ_hJhGDi2nbjssjw,autor,@AbigailRodas-w2r,/@AbigailRodas-w2r,UC63tFvbQ_hJhGDi2nbjssjw,,,,1,1.0,,,
-autor:UC650pRT-OYzny3GwOH8Cgfw,autor,@edvinparedesherrera7632,/@edvinparedesherrera7632,UC650pRT-OYzny3GwOH8Cgfw,,,,1,1.0,,,
-autor:UC6PvO1_k5lHKGdAPo5_C6TA,autor,@johnmejia992,/@johnmejia992,UC6PvO1_k5lHKGdAPo5_C6TA,,,,1,1.0,,,
-autor:UC6Uj1FT5JjDSF8vudvDxPAA,autor,@alfredoortega9264,/@alfredoortega9264,UC6Uj1FT5JjDSF8vudvDxPAA,,,,1,1.0,,,
-autor:UC6YSZqL0vEcI-niPKIMUGfw,autor,@maxwellsales885,/@maxwellsales885,UC6YSZqL0vEcI-niPKIMUGfw,,,,1,1.0,,,
-autor:UC6xI_MOaxajIWpoP8BH6E_Q,autor,@jahirdiaz5862,/@jahirdiaz5862,UC6xI_MOaxajIWpoP8BH6E_Q,,,,1,1.0,,,
-autor:UC72gBAtyb_VXQlYDcFrh6oQ,autor,@osmanmorales3012,/@osmanmorales3012,UC72gBAtyb_VXQlYDcFrh6oQ,,,,3,1.0,,,
-autor:UC7IMsCxfZyWN7YQo8-JYa6Q,autor,@Burgos68,/@Burgos68,UC7IMsCxfZyWN7YQo8-JYa6Q,,,,2,1.0,,,
-autor:UC7VUuJr9cGh845CmTvf7TlQ,autor,@LuisCastillo-oz4df,/@LuisCastillo-oz4df,UC7VUuJr9cGh845CmTvf7TlQ,,,,1,1.0,,,
-autor:UC7dadZG7kkGYnsNu6td0FbA,autor,@lesolorzano,/@lesolorzano,UC7dadZG7kkGYnsNu6td0FbA,,,,1,1.0,,,
-autor:UC816IGbFCZinfYS1LRDaaHg,autor,@ingenieroar,/@ingenieroar,UC816IGbFCZinfYS1LRDaaHg,,,,1,1.0,,,
-autor:UC8F2V63KZ4ZEay6opX2hAQw,autor,@carmenr6311,/@carmenr6311,UC8F2V63KZ4ZEay6opX2hAQw,,,,1,1.0,,,
-autor:UC8G5cJONY8L9voMyBW8Eoug,autor,@luisparedes-pw6qt,/@luisparedes-pw6qt,UC8G5cJONY8L9voMyBW8Eoug,,,,1,1.0,,,
-autor:UC8r11yOugM2NuRfitQOxLLg,autor,@cesaraugustomoralesmonroy6907,/@cesaraugustomoralesmonroy6907,UC8r11yOugM2NuRfitQOxLLg,,,,1,1.0,,,
-autor:UC8xlJWNHz1V_W6q3fbuQH8g,autor,@NormaLópez-v7e,/@NormaL%C3%B3pez-v7e,UC8xlJWNHz1V_W6q3fbuQH8g,,,,1,1.0,,,
-autor:UC95PSMouTx2N5CbSq0hIyrQ,autor,@lisss1908,/@lisss1908,UC95PSMouTx2N5CbSq0hIyrQ,,,,1,1.0,,,
-autor:UC9Wp6vL5oCU37qC3Aj94WZA,autor,@ManuelSanchez-b8q2z,/@ManuelSanchez-b8q2z,UC9Wp6vL5oCU37qC3Aj94WZA,,,,1,1.0,,,
-autor:UC9vMq1YF-e7C-VO0SHkbUTA,autor,@ErvinLeonardoCarreraLatín,/@ErvinLeonardoCarreraLat%C3%ADn,UC9vMq1YF-e7C-VO0SHkbUTA,,,,4,1.0,,,
-autor:UC9xr9QvIcDvoZNUX5f-jaZw,autor,@MariaaliciaColonmorales,/@MariaaliciaColonmorales,UC9xr9QvIcDvoZNUX5f-jaZw,,,,1,1.0,,,
-autor:UCA93ym2TXs_Ibyxb4Vcn-6Q,autor,@oswaldosolis8728,/@oswaldosolis8728,UCA93ym2TXs_Ibyxb4Vcn-6Q,,,,1,1.0,,,
-autor:UCAKuKvcbfnBD3kF5njNu-IA,autor,@melvinlopez7096,/@melvinlopez7096,UCAKuKvcbfnBD3kF5njNu-IA,,,,1,1.0,,,
-autor:UCAV7QIjYhbDJaycQycM_0eQ,autor,@mariavail8998,/@mariavail8998,UCAV7QIjYhbDJaycQycM_0eQ,,,,1,1.0,,,
-autor:UCAlzM_N6xBlMYmM8EBzX86Q,autor,@carlossoto3252,/@carlossoto3252,UCAlzM_N6xBlMYmM8EBzX86Q,,,,1,1.0,,,
-autor:UCAmtbUiIrUIhikru0ZoTFig,autor,@Aura-vf6dm,/@Aura-vf6dm,UCAmtbUiIrUIhikru0ZoTFig,,,,1,1.0,,,
-autor:UCAxvOOHQk7dYPOajzFEVtbA,autor,@ruddydepaz322,/@ruddydepaz322,UCAxvOOHQk7dYPOajzFEVtbA,,,,2,1.0,,,
-autor:UCB5p8a5gklc80jJItP6xTHg,autor,@ernestogamboa8737,/@ernestogamboa8737,UCB5p8a5gklc80jJItP6xTHg,,,,1,1.0,,,
-autor:UCBlm80VQ4YoV3bUJR_XhkaQ,autor,@rosadiaz6945,/@rosadiaz6945,UCBlm80VQ4YoV3bUJR_XhkaQ,,,,2,1.0,,,
-autor:UCBtB5dIyx-C16UN8ClUD2UA,autor,@alexmonzon4257,/@alexmonzon4257,UCBtB5dIyx-C16UN8ClUD2UA,,,,1,1.0,,,
-autor:UCCBYcToQ2dwkd6TJh0FSyDg,autor,@lidiarodriguez3493,/@lidiarodriguez3493,UCCBYcToQ2dwkd6TJh0FSyDg,,,,1,1.0,,,
-autor:UCCUmP4PlbwgikVFpYwbtRTg,autor,@alhvi,/@alhvi,UCCUmP4PlbwgikVFpYwbtRTg,,,,1,1.0,,,
-autor:UCCaYwkkbQGcvFoUmothVdQQ,autor,@OsvaldoAguirre-l3i,/@OsvaldoAguirre-l3i,UCCaYwkkbQGcvFoUmothVdQQ,,,,1,1.0,,,
-autor:UCDIMztpVm7G27qBuiWuT6oQ,autor,@lizardomorataya8274,/@lizardomorataya8274,UCDIMztpVm7G27qBuiWuT6oQ,,,,1,1.0,,,
-autor:UCDPWkUX3sNNaCx-m1dV4glA,autor,@hectoroliva949,/@hectoroliva949,UCDPWkUX3sNNaCx-m1dV4glA,,,,1,1.0,,,
-autor:UCDQaQv0hr2SS_PO-CMEwVHg,autor,@federicosaquimux1933,/@federicosaquimux1933,UCDQaQv0hr2SS_PO-CMEwVHg,,,,1,1.0,,,
-autor:UCDUffaruH6dyUnUGwsTKpgg,autor,@luisletona2842,/@luisletona2842,UCDUffaruH6dyUnUGwsTKpgg,,,,1,1.0,,,
-autor:UCDftMWXQoJ6nONfY7GVOVjg,autor,@luisgpacheco5858,/@luisgpacheco5858,UCDftMWXQoJ6nONfY7GVOVjg,,,,1,1.0,,,
-autor:UCDlr1VadSucIZgZ171pRBjQ,autor,@cuabatzjj5924,/@cuabatzjj5924,UCDlr1VadSucIZgZ171pRBjQ,,,,1,1.0,,,
-autor:UCDrmf9y9nLgFY5wnA2hTuGA,autor,@laboratorio5528,/@laboratorio5528,UCDrmf9y9nLgFY5wnA2hTuGA,,,,1,1.0,,,
-autor:UCEHXl4VvvVpq-_4xC5tsbhg,autor,@anibalg47,/@anibalg47,UCEHXl4VvvVpq-_4xC5tsbhg,,,,1,1.0,,,
-autor:UCEgEQmRbtL5fwr9_DqAC--g,autor,@ArielRodas-g5y,/@ArielRodas-g5y,UCEgEQmRbtL5fwr9_DqAC--g,,,,1,1.0,,,
-autor:UCErZPJpHmLCsXs8ZWkAUupQ,autor,@dorisl.garciaroche7763,/@dorisl.garciaroche7763,UCErZPJpHmLCsXs8ZWkAUupQ,,,,1,1.0,,,
-autor:UCFFrEmn6lPYiWyElpfzTy5Q,autor,@denilsonlopez4083,/@denilsonlopez4083,UCFFrEmn6lPYiWyElpfzTy5Q,,,,1,1.0,,,
-autor:UCFOxCyF926Y9eHhMeVoWLzw,autor,@arielsarc09,/@arielsarc09,UCFOxCyF926Y9eHhMeVoWLzw,,,,1,1.0,,,
-autor:UCFUuDARXdmmIrLppEqf-rFg,autor,@allanmunoz7410,/@allanmunoz7410,UCFUuDARXdmmIrLppEqf-rFg,,,,1,1.0,,,
-autor:UCFhxtoeARHPnXXPcDrOU3Xg,autor,@diegoalejandrolopezmendez205,/@diegoalejandrolopezmendez205,UCFhxtoeARHPnXXPcDrOU3Xg,,,,1,1.0,,,
-autor:UCFjudnPLoaSL1BaRuLahyHg,autor,@HaroldoCastillo-rh9iw,/@HaroldoCastillo-rh9iw,UCFjudnPLoaSL1BaRuLahyHg,,,,3,1.0,,,
-autor:UCFoIAE8k82D6AV-8gjjKaNg,autor,@eddymunoz9789,/@eddymunoz9789,UCFoIAE8k82D6AV-8gjjKaNg,,,,1,1.0,,,
-autor:UCFxE8GbokBrBsPEKM1xrOjQ,autor,@JuanDavila-qd7qj,/@JuanDavila-qd7qj,UCFxE8GbokBrBsPEKM1xrOjQ,,,,1,1.0,,,
-autor:UCFybmWapGvBKcQod7cPPH9w,autor,@vitalianochavez8382,/@vitalianochavez8382,UCFybmWapGvBKcQod7cPPH9w,,,,1,1.0,,,
-autor:UCGGHbtfbbe0o68etrOf0qxw,autor,@karensussetteleonvargas9794,/@karensussetteleonvargas9794,UCGGHbtfbbe0o68etrOf0qxw,,,,1,1.0,,,
-autor:UCGX_UbAQOXGZknv5iqklwTA,autor,@ronaldgarcia8522,/@ronaldgarcia8522,UCGX_UbAQOXGZknv5iqklwTA,,,,1,1.0,,,
-autor:UCGZMgmM92E3njyXNe9-kjAQ,autor,@pasionpornada,/@pasionpornada,UCGZMgmM92E3njyXNe9-kjAQ,,,,1,1.0,,,
-autor:UCGj2v6Gl5bN8NSrzJMXS-CA,autor,@juliogutierrez492,/@juliogutierrez492,UCGj2v6Gl5bN8NSrzJMXS-CA,,,,1,1.0,,,
-autor:UCGm3gRBEHGRJYmtCryZLtDw,autor,@JoséLopez-g6k,/@Jos%C3%A9Lopez-g6k,UCGm3gRBEHGRJYmtCryZLtDw,,,,1,1.0,,,
-autor:UCGqKxQS-z3NZzZF-2w338AA,autor,@samuelaguilar529,/@samuelaguilar529,UCGqKxQS-z3NZzZF-2w338AA,,,,1,1.0,,,
-autor:UCGzXwyCzMzGmjmCbH3Hg01Q,autor,@FidelZacarias-ph7dy,/@FidelZacarias-ph7dy,UCGzXwyCzMzGmjmCbH3Hg01Q,,,,1,1.0,,,
-autor:UCHGd14aYuZZShLD73dkk6mg,autor,@noemiherrera3152,/@noemiherrera3152,UCHGd14aYuZZShLD73dkk6mg,,,,1,1.0,,,
-autor:UCHMQ_lDhibZ-XZ_3fo6oxwg,autor,@crislexrubi4387,/@crislexrubi4387,UCHMQ_lDhibZ-XZ_3fo6oxwg,,,,1,1.0,,,
-autor:UCHTGCgY2l-DQJIvlA_cpa_Q,autor,@virgiliogarcia3039,/@virgiliogarcia3039,UCHTGCgY2l-DQJIvlA_cpa_Q,,,,3,2.0,,,
-autor:UCHbwIx9pmQuf7i-4_xO2EpA,autor,@caminoseternos752,/@caminoseternos752,UCHbwIx9pmQuf7i-4_xO2EpA,,,,1,1.0,,,
-autor:UCHhHUjaMAZ8SiXdCUCj9DkQ,autor,@fredymendez1786,/@fredymendez1786,UCHhHUjaMAZ8SiXdCUCj9DkQ,,,,2,1.0,,,
-autor:UCHu8x4MVkayU6VgwVKd--MQ,autor,@Hernandez-i1o,/@Hernandez-i1o,UCHu8x4MVkayU6VgwVKd--MQ,,,,1,1.0,,,
-autor:UCIUhbSCy3-SGRe5UtqM4fzQ,autor,@jeanmorales1677,/@jeanmorales1677,UCIUhbSCy3-SGRe5UtqM4fzQ,,,,1,1.0,,,
-autor:UCIXLDYqR_syskKRJy_x9W9Q,autor,@carlitosramirez4739,/@carlitosramirez4739,UCIXLDYqR_syskKRJy_x9W9Q,,,,1,1.0,,,
-autor:UCIgoiXdIKJyUGmUoH2Lxdzg,autor,@susievidal4134,/@susievidal4134,UCIgoiXdIKJyUGmUoH2Lxdzg,,,,1,1.0,,,
-autor:UCIp19h9igblA2YKfSLPDAug,autor,@JoseReyes-rn6sh,/@JoseReyes-rn6sh,UCIp19h9igblA2YKfSLPDAug,,,,1,1.0,,,
-autor:UCJp3OrVYcBorC94sKwdch_A,autor,@ULJoshmg2011,/@ULJoshmg2011,UCJp3OrVYcBorC94sKwdch_A,,,,1,1.0,,,
-autor:UCJxJC56BSAX-ArD0NAb9qnQ,autor,@alfonsowilian9157,/@alfonsowilian9157,UCJxJC56BSAX-ArD0NAb9qnQ,,,,1,1.0,,,
-autor:UCKDR0f2fu2UzWL8mBv5-BHw,autor,@mireyamorales6595,/@mireyamorales6595,UCKDR0f2fu2UzWL8mBv5-BHw,,,,1,1.0,,,
-autor:UCKVzDUqbtdSMBcexaEtMmzQ,autor,@rotorairgroup8409,/@rotorairgroup8409,UCKVzDUqbtdSMBcexaEtMmzQ,,,,1,1.0,,,
-autor:UCL13XhnRzbGokEkCkEOb0-g,autor,@raquelprado3643,/@raquelprado3643,UCL13XhnRzbGokEkCkEOb0-g,,,,2,1.0,,,
-autor:UCL1MT278vSaQ83ZDkVWn1gw,autor,@elmorodriguez6978,/@elmorodriguez6978,UCL1MT278vSaQ83ZDkVWn1gw,,,,1,1.0,,,
-autor:UCLFdHr9BEbXHkoJopbEPLZw,autor,@kanterra4584,/@kanterra4584,UCLFdHr9BEbXHkoJopbEPLZw,,,,2,1.0,,,
-autor:UCLXYp1Cvc5DLtq5UQL5D9vw,autor,@jorgecifuentes-m5g,/@jorgecifuentes-m5g,UCLXYp1Cvc5DLtq5UQL5D9vw,,,,1,1.0,,,
-autor:UCLggDc_a5HriXv7I1h02sOA,autor,@guillermogonzalez5153,/@guillermogonzalez5153,UCLggDc_a5HriXv7I1h02sOA,,,,2,1.0,,,
-autor:UCLh1Kde4_vI1sTZBkTNP7RQ,autor,@JoelReynoso-d4r,/@JoelReynoso-d4r,UCLh1Kde4_vI1sTZBkTNP7RQ,,,,1,1.0,,,
-autor:UCN2N_wYOw6fMwCeSzdXLPIw,autor,@danielantoniogonzalezflore4901,/@danielantoniogonzalezflore4901,UCN2N_wYOw6fMwCeSzdXLPIw,,,,1,1.0,,,
-autor:UCN6qbfPSzFtjhqUDZ3Cv3CQ,autor,@carlosmedranovelasquez6380,/@carlosmedranovelasquez6380,UCN6qbfPSzFtjhqUDZ3Cv3CQ,,,,1,1.0,,,
-autor:UCNBnKqWf4d-rS4HwJRQljmQ,autor,@LE_A22,/@LE_A22,UCNBnKqWf4d-rS4HwJRQljmQ,,,,2,1.0,,,
-autor:UCNIeXbV_mEwpa412h1aqUWw,autor,@juandeleon9060,/@juandeleon9060,UCNIeXbV_mEwpa412h1aqUWw,,,,3,1.0,,,
-autor:UCNiMNUJvaRJb0_QLClqwVnA,autor,@Santiago.Nolasco,/@Santiago.Nolasco,UCNiMNUJvaRJb0_QLClqwVnA,,,,1,1.0,,,
-autor:UCNkcuy42zEwddwEcOd_HpnA,autor,@vanigomez492,/@vanigomez492,UCNkcuy42zEwddwEcOd_HpnA,,,,1,1.0,,,
-autor:UCNpt5CQlTzNjlAKY6CJtClQ,autor,@eustaquiogomez9975,/@eustaquiogomez9975,UCNpt5CQlTzNjlAKY6CJtClQ,,,,1,1.0,,,
-autor:UCO0zwwLWGyDgQmWPJ5Qrr1w,autor,@elsalvador3605,/@elsalvador3605,UCO0zwwLWGyDgQmWPJ5Qrr1w,,,,1,1.0,,,
-autor:UCOARn3hnfkB7-_Rwa8Hoqcw,autor,@nicelol5241,/@nicelol5241,UCOARn3hnfkB7-_Rwa8Hoqcw,,,,1,1.0,,,
-autor:UCOLGv5Pf6BF2wFcwUzgcvHg,autor,@welfrealdana5559,/@welfrealdana5559,UCOLGv5Pf6BF2wFcwUzgcvHg,,,,2,1.0,,,
-autor:UCOLHH4ZpMxPYF-Q6e6wvn5A,autor,@luisroldan7374,/@luisroldan7374,UCOLHH4ZpMxPYF-Q6e6wvn5A,,,,1,1.0,,,
-autor:UCOS8ViEkccrTZx2w2ccxotA,autor,@OscarHernandez-q8y,/@OscarHernandez-q8y,UCOS8ViEkccrTZx2w2ccxotA,,,,1,1.0,,,
-autor:UCOY3XpD9qMCRSA8AA8c4CAw,autor,@franciscorodas9686,/@franciscorodas9686,UCOY3XpD9qMCRSA8AA8c4CAw,,,,1,1.0,,,
-autor:UCOcUI5XkTYNMSFhZNMIPpGg,autor,@hendersonlopez3864,/@hendersonlopez3864,UCOcUI5XkTYNMSFhZNMIPpGg,,,,1,1.0,,,
-autor:UCOh6DaZC_x9HASnlRylEMfw,autor,@AndresMedina-v1s,/@AndresMedina-v1s,UCOh6DaZC_x9HASnlRylEMfw,,,,1,1.0,,,
-autor:UCPLW0HE3siElqCgXfgWxMqg,autor,@elizabethmonterroso7719,/@elizabethmonterroso7719,UCPLW0HE3siElqCgXfgWxMqg,,,,1,1.0,,,
-autor:UCPNXmbOBVeC4HS-xemvcPtQ,autor,@BelkisRodriguezRamirez,/@BelkisRodriguezRamirez,UCPNXmbOBVeC4HS-xemvcPtQ,,,,1,1.0,,,
-autor:UCPZueDLrCS4BmTBRMA4q0fA,autor,@kevinochoa3695,/@kevinochoa3695,UCPZueDLrCS4BmTBRMA4q0fA,,,,1,1.0,,,
-autor:UCQIdKuZ-OzuFqy0KjGrgesg,autor,@lyacausa,/@lyacausa,UCQIdKuZ-OzuFqy0KjGrgesg,,,,1,1.0,,,
-autor:UCQM2tCKRRytVDRxNUfCDqQQ,autor,@elioelias7267,/@elioelias7267,UCQM2tCKRRytVDRxNUfCDqQQ,,,,1,1.0,,,
-autor:UCQMMuADgqWUOcJpLwHOzC-g,autor,@Ripped-Yoda,/@Ripped-Yoda,UCQMMuADgqWUOcJpLwHOzC-g,,,,1,1.0,,,
-autor:UCQ_-LPP8JAbfkc-b1Q6NvWw,autor,@MegaKristenstewart,/@MegaKristenstewart,UCQ_-LPP8JAbfkc-b1Q6NvWw,,,,2,1.0,,,
-autor:UCQgYjVngJRfPHDLGB5X6ZjA,autor,@oscarnavas9996,/@oscarnavas9996,UCQgYjVngJRfPHDLGB5X6ZjA,,,,1,1.0,,,
-autor:UCQqetiwzzmRNTM5OWuXarGQ,autor,@isaiaslopezvelasquez1539,/@isaiaslopezvelasquez1539,UCQqetiwzzmRNTM5OWuXarGQ,,,,1,1.0,,,
-autor:UCQqlPPUGqAfWjd-FSh_qn7Q,autor,@estuardoargueta137,/@estuardoargueta137,UCQqlPPUGqAfWjd-FSh_qn7Q,,,,1,1.0,,,
-autor:UCQtICyzWmhC5woCtbNgaSmg,autor,@nestormendez6216,/@nestormendez6216,UCQtICyzWmhC5woCtbNgaSmg,,,,2,1.0,,,
-autor:UCQtSFINs1h6GHkpg9o5kMvg,autor,@MacarioMartinezruiz,/@MacarioMartinezruiz,UCQtSFINs1h6GHkpg9o5kMvg,,,,1,1.0,,,
-autor:UCQyOePccUP-fIJYzchAgZYw,autor,@aguilar4254,/@aguilar4254,UCQyOePccUP-fIJYzchAgZYw,,,,1,1.0,,,
-autor:UCRAquv8el-tQ30bN7MlmySQ,autor,@iamjimalesssa,/@iamjimalesssa,UCRAquv8el-tQ30bN7MlmySQ,,,,1,1.0,,,
-autor:UCRETAiYdh2dL5ZxB0_N1zDA,autor,@Joseroland21,/@Joseroland21,UCRETAiYdh2dL5ZxB0_N1zDA,,,,1,1.0,,,
-autor:UCRcSR3Lvn9DZAmJpVPANfZQ,autor,@WalksandSuch,/@WalksandSuch,UCRcSR3Lvn9DZAmJpVPANfZQ,,,,1,1.0,,,
-autor:UCRelkU8JiZBytTzebJxaa-w,autor,@danyraymundo2942,/@danyraymundo2942,UCRelkU8JiZBytTzebJxaa-w,,,,1,1.0,,,
-autor:UCRfkkatKrNtAARnXMMYBGlA,autor,@BernerSoza-mg3vx,/@BernerSoza-mg3vx,UCRfkkatKrNtAARnXMMYBGlA,,,,1,1.0,,,
-autor:UCRlCV9zSn7avAWh-9_XFWqQ,autor,@ronyarana8849,/@ronyarana8849,UCRlCV9zSn7avAWh-9_XFWqQ,,,,1,1.0,,,
-autor:UCRvPToDkkumha7WJAfCDk1A,autor,@ligiaguerra3057,/@ligiaguerra3057,UCRvPToDkkumha7WJAfCDk1A,,,,1,1.0,,,
-autor:UCRznz9-N3Qc1w-qNdLSIY2Q,autor,@jimmygomez724,/@jimmygomez724,UCRznz9-N3Qc1w-qNdLSIY2Q,,,,1,1.0,,,
-autor:UCSTAUWVc1_82DHYeqOsqEFA,autor,@TheAlexX_C,/@TheAlexX_C,UCSTAUWVc1_82DHYeqOsqEFA,,,,1,1.0,,,
-autor:UCSou6a2OuYGSvPjm5psquyA,autor,@FranciscoRivera-sf7ne,/@FranciscoRivera-sf7ne,UCSou6a2OuYGSvPjm5psquyA,,,,1,1.0,,,
-autor:UCTD6q1nyIe3Y7HhqjaMj72w,autor,@JuanChang-r6k,/@JuanChang-r6k,UCTD6q1nyIe3Y7HhqjaMj72w,,,,1,1.0,,,
-autor:UCTP3O0rMnc8z8v8jaDQwL0w,autor,@RobertoZelaya-x1v,/@RobertoZelaya-x1v,UCTP3O0rMnc8z8v8jaDQwL0w,,,,1,1.0,,,
-autor:UCTTILH6QCIxbTnEWxwRqs1g,autor,@3762Jorge,/@3762Jorge,UCTTILH6QCIxbTnEWxwRqs1g,,,,1,1.0,,,
-autor:UCThW2XNsAaBKme5PUt7n-Zg,autor,@thelmamoran8565,/@thelmamoran8565,UCThW2XNsAaBKme5PUt7n-Zg,,,,1,1.0,,,
-autor:UCTwSut16JyAg3mX6LVUNGqA,autor,@SuperVictor2005,/@SuperVictor2005,UCTwSut16JyAg3mX6LVUNGqA,,,,1,1.0,,,
-autor:UCTylKrsqkrBKIqubMu_5N0Q,autor,@edwingeovanymarroquinmarro6684,/@edwingeovanymarroquinmarro6684,UCTylKrsqkrBKIqubMu_5N0Q,,,,1,1.0,,,
-autor:UCUIIIPTVDVHAXqhC_5V6lPA,autor,@gorrarota,/@gorrarota,UCUIIIPTVDVHAXqhC_5V6lPA,,,,1,1.0,,,
-autor:UCUoYsrx1oZnCZ0usbBJn4fA,autor,@AnaDiaz-re9sq,/@AnaDiaz-re9sq,UCUoYsrx1oZnCZ0usbBJn4fA,,,,1,1.0,,,
-autor:UCV0iizTBoOfdAFX_thfI9BA,autor,@BenjaminLarios-jd8nk,/@BenjaminLarios-jd8nk,UCV0iizTBoOfdAFX_thfI9BA,,,,1,1.0,,,
-autor:UCV0lM03g5fg5pbPj97-sAtA,autor,@genarodelgado3929,/@genarodelgado3929,UCV0lM03g5fg5pbPj97-sAtA,,,,1,1.0,,,
-autor:UCV3fr-YOixFKCZBbJP1-X4w,autor,@albertoshernandez5251,/@albertoshernandez5251,UCV3fr-YOixFKCZBbJP1-X4w,,,,5,1.0,,,
-autor:UCVC2QugcI1G4RvlCiUqd1aQ,autor,@rwdm76,/@rwdm76,UCVC2QugcI1G4RvlCiUqd1aQ,,,,2,1.0,,,
-autor:UCVQf0tzL7xRzFJsABVVULpg,autor,@DennisseLopetegi,/@DennisseLopetegi,UCVQf0tzL7xRzFJsABVVULpg,,,,1,1.0,,,
-autor:UCVdjCrh4tQoX3haNAZv-n5A,autor,@aurahernandez5646,/@aurahernandez5646,UCVdjCrh4tQoX3haNAZv-n5A,,,,1,1.0,,,
-autor:UCVhif9eV0f8plICen2DnpKA,autor,@blogarteplus,/@blogarteplus,UCVhif9eV0f8plICen2DnpKA,,,,1,1.0,,,
-autor:UCW-JC6lebVmf2P1dmY_L94g,autor,@dinoraoroxon5771,/@dinoraoroxon5771,UCW-JC6lebVmf2P1dmY_L94g,,,,1,1.0,,,
-autor:UCW80DaMjQlEUibC98Cot-Dg,autor,@rogeraldana4289,/@rogeraldana4289,UCW80DaMjQlEUibC98Cot-Dg,,,,1,1.0,,,
-autor:UCWIZUtKJ636y-4TYrNvok0g,autor,@cesarandreas7824,/@cesarandreas7824,UCWIZUtKJ636y-4TYrNvok0g,,,,1,1.0,,,
-autor:UCWWkebAekppaL5b5CNlppuw,autor,@ninettmartinez425,/@ninettmartinez425,UCWWkebAekppaL5b5CNlppuw,,,,1,1.0,,,
-autor:UCWaRixDdpgllTBf4V0jPnKQ,autor,@hectormaaz5523,/@hectormaaz5523,UCWaRixDdpgllTBf4V0jPnKQ,,,,2,1.0,,,
-autor:UCWoAVGVqCn4xtINCMOTM4jg,autor,@OmarMartinez-vv8re,/@OmarMartinez-vv8re,UCWoAVGVqCn4xtINCMOTM4jg,,,,1,1.0,,,
-autor:UCWvntqPQx99k_Z_skWKqNSA,autor,@AntonioChiyal-x5s,/@AntonioChiyal-x5s,UCWvntqPQx99k_Z_skWKqNSA,,,,1,1.0,,,
-autor:UCXN2s7DwTJm33xO-pNkAdaA,autor,@edithsan7688,/@edithsan7688,UCXN2s7DwTJm33xO-pNkAdaA,,,,1,1.0,,,
-autor:UCXO1BBohNWXkK9SBDAG2ySg,autor,@JBFlute92,/@JBFlute92,UCXO1BBohNWXkK9SBDAG2ySg,,,,1,1.0,,,
-autor:UCXSkL3ejZ8qWYyF_M7s_QKA,autor,@JacintaTzoy,/@JacintaTzoy,UCXSkL3ejZ8qWYyF_M7s_QKA,,,,1,1.0,,,
-autor:UCXVLc8CmAO813ubM-fLvCDw,autor,@herminiasaquimux7565,/@herminiasaquimux7565,UCXVLc8CmAO813ubM-fLvCDw,,,,1,1.0,,,
-autor:UCXXh7yg5KUFIWylTiKVEFKQ,autor,@MrDuenderojo,/@MrDuenderojo,UCXXh7yg5KUFIWylTiKVEFKQ,,,,2,1.0,,,
-autor:UCXgr7vXlRrsaskPdo097kGA,autor,@Rogergh-nw4oj,/@Rogergh-nw4oj,UCXgr7vXlRrsaskPdo097kGA,,,,1,1.0,,,
-autor:UCXl30Y_upRqbti52fmjK4YA,autor,@capitanfrans,/@capitanfrans,UCXl30Y_upRqbti52fmjK4YA,,,,1,1.0,,,
-autor:UCXmrpc6Li0spcKxtS0Q_ptg,autor,@melvinperez6710,/@melvinperez6710,UCXmrpc6Li0spcKxtS0Q_ptg,,,,1,1.0,,,
-autor:UCXr8_5WtGeipe4haOoQDgyQ,autor,@amyherrera7352,/@amyherrera7352,UCXr8_5WtGeipe4haOoQDgyQ,,,,1,1.0,,,
-autor:UCY7Hq7F9Lnucf-Yr6JkHZNw,autor,@maynorcalel1442,/@maynorcalel1442,UCY7Hq7F9Lnucf-Yr6JkHZNw,,,,1,1.0,,,
-autor:UCYN4wSQ1Sx4_LurxLlW7MPg,autor,@belarminavillatoro6474,/@belarminavillatoro6474,UCYN4wSQ1Sx4_LurxLlW7MPg,,,,1,1.0,,,
-autor:UCYwpX26TrCxq8TvbKGRYLXA,autor,@beneficioelcaminovillacana8540,/@beneficioelcaminovillacana8540,UCYwpX26TrCxq8TvbKGRYLXA,,,,1,1.0,,,
-autor:UCZ51R_9Q9C0c8I3pAWhtmjQ,autor,@belvettzapeta1251,/@belvettzapeta1251,UCZ51R_9Q9C0c8I3pAWhtmjQ,,,,1,1.0,,,
-autor:UCZFQwqh90apuL8eFhvRBkUg,autor,@luisricardo9671,/@luisricardo9671,UCZFQwqh90apuL8eFhvRBkUg,,,,1,1.0,,,
-autor:UCZIQnb1fkwe39Iw2TAu-bGA,autor,@jorgegomez2237,/@jorgegomez2237,UCZIQnb1fkwe39Iw2TAu-bGA,,,,1,1.0,,,
-autor:UCZLG9qH0tUjNhEGFIUt0CYw,autor,@SoniaMarroquin-y6e,/@SoniaMarroquin-y6e,UCZLG9qH0tUjNhEGFIUt0CYw,,,,1,1.0,,,
-autor:UCZOmq6MwFDVoCaEl99BRRaw,autor,@daniloarevalo3170,/@daniloarevalo3170,UCZOmq6MwFDVoCaEl99BRRaw,,,,1,1.0,,,
-autor:UCZeIIQrGAedW8tCbKWmGY-A,autor,@mariocordon8873,/@mariocordon8873,UCZeIIQrGAedW8tCbKWmGY-A,,,,1,1.0,,,
-autor:UCZjm6U576nX8WOiLhmMR3bw,autor,@MariaNavarroYT,/@MariaNavarroYT,UCZjm6U576nX8WOiLhmMR3bw,,,,1,1.0,,,
-autor:UC_3xuTXvMIWU5MYP9HkJ3vQ,autor,@Historia-wm4os,/@Historia-wm4os,UC_3xuTXvMIWU5MYP9HkJ3vQ,,,,1,1.0,,,
-autor:UC_6KbBY1bsYXz9fwFS0eQRg,autor,@imrcp5694,/@imrcp5694,UC_6KbBY1bsYXz9fwFS0eQRg,,,,1,1.0,,,
-autor:UC_LYoGs5C3mbZKZuKuqYCvw,autor,@javiercifuentesarchila6041,/@javiercifuentesarchila6041,UC_LYoGs5C3mbZKZuKuqYCvw,,,,1,1.0,,,
-autor:UC_NRVt2UP88ZNTwzrZ66JSg,autor,@aditalissethevasquezrojas8039,/@aditalissethevasquezrojas8039,UC_NRVt2UP88ZNTwzrZ66JSg,,,,1,1.0,,,
-autor:UC_ljZ1hZXR9pzexFz87P5ZA,autor,@ChRiStOpHeR7969,/@ChRiStOpHeR7969,UC_ljZ1hZXR9pzexFz87P5ZA,,,,1,1.0,,,
-autor:UCa36MjQLoPAmgJo-R3G8WQA,autor,@elsasalguero6914,/@elsasalguero6914,UCa36MjQLoPAmgJo-R3G8WQA,,,,1,1.0,,,
-autor:UCaKAjTW9MVub_clgr4DRYjQ,autor,@josecastillo4390,/@josecastillo4390,UCaKAjTW9MVub_clgr4DRYjQ,,,,1,1.0,,,
-autor:UCaT4saRcyqCLE657Rq2hhZQ,autor,@elmilenial4064,/@elmilenial4064,UCaT4saRcyqCLE657Rq2hhZQ,,,,1,1.0,,,
-autor:UCaT6M2zp7X6r6Whd8Vv3kHQ,autor,@alexarcos8349,/@alexarcos8349,UCaT6M2zp7X6r6Whd8Vv3kHQ,,,,1,1.0,,,
-autor:UCat2qkYvqmtDNEmo2PVuhXw,autor,@DoraSalas-j5o,/@DoraSalas-j5o,UCat2qkYvqmtDNEmo2PVuhXw,,,,1,1.0,,,
-autor:UCbNanjFI51cwGqMAb2rOrBw,autor,@RosaMontesdeOca777,/@RosaMontesdeOca777,UCbNanjFI51cwGqMAb2rOrBw,,,,1,1.0,,,
-autor:UCbYoNG5J3Au5BqtbXogfEFw,autor,@Luis-gn3fj,/@Luis-gn3fj,UCbYoNG5J3Au5BqtbXogfEFw,,,,1,1.0,,,
-autor:UCbrtvygfRT6QXqWDNrOf-cA,autor,@Alejandro00710,/@Alejandro00710,UCbrtvygfRT6QXqWDNrOf-cA,,,,2,2.0,,,
-autor:UCcFIBN-rtC3d3hXeuN5TfWw,autor,@DenisRMC,/@DenisRMC,UCcFIBN-rtC3d3hXeuN5TfWw,,,,1,1.0,,,
-autor:UCc_F88PzGWtA1OPNUEASulA,autor,@rockyscarlet,/@rockyscarlet,UCc_F88PzGWtA1OPNUEASulA,,,,1,1.0,,,
-autor:UCcfdg8crmMJwEuLUsAhV7yg,autor,@RolandoRaguay,/@RolandoRaguay,UCcfdg8crmMJwEuLUsAhV7yg,,,,1,1.0,,,
-autor:UCdFlugHJJa4l3YqWuNRmvXw,autor,@MarcosCarillo-b1r,/@MarcosCarillo-b1r,UCdFlugHJJa4l3YqWuNRmvXw,,,,2,2.0,,,
-autor:UCdQAuWwyC99MB7Y02Umj26Q,autor,@miguelbran1268,/@miguelbran1268,UCdQAuWwyC99MB7Y02Umj26Q,,,,1,1.0,,,
-autor:UCe8JZoYkX5oKUZyivHYdXhw,autor,@FernandoGarcia-jg1fj,/@FernandoGarcia-jg1fj,UCe8JZoYkX5oKUZyivHYdXhw,,,,1,1.0,,,
-autor:UCeDNEtI8_a42bZ47wJiJMwQ,autor,@EdgarcalderonCalderong,/@EdgarcalderonCalderong,UCeDNEtI8_a42bZ47wJiJMwQ,,,,1,1.0,,,
-autor:UCeQk-WfEA-cJRq4EKeE7TOw,autor,@franciscojuarez9223,/@franciscojuarez9223,UCeQk-WfEA-cJRq4EKeE7TOw,,,,1,1.0,,,
-autor:UCefAH1MbvADWUjE9WVcB9EQ,autor,@jabriz8152,/@jabriz8152,UCefAH1MbvADWUjE9WVcB9EQ,,,,1,1.0,,,
-autor:UCf5lnNZF7Qrtli9v4N_23WQ,autor,@CarlosCortez-v5r,/@CarlosCortez-v5r,UCf5lnNZF7Qrtli9v4N_23WQ,,,,1,1.0,,,
-autor:UCfM3nrxtTQMY5jFx1v1J4Gg,autor,@edgarroldan5539,/@edgarroldan5539,UCfM3nrxtTQMY5jFx1v1J4Gg,,,,1,1.0,,,
-autor:UCfRqgt2O-vjzUDMZY_tnxQw,autor,@Williams-Garcia67E,/@Williams-Garcia67E,UCfRqgt2O-vjzUDMZY_tnxQw,,,,1,1.0,,,
-autor:UCfXykdbSU97rj987LDUGfvg,autor,@MariaSantos-c8y3h,/@MariaSantos-c8y3h,UCfXykdbSU97rj987LDUGfvg,,,,1,1.0,,,
-autor:UCfjhejO7LZy4doXURa7LZCQ,autor,@HonwayLee-z5g,/@HonwayLee-z5g,UCfjhejO7LZy4doXURa7LZCQ,,,,1,1.0,,,
-autor:UCfo_yUPzy1f1POwwZxhZ06Q,autor,@lara11roberto,/@lara11roberto,UCfo_yUPzy1f1POwwZxhZ06Q,,,,1,1.0,,,
-autor:UCg3eIfd7BrsLEqS0BLkftHA,autor,@ErmePérez-q4s,/@ErmeP%C3%A9rez-q4s,UCg3eIfd7BrsLEqS0BLkftHA,,,,3,1.0,,,
-autor:UCgGqw4aqMdMVSGkKiMgrJRQ,autor,@pattyfigueroa5609,/@pattyfigueroa5609,UCgGqw4aqMdMVSGkKiMgrJRQ,,,,1,1.0,,,
-autor:UCgJNFj5dnxXpcMvmuhZDPxA,autor,@NataliaRodriguez-rx5mr,/@NataliaRodriguez-rx5mr,UCgJNFj5dnxXpcMvmuhZDPxA,,,,1,1.0,,,
-autor:UCgLrWFdYitoP-b7-PxtUr-w,autor,@zetag,/@zetag,UCgLrWFdYitoP-b7-PxtUr-w,,,,1,1.0,,,
-autor:UCgLurCo-e019HGODcjXHWCw,autor,@perritojuega1,/@perritojuega1,UCgLurCo-e019HGODcjXHWCw,,,,1,1.0,,,
-autor:UCgQJgI9vu1FI2dnC9mrFthw,autor,@srms70,/@srms70,UCgQJgI9vu1FI2dnC9mrFthw,,,,1,1.0,,,
-autor:UCgQw_Sbq3ugruDUKsq1e0-A,autor,@marlenareano-h4t,/@marlenareano-h4t,UCgQw_Sbq3ugruDUKsq1e0-A,,,,1,1.0,,,
-autor:UCgvw7xIdGFupzpt1Y_BFkEA,autor,@fredygarcia9151,/@fredygarcia9151,UCgvw7xIdGFupzpt1Y_BFkEA,,,,1,1.0,,,
-autor:UCh5ESQvtzyHDhCA7XyekCFA,autor,@andyB5280,/@andyB5280,UCh5ESQvtzyHDhCA7XyekCFA,,,,3,1.0,,,
-autor:UChT7pzGytNd92Nmvi-zuWog,autor,@sparkvalkov,/@sparkvalkov,UChT7pzGytNd92Nmvi-zuWog,,,,1,1.0,,,
-autor:UChZknRmJkeGeQk0-mQuhDOg,autor,@OdilioRodríguez-c5w,/@OdilioRodr%C3%ADguez-c5w,UChZknRmJkeGeQk0-mQuhDOg,,,,1,1.0,,,
-autor:UCheEJ5GZuIvV0fj-nXyVwXw,autor,@rosaoliva9389,/@rosaoliva9389,UCheEJ5GZuIvV0fj-nXyVwXw,,,,1,1.0,,,
-autor:UChep9kVb5gQmpodEEl10Xlg,autor,@carlosaguilar-kz7ml,/@carlosaguilar-kz7ml,UChep9kVb5gQmpodEEl10Xlg,,,,1,1.0,,,
-autor:UChgkn5Jt5tWKYMoEOuCjz3Q,autor,@pablochitay46,/@pablochitay46,UChgkn5Jt5tWKYMoEOuCjz3Q,,,,1,1.0,,,
-autor:UChs3tU2BcKOT0CezykvAsGw,autor,@byronpontaza,/@byronpontaza,UChs3tU2BcKOT0CezykvAsGw,,,,3,1.0,,,
-autor:UChyps3dqY-VY1_wLeq-2lhw,autor,@maydamorales4395,/@maydamorales4395,UChyps3dqY-VY1_wLeq-2lhw,,,,1,1.0,,,
-autor:UCi-vPdnpQreC7BkFs40mJGA,autor,@bryansicasales4280,/@bryansicasales4280,UCi-vPdnpQreC7BkFs40mJGA,,,,1,1.0,,,
-autor:UCi1b_TRQfgO1Z9O2gNGGWNA,autor,@davidisraelesquitsaquil,/@davidisraelesquitsaquil,UCi1b_TRQfgO1Z9O2gNGGWNA,,,,2,1.0,,,
-autor:UCi2KiZq63sRq8Mfbcp-MelQ,autor,@eugeneramirez4405,/@eugeneramirez4405,UCi2KiZq63sRq8Mfbcp-MelQ,,,,6,1.0,,,
-autor:UCiC-Jn7wdgyQV4_Urk0DkWQ,autor,@pedroros6358,/@pedroros6358,UCiC-Jn7wdgyQV4_Urk0DkWQ,,,,1,1.0,,,
-autor:UCiGRBf2RNF0WRKhRVT7zFoA,autor,@edwinavila4876,/@edwinavila4876,UCiGRBf2RNF0WRKhRVT7zFoA,,,,1,1.0,,,
-autor:UCiMythXHsw7eQEMykCdmMUA,autor,@JavierBecerra-h6x,/@JavierBecerra-h6x,UCiMythXHsw7eQEMykCdmMUA,,,,1,1.0,,,
-autor:UCiOZX__1gahg1ypIj0_XG_w,autor,@mariogonzalezorellana8956,/@mariogonzalezorellana8956,UCiOZX__1gahg1ypIj0_XG_w,,,,1,1.0,,,
-autor:UCipetjeiWj4CZB6EbyYziZg,autor,@OseasSamayoa-ol5rz,/@OseasSamayoa-ol5rz,UCipetjeiWj4CZB6EbyYziZg,,,,1,1.0,,,
-autor:UCj-LL25XJnjxepPKCc3NGog,autor,@anaaguirre8985,/@anaaguirre8985,UCj-LL25XJnjxepPKCc3NGog,,,,1,1.0,,,
-autor:UCjJf-AJKRFFWtiN-CSwkDmA,autor,@2jose82,/@2jose82,UCjJf-AJKRFFWtiN-CSwkDmA,,,,1,1.0,,,
-autor:UCjSKM9j0Q7HLDr1hD6D-TUw,autor,@josehidalgo4875,/@josehidalgo4875,UCjSKM9j0Q7HLDr1hD6D-TUw,,,,1,1.0,,,
-autor:UCjZgFEowMBrsjodqfovzdKw,autor,@franciscoflores3120,/@franciscoflores3120,UCjZgFEowMBrsjodqfovzdKw,,,,2,2.0,,,
-autor:UCjmPuazZJzscrwvk0QR9RVw,autor,@mynorrodas8591,/@mynorrodas8591,UCjmPuazZJzscrwvk0QR9RVw,,,,1,1.0,,,
-autor:UCk4O-J1BhoqPmig1KLGJePA,autor,@lazarobarillas3575,/@lazarobarillas3575,UCk4O-J1BhoqPmig1KLGJePA,,,,1,1.0,,,
-autor:UCkVtmkK07b2zaVVNssX4lOg,autor,@HectorElias-u2l,/@HectorElias-u2l,UCkVtmkK07b2zaVVNssX4lOg,,,,1,1.0,,,
-autor:UCkbsS_3D-pvg1iHOld9uvIg,autor,@gonzalo6075,/@gonzalo6075,UCkbsS_3D-pvg1iHOld9uvIg,,,,1,1.0,,,
-autor:UCkd9W714-947dEE6ZOEBATA,autor,@ARGELIATELON,/@ARGELIATELON,UCkd9W714-947dEE6ZOEBATA,,,,2,1.0,,,
-autor:UCkxdJ_yGN2gghOMo2ybQtXQ,autor,@11223344An,/@11223344An,UCkxdJ_yGN2gghOMo2ybQtXQ,,,,1,1.0,,,
-autor:UCl0ekS9Tt0jJGtOEM18S63w,autor,@monkchapin,/@monkchapin,UCl0ekS9Tt0jJGtOEM18S63w,,,,1,1.0,,,
-autor:UCld2stqxaVSk0QdGncM224A,autor,@sarahernandez3873,/@sarahernandez3873,UCld2stqxaVSk0QdGncM224A,,,,1,1.0,,,
-autor:UClhMWQ7XKWywYvbRnuf8QsA,autor,@EcPerez-zz9oh,/@EcPerez-zz9oh,UClhMWQ7XKWywYvbRnuf8QsA,,,,1,1.0,,,
-autor:UCljDbleJul41G1TzOjOZAVA,autor,@hectorcarranza3777,/@hectorcarranza3777,UCljDbleJul41G1TzOjOZAVA,,,,1,1.0,,,
-autor:UClqA491Xa5fQcXcJJa-vTWw,autor,@AndresLemus-k2d,/@AndresLemus-k2d,UClqA491Xa5fQcXcJJa-vTWw,,,,1,1.0,,,
-autor:UClsrFGJKWPxxw7MiaEdKLXw,autor,@ericapaz5406,/@ericapaz5406,UClsrFGJKWPxxw7MiaEdKLXw,,,,1,1.0,,,
-autor:UCmjppp6ujz3SAnULvP3sZMw,autor,@marcomendez7509,/@marcomendez7509,UCmjppp6ujz3SAnULvP3sZMw,,,,1,1.0,,,
-autor:UCmvOgzmmXbjUthHy-WJ52hQ,autor,@mariorodas593,/@mariorodas593,UCmvOgzmmXbjUthHy-WJ52hQ,,,,1,1.0,,,
-autor:UCnU8wO1OurAmGstDw6VGjgQ,autor,@cmorera21,/@cmorera21,UCnU8wO1OurAmGstDw6VGjgQ,,,,1,1.0,,,
-autor:UCoGdCoJg2Lh0OX_jv6cG16g,autor,@Israel-u5i7i,/@Israel-u5i7i,UCoGdCoJg2Lh0OX_jv6cG16g,,,,2,1.0,,,
-autor:UColMq7LmaoY3MT6aIDGrGvA,autor,@quijotachapina1,/@quijotachapina1,UColMq7LmaoY3MT6aIDGrGvA,,,,1,1.0,,,
-autor:UCozFYHN0e_-vlQbX3wQGOug,autor,@jesusguzman2321,/@jesusguzman2321,UCozFYHN0e_-vlQbX3wQGOug,,,,1,1.0,,,
-autor:UCp29O_C7cchZV8IxV7Crdag,autor,@robertoescobar5507,/@robertoescobar5507,UCp29O_C7cchZV8IxV7Crdag,,,,2,1.0,,,
-autor:UCp4iw5_5SmV9VGTFSNVGOmQ,autor,@CARLOSSTREMS51,/@CARLOSSTREMS51,UCp4iw5_5SmV9VGTFSNVGOmQ,,,,1,1.0,,,
-autor:UCpIdtvoFHVLGASGB5ySqIEA,autor,@VidalVillatoro-p4w,/@VidalVillatoro-p4w,UCpIdtvoFHVLGASGB5ySqIEA,,,,1,1.0,,,
-autor:UCp_dAUfv8i3LW3zWc24dLaQ,autor,@MarioCortez-o6v,/@MarioCortez-o6v,UCp_dAUfv8i3LW3zWc24dLaQ,,,,1,1.0,,,
-autor:UCpe5jW3MIqkgTJ-PgkzvM6Q,autor,@carloslam5333,/@carloslam5333,UCpe5jW3MIqkgTJ-PgkzvM6Q,,,,1,1.0,,,
-autor:UCpl8rF8uv_8uui-QRvuJaRA,autor,@SergioGarcia-z9c,/@SergioGarcia-z9c,UCpl8rF8uv_8uui-QRvuJaRA,,,,1,1.0,,,
-autor:UCplrIQtaPj6au60_f2-mOYw,autor,@romeolopezherrarte799,/@romeolopezherrarte799,UCplrIQtaPj6au60_f2-mOYw,,,,1,1.0,,,
-autor:UCpsKOkt5iWTbenzeuq7dsmQ,autor,@inge_vergueta,/@inge_vergueta,UCpsKOkt5iWTbenzeuq7dsmQ,,,,3,3.0,,,
-autor:UCq3mDTTRZnUybct5M9OSXbg,autor,@MacoMorales-i2i2d,/@MacoMorales-i2i2d,UCq3mDTTRZnUybct5M9OSXbg,,,,1,1.0,,,
-autor:UCqCrvuoJpC-aVb0f4logQRQ,autor,@Lyrics_GT,/@Lyrics_GT,UCqCrvuoJpC-aVb0f4logQRQ,,,,1,1.0,,,
-autor:UCqilIa8r7iek5sGYg_q6ofA,autor,@rolandojuchuna484,/@rolandojuchuna484,UCqilIa8r7iek5sGYg_q6ofA,,,,1,1.0,,,
-autor:UCql1n3Ey6ULMSOACjMe-fxQ,autor,@RolandoGonzalez-o7g,/@RolandoGonzalez-o7g,UCql1n3Ey6ULMSOACjMe-fxQ,,,,1,1.0,,,
-autor:UCr1emrogPKkKTs_WTtx71xg,autor,@domingopeneleu6457,/@domingopeneleu6457,UCr1emrogPKkKTs_WTtx71xg,,,,1,1.0,,,
-autor:UCrJn_rbo_ENAdeqneS-RmRw,autor,@josecarrera9623,/@josecarrera9623,UCrJn_rbo_ENAdeqneS-RmRw,,,,2,1.0,,,
-autor:UCrqXyRsg-_hTosURZ-uvoKg,autor,@flornolberto2425,/@flornolberto2425,UCrqXyRsg-_hTosURZ-uvoKg,,,,1,1.0,,,
-autor:UCsGoJEvb-cFPZ2rWoJcXzEQ,autor,@sergiohinestroza9709,/@sergiohinestroza9709,UCsGoJEvb-cFPZ2rWoJcXzEQ,,,,1,1.0,,,
-autor:UCsJJAvrVGupdmhOqgtDp8dg,autor,@nestorlorenzana1168,/@nestorlorenzana1168,UCsJJAvrVGupdmhOqgtDp8dg,,,,1,1.0,,,
-autor:UCsSXdJct-nsS8DsABoEsaYA,autor,@IvánPérez-j4j,/@Iv%C3%A1nP%C3%A9rez-j4j,UCsSXdJct-nsS8DsABoEsaYA,,,,1,1.0,,,
-autor:UCsUCN0Yq_UyTvKjOJLmNrnQ,autor,@moisesvaldez4043,/@moisesvaldez4043,UCsUCN0Yq_UyTvKjOJLmNrnQ,,,,2,2.0,,,
-autor:UCs_5qeqdku9tGAq22y3OcuQ,autor,@alexandrevasquez4135,/@alexandrevasquez4135,UCs_5qeqdku9tGAq22y3OcuQ,,,,1,1.0,,,
-autor:UCsjs5Hp_r86x1xbK6FAeqaA,autor,@alvaroesquivel563,/@alvaroesquivel563,UCsjs5Hp_r86x1xbK6FAeqaA,,,,1,1.0,,,
-autor:UCtCtts20bW6F9CSohau51Iw,autor,@carlosgranados9875,/@carlosgranados9875,UCtCtts20bW6F9CSohau51Iw,,,,2,1.0,,,
-autor:UCtMBF_1O2jY2INlb_luuB_A,autor,@mynorgudiel8646,/@mynorgudiel8646,UCtMBF_1O2jY2INlb_luuB_A,,,,1,1.0,,,
-autor:UCtNfIBnc5S5DbbQj_yxgJTw,autor,@JosueRamirez-ey3ih,/@JosueRamirez-ey3ih,UCtNfIBnc5S5DbbQj_yxgJTw,,,,1,1.0,,,
-autor:UCtNyHmRZtvGF2hSvI2dUBWw,autor,@aureliomaldonado4793,/@aureliomaldonado4793,UCtNyHmRZtvGF2hSvI2dUBWw,,,,2,1.0,,,
-autor:UCtUR3_CAiE7fCoZHM6cMfyQ,autor,@mdelcid01,/@mdelcid01,UCtUR3_CAiE7fCoZHM6cMfyQ,,,,1,1.0,,,
-autor:UCtiHFjFu7d5v2XxHnKFUYig,autor,@Paul-gf7ec,/@Paul-gf7ec,UCtiHFjFu7d5v2XxHnKFUYig,,,,1,1.0,,,
-autor:UCtowGNY2lnlg6O2CkwDgkLg,autor,@taniagabrielacelis8434,/@taniagabrielacelis8434,UCtowGNY2lnlg6O2CkwDgkLg,,,,1,1.0,,,
-autor:UCtsxPYw8VUsH_FfnKg-0lmw,autor,@AlejandroPérez-b6r,/@AlejandroP%C3%A9rez-b6r,UCtsxPYw8VUsH_FfnKg-0lmw,,,,1,1.0,,,
-autor:UCu8_3-Wg-YzNyvHYQDEscfw,autor,@RolandoCastroPérez-d7y,/@RolandoCastroP%C3%A9rez-d7y,UCu8_3-Wg-YzNyvHYQDEscfw,,,,1,1.0,,,
-autor:UCuP4UK33HKtJE_S39ksmaTw,autor,@herbertaguilar1387,/@herbertaguilar1387,UCuP4UK33HKtJE_S39ksmaTw,,,,1,1.0,,,
-autor:UCuXmOjxC-htcprLgeVXz6Tg,autor,@jorgeaguilar-bq3uj,/@jorgeaguilar-bq3uj,UCuXmOjxC-htcprLgeVXz6Tg,,,,1,1.0,,,
-autor:UCueV9cTyTDwgQSec1x2dYgA,autor,@fredydomingo7062,/@fredydomingo7062,UCueV9cTyTDwgQSec1x2dYgA,,,,1,1.0,,,
-autor:UCujPF2nBgsTD62nWE3lcpIg,autor,@victorarturoruanobautista7588,/@victorarturoruanobautista7588,UCujPF2nBgsTD62nWE3lcpIg,,,,1,1.0,,,
-autor:UCusjriFsDHEc2AOjqk-p5ig,autor,@pablobarrios7931,/@pablobarrios7931,UCusjriFsDHEc2AOjqk-p5ig,,,,1,1.0,,,
-autor:UCut6b9S98nv84cVX89PmKzA,autor,@yeniferaguirre4498,/@yeniferaguirre4498,UCut6b9S98nv84cVX89PmKzA,,,,2,1.0,,,
-autor:UCvApqeCbLod-wejtT4CcVuA,autor,@davidgaher9550,/@davidgaher9550,UCvApqeCbLod-wejtT4CcVuA,,,,1,1.0,,,
-autor:UCvDwJBBY1mHK70aTEYl6rsA,autor,@cristianescobedo8296,/@cristianescobedo8296,UCvDwJBBY1mHK70aTEYl6rsA,,,,1,1.0,,,
-autor:UCvcu1kR8xMYy_I1Ty-2mV2Q,autor,@hashojea7348,/@hashojea7348,UCvcu1kR8xMYy_I1Ty-2mV2Q,,,,4,3.0,,,
-autor:UCvl1tzQeBeGy6efPTRJXSCw,autor,@RaulPerez-cw2vi,/@RaulPerez-cw2vi,UCvl1tzQeBeGy6efPTRJXSCw,,,,1,1.0,,,
-autor:UCwCfs-2zbD5k0lG-UVg_JBw,autor,@JessicaHuaz-96,/@JessicaHuaz-96,UCwCfs-2zbD5k0lG-UVg_JBw,,,,1,1.0,,,
-autor:UCwEe1RKlEv1UpNWmWYfSh4w,autor,@marioramirez299,/@marioramirez299,UCwEe1RKlEv1UpNWmWYfSh4w,,,,1,1.0,,,
-autor:UCwO2SXr0ggzwg6QWWrr01nQ,autor,@ricardofigueroa5720,/@ricardofigueroa5720,UCwO2SXr0ggzwg6QWWrr01nQ,,,,1,1.0,,,
-autor:UCwUAv3_LpWVtTIi7lkmTL7A,autor,@kingr4706,/@kingr4706,UCwUAv3_LpWVtTIi7lkmTL7A,,,,1,1.0,,,
-autor:UCwW2OFy95P7ZBkOPxWkpvYg,autor,@TeresaLucero-b5o,/@TeresaLucero-b5o,UCwW2OFy95P7ZBkOPxWkpvYg,,,,2,1.0,,,
-autor:UCwgCc9Jd_gG-uLE_SY-FfPg,autor,@armindapenados2841,/@armindapenados2841,UCwgCc9Jd_gG-uLE_SY-FfPg,,,,1,1.0,,,
-autor:UCwha8rxULYMVtNwZWeSkE1A,autor,@mariasamo8637,/@mariasamo8637,UCwha8rxULYMVtNwZWeSkE1A,,,,1,1.0,,,
-autor:UCwjUvRseNtJoItylIyIez7Q,autor,@Silviazea,/@Silviazea,UCwjUvRseNtJoItylIyIez7Q,,,,1,1.0,,,
-autor:UCwxoKK59nGCeBqB2sXfDBIw,autor,@vic-bonivideos,/@vic-bonivideos,UCwxoKK59nGCeBqB2sXfDBIw,,,,1,1.0,,,
-autor:UCxKR3RA8T-kxMgq_2WWhRcQ,autor,@elenaluarca9377,/@elenaluarca9377,UCxKR3RA8T-kxMgq_2WWhRcQ,,,,1,1.0,,,
-autor:UCxcoDvP-g2_KTZDmVZtvb3w,autor,@angelmartinez9523,/@angelmartinez9523,UCxcoDvP-g2_KTZDmVZtvb3w,,,,1,1.0,,,
-autor:UCxff05WuyvwELNITi7bj7UA,autor,@markoherrera,/@markoherrera,UCxff05WuyvwELNITi7bj7UA,,,,1,1.0,,,
-autor:UCxhtlxPV8AYWaNNyU6S9H8Q,autor,@WilR-s8r,/@WilR-s8r,UCxhtlxPV8AYWaNNyU6S9H8Q,,,,1,1.0,,,
-autor:UCyJhqmMbsvjpoarBBStA2kg,autor,@Murmullodelbarrio,/@Murmullodelbarrio,UCyJhqmMbsvjpoarBBStA2kg,,,,6,1.0,,,
-autor:UCySYJU5kUh7X8gVt9la2ISA,autor,@dantesarti4351,/@dantesarti4351,UCySYJU5kUh7X8gVt9la2ISA,,,,1,1.0,,,
-autor:UCyW68EGZey4ao_Vf2cR5Ztg,autor,@ZabalaXabier,/@ZabalaXabier,UCyW68EGZey4ao_Vf2cR5Ztg,,,,1,1.0,,,
-autor:UCylqlpsh8ENNM1LqgQ1KbxA,autor,@Jel.Awesh.M,/@Jel.Awesh.M,UCylqlpsh8ENNM1LqgQ1KbxA,,,,3,2.0,,,
-autor:UCyor0Mmm0ivLX2jIdyGp84Q,autor,@MiguelJordan-n3g,/@MiguelJordan-n3g,UCyor0Mmm0ivLX2jIdyGp84Q,,,,1,1.0,,,
-autor:UCyzf29IYjNw67gGIfsjgtxA,autor,@carlosoliva9249,/@carlosoliva9249,UCyzf29IYjNw67gGIfsjgtxA,,,,1,1.0,,,
-autor:UCz3gu01bmjNv0DpRq-K3XYg,autor,@eusebiovasquez4385,/@eusebiovasquez4385,UCz3gu01bmjNv0DpRq-K3XYg,,,,2,1.0,,,
-autor:UCzSfZlOVxBSs5ObD25ywxDQ,autor,@GilmarMaldonado-q9m,/@GilmarMaldonado-q9m,UCzSfZlOVxBSs5ObD25ywxDQ,,,,1,1.0,,,
-autor:UCzZ6dDCEsLMXbc5pCFXIprw,autor,@josegil3813,/@josegil3813,UCzZ6dDCEsLMXbc5pCFXIprw,,,,2,2.0,,,
-autor:UCzoL2l5H5eVlorWGH8AZfAg,autor,@jor77cas,/@jor77cas,UCzoL2l5H5eVlorWGH8AZfAg,,,,1,1.0,,,
-video:06mFNPU0aB8,video,Capturan a presuntos delincuentes disfrazados de mujer señalados de cometer asalto,/@Noti7Guatemala,,06mFNPU0aB8,UCVpSRoZgngfSL03Nlbjtq9A,Noti7,14,,13.0,6692.0,
-video:3Nfp9h5avBI,video,"Noticiero en Directo 1 pm, 28 de Agosto de 2026",/@GuatevisionNoticiero,,3Nfp9h5avBI,UCdSVqHGHzyMTXSafUHY-e-w,Noticiero Guatevisión 13 Hrs.,2,,2.0,573.0,
-video:6W4u8sGEnGM,video,Inician los trabajos de recuperación del Puente Belice II.,/@GobiernodelaRepublicadeGuatema,,6W4u8sGEnGM,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,45,,32.0,11670.0,
-video:JkpVO1hx2f8,video,10 Preguntas a un año del Paro Nacional,/@quorumgt,,JkpVO1hx2f8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,3,,3.0,673.0,
-video:OkXlHx0hx-8,video,EE.UU. envía a mexicanos deportados a Guatemala antes de su regreso a México | Noticias Telemundo,/@noticias,,OkXlHx0hx-8,UCRwA1NUcUnwsly35ikGhp0A,Noticias Telemundo,25,,18.0,14200.0,
-video:PjmxCj-a9Hg,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,PjmxCj-a9Hg,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,25,,19.0,3628.0,
-video:TT4qJ5FXHYE,video,"I’x K’at: el primer equipo guatemalteco de pelota maya, conformado únicamente por mujeres.",/@quorumgt,,TT4qJ5FXHYE,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,4,,4.0,1075.0,
-video:UhL9y3KUl8E,video,SHAI WA: la vecina queer de Casa Presidencial,/@quorumgt,,UhL9y3KUl8E,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1,,1.0,1755.0,
-video:WIUZtitfLRw,video,Caminar en una ciudad hecha para carros,/@quorumgt,,WIUZtitfLRw,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,6,,6.0,422.0,
-video:X_FAIef8qlE,video,Cruzando la ciudad a puro Transmetro,/@quorumgt,,X_FAIef8qlE,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1,,1.0,1140.0,
-video:b_Hkrkl3adA,video,Bloqueos en Guatemala este 31 de agosto por alza en combustibles afectan rutas principales,/@PrensaLibreOficial,,b_Hkrkl3adA,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,7,,7.0,5469.0,
-video:is3Mk5oC19g,video,Capturan a ladrón que había quedado grabado mientras robaba en una parroquia de Retalhuleu,/@TN23TodoNoticias,,is3Mk5oC19g,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,7,,7.0,4616.0,
-video:j43HgwYFKfk,video,La cooptación de Walter Mazariegos en la USAC,/@quorumgt,,j43HgwYFKfk,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,50,,49.0,10156.0,
-video:lj983NWyAQY,video,Plan 2032 Ciudad de Guatemala,/@MunicipalidaddeGuatemala-1551,,lj983NWyAQY,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,25,,25.0,304089.0,
-video:n8iP75gIpmw,video,Qué rico come tu diputado,/@quorumgt,,n8iP75gIpmw,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,161,,128.0,11775.0,
-video:ndAZjHqzzT8,video,Internet: escoger el menos malo,/@quorumgt,,ndAZjHqzzT8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,12,,10.0,717.0,
-video:s0eco-BofOs,video,¿Quiénes pagan más en Centroamérica?,/@quorumgt,,s0eco-BofOs,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1,,1.0,220.0,
-video:yLZS3JiEBg8,video,Arroz con pollo a la MONOPOLIO,/@quorumgt,,yLZS3JiEBg8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,16,,16.0,1954.0,
-video:zweosulrwA8,video,Edén por Salud: empleo inclusivo para personas con discapacidad en Antigua | Super - Episodio 2,/@quorumgt,,zweosulrwA8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1,,1.0,52.0,
+autor:UC-HeUTT6_g-VoiWds2a4H-w,autor,@JorgeMunoz-gd9et,/@JorgeMunoz-gd9et,UC-HeUTT6_g-VoiWds2a4H-w,,,,1.0,1.0,,,
+autor:UC-Iul5tDYH_oiAMXQH-KaaQ,autor,@AlbertoMancilla-p9h,/@AlbertoMancilla-p9h,UC-Iul5tDYH_oiAMXQH-KaaQ,,,,1.0,1.0,,,
+autor:UC-QOpE7GOxlXcHZ8b7HbQKA,autor,@mariaalexander427,/@mariaalexander427,UC-QOpE7GOxlXcHZ8b7HbQKA,,,,2.0,1.0,,,
+autor:UC-fiZBS5Gp1eCJd9ucgWnCg,autor,@Tommii.10,/@Tommii.10,UC-fiZBS5Gp1eCJd9ucgWnCg,,,,1.0,1.0,,,
+autor:UC-hfX8J5JPJ-dfuakzegMLA,autor,@normaleticiaorozcojuarez2418,/@normaleticiaorozcojuarez2418,UC-hfX8J5JPJ-dfuakzegMLA,,,,1.0,1.0,,,
+autor:UC-jS_kA9w-OmpupXDx156Rg,autor,@simoncreyesc7579,/@simoncreyesc7579,UC-jS_kA9w-OmpupXDx156Rg,,,,1.0,1.0,,,
+autor:UC-pNP6RMFuLg_-x7Ah_0kEA,autor,@almacatalan2717,/@almacatalan2717,UC-pNP6RMFuLg_-x7Ah_0kEA,,,,1.0,1.0,,,
+autor:UC094EFEmMSdwVa8NQjjYBXg,autor,@CelestinoQuej-j7k,/@CelestinoQuej-j7k,UC094EFEmMSdwVa8NQjjYBXg,,,,1.0,1.0,,,
+autor:UC0HvfEWozTHbwl_iEmJNvVA,autor,@OttoPalencia-b7r,/@OttoPalencia-b7r,UC0HvfEWozTHbwl_iEmJNvVA,,,,1.0,1.0,,,
+autor:UC0RpuMwkDKJYqgKHtsJRuWQ,autor,@sabinamarinaguerra3248,/@sabinamarinaguerra3248,UC0RpuMwkDKJYqgKHtsJRuWQ,,,,1.0,1.0,,,
+autor:UC0aEyakBPqcBkVJiErfSupQ,autor,@jhonymanuel9891,/@jhonymanuel9891,UC0aEyakBPqcBkVJiErfSupQ,,,,1.0,1.0,,,
+autor:UC14qlobYKqD-DO0j6b75lcA,autor,@megavision4488,/@megavision4488,UC14qlobYKqD-DO0j6b75lcA,,,,1.0,1.0,,,
+autor:UC1DpqK6vaPEkBOMNvypsKYg,autor,@HectorCarranza-u4j4o,/@HectorCarranza-u4j4o,UC1DpqK6vaPEkBOMNvypsKYg,,,,1.0,1.0,,,
+autor:UC1NiEdJ7gk6FlDexIalWnGg,autor,@BorisTebalán,/@BorisTebal%C3%A1n,UC1NiEdJ7gk6FlDexIalWnGg,,,,1.0,1.0,,,
+autor:UC1WlJfQmaIskYhP4gmWoamw,autor,@marthareiss5434,/@marthareiss5434,UC1WlJfQmaIskYhP4gmWoamw,,,,1.0,1.0,,,
+autor:UC1Y7x3h0c95Z8kUhi-Tzaeg,autor,@rosadiaz9235,/@rosadiaz9235,UC1Y7x3h0c95Z8kUhi-Tzaeg,,,,1.0,1.0,,,
+autor:UC1vr9aaMI2crB0NvwFHUeoQ,autor,@JoseSimilox-p6e,/@JoseSimilox-p6e,UC1vr9aaMI2crB0NvwFHUeoQ,,,,1.0,1.0,,,
+autor:UC2Y_EHWQKevubk4vOEBBFxw,autor,@alfonsomorales2653,/@alfonsomorales2653,UC2Y_EHWQKevubk4vOEBBFxw,,,,1.0,1.0,,,
+autor:UC2ngpd8UBQu4gcUYy0goAtg,autor,@juliohernandez7438,/@juliohernandez7438,UC2ngpd8UBQu4gcUYy0goAtg,,,,1.0,1.0,,,
+autor:UC2weSE8rpqkGMOp6StYtVfg,autor,@katerynsantiago2907,/@katerynsantiago2907,UC2weSE8rpqkGMOp6StYtVfg,,,,1.0,1.0,,,
+autor:UC32oozucwCF3q8d4m8fyOUg,autor,@RauldejesusOlivagonzalez,/@RauldejesusOlivagonzalez,UC32oozucwCF3q8d4m8fyOUg,,,,1.0,1.0,,,
+autor:UC3E9mAgP7VoAE5mZoAexl5g,autor,@EnnioAroche,/@EnnioAroche,UC3E9mAgP7VoAE5mZoAexl5g,,,,1.0,1.0,,,
+autor:UC3MYTqpQqlWBuCB7Th0e0PA,autor,@isaaclopez7220,/@isaaclopez7220,UC3MYTqpQqlWBuCB7Th0e0PA,,,,1.0,1.0,,,
+autor:UC3NMzdMYryaw82kPTnsaljg,autor,@marisosa7832,/@marisosa7832,UC3NMzdMYryaw82kPTnsaljg,,,,1.0,1.0,,,
+autor:UC3UVO7pTbeYvZ3ILEyRDskQ,autor,@rosaelenaargueta79,/@rosaelenaargueta79,UC3UVO7pTbeYvZ3ILEyRDskQ,,,,1.0,1.0,,,
+autor:UC3XTwHxygNCgjndsg-UiCQA,autor,@marioajset4283,/@marioajset4283,UC3XTwHxygNCgjndsg-UiCQA,,,,3.0,1.0,,,
+autor:UC3YpzAr7pcdKC7BVFEpYzog,autor,@carmenfigueroa1232,/@carmenfigueroa1232,UC3YpzAr7pcdKC7BVFEpYzog,,,,1.0,1.0,,,
+autor:UC3iIU62XKUOWuqL8BqBzj9A,autor,@antonioduarte2288,/@antonioduarte2288,UC3iIU62XKUOWuqL8BqBzj9A,,,,1.0,1.0,,,
+autor:UC3qn1yJA5PeW9rkGPatQxiw,autor,@VICTOREST19,/@VICTOREST19,UC3qn1yJA5PeW9rkGPatQxiw,,,,1.0,1.0,,,
+autor:UC4Avya4kmR4Q0FrfFdBozSQ,autor,@davidlima1348,/@davidlima1348,UC4Avya4kmR4Q0FrfFdBozSQ,,,,1.0,1.0,,,
+autor:UC4cXueR2bKGFJV0Fk76gwmA,autor,@aluxdel4792,/@aluxdel4792,UC4cXueR2bKGFJV0Fk76gwmA,,,,1.0,1.0,,,
+autor:UC4kg7zuTfqQKLd2bkZrSYBA,autor,@zoilagarcia9019,/@zoilagarcia9019,UC4kg7zuTfqQKLd2bkZrSYBA,,,,1.0,1.0,,,
+autor:UC4wq3DcbfaG6dtCqn8Oyu3w,autor,@hugoasencio7764,/@hugoasencio7764,UC4wq3DcbfaG6dtCqn8Oyu3w,,,,1.0,1.0,,,
+autor:UC5H8ASmMC9WrURmzeB4ySog,autor,@ManuelEdran,/@ManuelEdran,UC5H8ASmMC9WrURmzeB4ySog,,,,5.0,1.0,,,
+autor:UC5PrBbmUlQolwqmiru7yZhw,autor,@lazarochavez8269,/@lazarochavez8269,UC5PrBbmUlQolwqmiru7yZhw,,,,1.0,1.0,,,
+autor:UC5PyGvSfFM--OVKmQ3COu6g,autor,@FreddyGmez,/@FreddyGmez,UC5PyGvSfFM--OVKmQ3COu6g,,,,1.0,1.0,,,
+autor:UC5bG9nc_JV3FsNP2KseQiYw,autor,@giovannirodas4836,/@giovannirodas4836,UC5bG9nc_JV3FsNP2KseQiYw,,,,1.0,1.0,,,
+autor:UC5fvhAfm89JH8eDFdvc0xYw,autor,@isaidiaz2388,/@isaidiaz2388,UC5fvhAfm89JH8eDFdvc0xYw,,,,1.0,1.0,,,
+autor:UC5hvEnRUzI4Kfvwnyi4QxqQ,autor,@leonelsantizo5281,/@leonelsantizo5281,UC5hvEnRUzI4Kfvwnyi4QxqQ,,,,1.0,1.0,,,
+autor:UC5wuDq3U3vRAhOQI3D7gNdw,autor,@allanreneramirezgonzalez534,/@allanreneramirezgonzalez534,UC5wuDq3U3vRAhOQI3D7gNdw,,,,1.0,1.0,,,
+autor:UC63tFvbQ_hJhGDi2nbjssjw,autor,@AbigailRodas-w2r,/@AbigailRodas-w2r,UC63tFvbQ_hJhGDi2nbjssjw,,,,1.0,1.0,,,
+autor:UC650pRT-OYzny3GwOH8Cgfw,autor,@edvinparedesherrera7632,/@edvinparedesherrera7632,UC650pRT-OYzny3GwOH8Cgfw,,,,1.0,1.0,,,
+autor:UC6PvO1_k5lHKGdAPo5_C6TA,autor,@johnmejia992,/@johnmejia992,UC6PvO1_k5lHKGdAPo5_C6TA,,,,1.0,1.0,,,
+autor:UC6Uj1FT5JjDSF8vudvDxPAA,autor,@alfredoortega9264,/@alfredoortega9264,UC6Uj1FT5JjDSF8vudvDxPAA,,,,1.0,1.0,,,
+autor:UC6YSZqL0vEcI-niPKIMUGfw,autor,@maxwellsales885,/@maxwellsales885,UC6YSZqL0vEcI-niPKIMUGfw,,,,1.0,1.0,,,
+autor:UC6xI_MOaxajIWpoP8BH6E_Q,autor,@jahirdiaz5862,/@jahirdiaz5862,UC6xI_MOaxajIWpoP8BH6E_Q,,,,1.0,1.0,,,
+autor:UC72gBAtyb_VXQlYDcFrh6oQ,autor,@osmanmorales3012,/@osmanmorales3012,UC72gBAtyb_VXQlYDcFrh6oQ,,,,3.0,1.0,,,
+autor:UC7IMsCxfZyWN7YQo8-JYa6Q,autor,@Burgos68,/@Burgos68,UC7IMsCxfZyWN7YQo8-JYa6Q,,,,2.0,1.0,,,
+autor:UC7VUuJr9cGh845CmTvf7TlQ,autor,@LuisCastillo-oz4df,/@LuisCastillo-oz4df,UC7VUuJr9cGh845CmTvf7TlQ,,,,1.0,1.0,,,
+autor:UC7dadZG7kkGYnsNu6td0FbA,autor,@lesolorzano,/@lesolorzano,UC7dadZG7kkGYnsNu6td0FbA,,,,1.0,1.0,,,
+autor:UC816IGbFCZinfYS1LRDaaHg,autor,@ingenieroar,/@ingenieroar,UC816IGbFCZinfYS1LRDaaHg,,,,1.0,1.0,,,
+autor:UC8F2V63KZ4ZEay6opX2hAQw,autor,@carmenr6311,/@carmenr6311,UC8F2V63KZ4ZEay6opX2hAQw,,,,1.0,1.0,,,
+autor:UC8G5cJONY8L9voMyBW8Eoug,autor,@luisparedes-pw6qt,/@luisparedes-pw6qt,UC8G5cJONY8L9voMyBW8Eoug,,,,1.0,1.0,,,
+autor:UC8r11yOugM2NuRfitQOxLLg,autor,@cesaraugustomoralesmonroy6907,/@cesaraugustomoralesmonroy6907,UC8r11yOugM2NuRfitQOxLLg,,,,1.0,1.0,,,
+autor:UC8xlJWNHz1V_W6q3fbuQH8g,autor,@NormaLópez-v7e,/@NormaL%C3%B3pez-v7e,UC8xlJWNHz1V_W6q3fbuQH8g,,,,1.0,1.0,,,
+autor:UC95PSMouTx2N5CbSq0hIyrQ,autor,@lisss1908,/@lisss1908,UC95PSMouTx2N5CbSq0hIyrQ,,,,1.0,1.0,,,
+autor:UC9Wp6vL5oCU37qC3Aj94WZA,autor,@ManuelSanchez-b8q2z,/@ManuelSanchez-b8q2z,UC9Wp6vL5oCU37qC3Aj94WZA,,,,1.0,1.0,,,
+autor:UC9vMq1YF-e7C-VO0SHkbUTA,autor,@ErvinLeonardoCarreraLatín,/@ErvinLeonardoCarreraLat%C3%ADn,UC9vMq1YF-e7C-VO0SHkbUTA,,,,4.0,1.0,,,
+autor:UC9xr9QvIcDvoZNUX5f-jaZw,autor,@MariaaliciaColonmorales,/@MariaaliciaColonmorales,UC9xr9QvIcDvoZNUX5f-jaZw,,,,1.0,1.0,,,
+autor:UCA93ym2TXs_Ibyxb4Vcn-6Q,autor,@oswaldosolis8728,/@oswaldosolis8728,UCA93ym2TXs_Ibyxb4Vcn-6Q,,,,1.0,1.0,,,
+autor:UCAKuKvcbfnBD3kF5njNu-IA,autor,@melvinlopez7096,/@melvinlopez7096,UCAKuKvcbfnBD3kF5njNu-IA,,,,1.0,1.0,,,
+autor:UCAV7QIjYhbDJaycQycM_0eQ,autor,@mariavail8998,/@mariavail8998,UCAV7QIjYhbDJaycQycM_0eQ,,,,1.0,1.0,,,
+autor:UCAlzM_N6xBlMYmM8EBzX86Q,autor,@carlossoto3252,/@carlossoto3252,UCAlzM_N6xBlMYmM8EBzX86Q,,,,1.0,1.0,,,
+autor:UCAmtbUiIrUIhikru0ZoTFig,autor,@Aura-vf6dm,/@Aura-vf6dm,UCAmtbUiIrUIhikru0ZoTFig,,,,1.0,1.0,,,
+autor:UCAxvOOHQk7dYPOajzFEVtbA,autor,@ruddydepaz322,/@ruddydepaz322,UCAxvOOHQk7dYPOajzFEVtbA,,,,2.0,1.0,,,
+autor:UCB5p8a5gklc80jJItP6xTHg,autor,@ernestogamboa8737,/@ernestogamboa8737,UCB5p8a5gklc80jJItP6xTHg,,,,1.0,1.0,,,
+autor:UCBlm80VQ4YoV3bUJR_XhkaQ,autor,@rosadiaz6945,/@rosadiaz6945,UCBlm80VQ4YoV3bUJR_XhkaQ,,,,2.0,1.0,,,
+autor:UCBtB5dIyx-C16UN8ClUD2UA,autor,@alexmonzon4257,/@alexmonzon4257,UCBtB5dIyx-C16UN8ClUD2UA,,,,1.0,1.0,,,
+autor:UCCBYcToQ2dwkd6TJh0FSyDg,autor,@lidiarodriguez3493,/@lidiarodriguez3493,UCCBYcToQ2dwkd6TJh0FSyDg,,,,1.0,1.0,,,
+autor:UCCUmP4PlbwgikVFpYwbtRTg,autor,@alhvi,/@alhvi,UCCUmP4PlbwgikVFpYwbtRTg,,,,1.0,1.0,,,
+autor:UCCaYwkkbQGcvFoUmothVdQQ,autor,@OsvaldoAguirre-l3i,/@OsvaldoAguirre-l3i,UCCaYwkkbQGcvFoUmothVdQQ,,,,1.0,1.0,,,
+autor:UCDIMztpVm7G27qBuiWuT6oQ,autor,@lizardomorataya8274,/@lizardomorataya8274,UCDIMztpVm7G27qBuiWuT6oQ,,,,1.0,1.0,,,
+autor:UCDPWkUX3sNNaCx-m1dV4glA,autor,@hectoroliva949,/@hectoroliva949,UCDPWkUX3sNNaCx-m1dV4glA,,,,1.0,1.0,,,
+autor:UCDQaQv0hr2SS_PO-CMEwVHg,autor,@federicosaquimux1933,/@federicosaquimux1933,UCDQaQv0hr2SS_PO-CMEwVHg,,,,1.0,1.0,,,
+autor:UCDUffaruH6dyUnUGwsTKpgg,autor,@luisletona2842,/@luisletona2842,UCDUffaruH6dyUnUGwsTKpgg,,,,1.0,1.0,,,
+autor:UCDftMWXQoJ6nONfY7GVOVjg,autor,@luisgpacheco5858,/@luisgpacheco5858,UCDftMWXQoJ6nONfY7GVOVjg,,,,1.0,1.0,,,
+autor:UCDlr1VadSucIZgZ171pRBjQ,autor,@cuabatzjj5924,/@cuabatzjj5924,UCDlr1VadSucIZgZ171pRBjQ,,,,1.0,1.0,,,
+autor:UCDrmf9y9nLgFY5wnA2hTuGA,autor,@laboratorio5528,/@laboratorio5528,UCDrmf9y9nLgFY5wnA2hTuGA,,,,1.0,1.0,,,
+autor:UCEHXl4VvvVpq-_4xC5tsbhg,autor,@anibalg47,/@anibalg47,UCEHXl4VvvVpq-_4xC5tsbhg,,,,1.0,1.0,,,
+autor:UCEgEQmRbtL5fwr9_DqAC--g,autor,@ArielRodas-g5y,/@ArielRodas-g5y,UCEgEQmRbtL5fwr9_DqAC--g,,,,1.0,1.0,,,
+autor:UCErZPJpHmLCsXs8ZWkAUupQ,autor,@dorisl.garciaroche7763,/@dorisl.garciaroche7763,UCErZPJpHmLCsXs8ZWkAUupQ,,,,1.0,1.0,,,
+autor:UCFFrEmn6lPYiWyElpfzTy5Q,autor,@denilsonlopez4083,/@denilsonlopez4083,UCFFrEmn6lPYiWyElpfzTy5Q,,,,1.0,1.0,,,
+autor:UCFOxCyF926Y9eHhMeVoWLzw,autor,@arielsarc09,/@arielsarc09,UCFOxCyF926Y9eHhMeVoWLzw,,,,1.0,1.0,,,
+autor:UCFUuDARXdmmIrLppEqf-rFg,autor,@allanmunoz7410,/@allanmunoz7410,UCFUuDARXdmmIrLppEqf-rFg,,,,1.0,1.0,,,
+autor:UCFhxtoeARHPnXXPcDrOU3Xg,autor,@diegoalejandrolopezmendez205,/@diegoalejandrolopezmendez205,UCFhxtoeARHPnXXPcDrOU3Xg,,,,1.0,1.0,,,
+autor:UCFjudnPLoaSL1BaRuLahyHg,autor,@HaroldoCastillo-rh9iw,/@HaroldoCastillo-rh9iw,UCFjudnPLoaSL1BaRuLahyHg,,,,3.0,1.0,,,
+autor:UCFoIAE8k82D6AV-8gjjKaNg,autor,@eddymunoz9789,/@eddymunoz9789,UCFoIAE8k82D6AV-8gjjKaNg,,,,1.0,1.0,,,
+autor:UCFxE8GbokBrBsPEKM1xrOjQ,autor,@JuanDavila-qd7qj,/@JuanDavila-qd7qj,UCFxE8GbokBrBsPEKM1xrOjQ,,,,1.0,1.0,,,
+autor:UCFybmWapGvBKcQod7cPPH9w,autor,@vitalianochavez8382,/@vitalianochavez8382,UCFybmWapGvBKcQod7cPPH9w,,,,1.0,1.0,,,
+autor:UCGGHbtfbbe0o68etrOf0qxw,autor,@karensussetteleonvargas9794,/@karensussetteleonvargas9794,UCGGHbtfbbe0o68etrOf0qxw,,,,1.0,1.0,,,
+autor:UCGX_UbAQOXGZknv5iqklwTA,autor,@ronaldgarcia8522,/@ronaldgarcia8522,UCGX_UbAQOXGZknv5iqklwTA,,,,1.0,1.0,,,
+autor:UCGZMgmM92E3njyXNe9-kjAQ,autor,@pasionpornada,/@pasionpornada,UCGZMgmM92E3njyXNe9-kjAQ,,,,1.0,1.0,,,
+autor:UCGj2v6Gl5bN8NSrzJMXS-CA,autor,@juliogutierrez492,/@juliogutierrez492,UCGj2v6Gl5bN8NSrzJMXS-CA,,,,1.0,1.0,,,
+autor:UCGm3gRBEHGRJYmtCryZLtDw,autor,@JoséLopez-g6k,/@Jos%C3%A9Lopez-g6k,UCGm3gRBEHGRJYmtCryZLtDw,,,,1.0,1.0,,,
+autor:UCGqKxQS-z3NZzZF-2w338AA,autor,@samuelaguilar529,/@samuelaguilar529,UCGqKxQS-z3NZzZF-2w338AA,,,,1.0,1.0,,,
+autor:UCGzXwyCzMzGmjmCbH3Hg01Q,autor,@FidelZacarias-ph7dy,/@FidelZacarias-ph7dy,UCGzXwyCzMzGmjmCbH3Hg01Q,,,,1.0,1.0,,,
+autor:UCHGd14aYuZZShLD73dkk6mg,autor,@noemiherrera3152,/@noemiherrera3152,UCHGd14aYuZZShLD73dkk6mg,,,,1.0,1.0,,,
+autor:UCHMQ_lDhibZ-XZ_3fo6oxwg,autor,@crislexrubi4387,/@crislexrubi4387,UCHMQ_lDhibZ-XZ_3fo6oxwg,,,,1.0,1.0,,,
+autor:UCHTGCgY2l-DQJIvlA_cpa_Q,autor,@virgiliogarcia3039,/@virgiliogarcia3039,UCHTGCgY2l-DQJIvlA_cpa_Q,,,,3.0,2.0,,,
+autor:UCHbwIx9pmQuf7i-4_xO2EpA,autor,@caminoseternos752,/@caminoseternos752,UCHbwIx9pmQuf7i-4_xO2EpA,,,,1.0,1.0,,,
+autor:UCHhHUjaMAZ8SiXdCUCj9DkQ,autor,@fredymendez1786,/@fredymendez1786,UCHhHUjaMAZ8SiXdCUCj9DkQ,,,,2.0,1.0,,,
+autor:UCHu8x4MVkayU6VgwVKd--MQ,autor,@Hernandez-i1o,/@Hernandez-i1o,UCHu8x4MVkayU6VgwVKd--MQ,,,,1.0,1.0,,,
+autor:UCIUhbSCy3-SGRe5UtqM4fzQ,autor,@jeanmorales1677,/@jeanmorales1677,UCIUhbSCy3-SGRe5UtqM4fzQ,,,,1.0,1.0,,,
+autor:UCIXLDYqR_syskKRJy_x9W9Q,autor,@carlitosramirez4739,/@carlitosramirez4739,UCIXLDYqR_syskKRJy_x9W9Q,,,,1.0,1.0,,,
+autor:UCIgoiXdIKJyUGmUoH2Lxdzg,autor,@susievidal4134,/@susievidal4134,UCIgoiXdIKJyUGmUoH2Lxdzg,,,,1.0,1.0,,,
+autor:UCIp19h9igblA2YKfSLPDAug,autor,@JoseReyes-rn6sh,/@JoseReyes-rn6sh,UCIp19h9igblA2YKfSLPDAug,,,,1.0,1.0,,,
+autor:UCJp3OrVYcBorC94sKwdch_A,autor,@ULJoshmg2011,/@ULJoshmg2011,UCJp3OrVYcBorC94sKwdch_A,,,,1.0,1.0,,,
+autor:UCJxJC56BSAX-ArD0NAb9qnQ,autor,@alfonsowilian9157,/@alfonsowilian9157,UCJxJC56BSAX-ArD0NAb9qnQ,,,,1.0,1.0,,,
+autor:UCKDR0f2fu2UzWL8mBv5-BHw,autor,@mireyamorales6595,/@mireyamorales6595,UCKDR0f2fu2UzWL8mBv5-BHw,,,,1.0,1.0,,,
+autor:UCKVzDUqbtdSMBcexaEtMmzQ,autor,@rotorairgroup8409,/@rotorairgroup8409,UCKVzDUqbtdSMBcexaEtMmzQ,,,,1.0,1.0,,,
+autor:UCL13XhnRzbGokEkCkEOb0-g,autor,@raquelprado3643,/@raquelprado3643,UCL13XhnRzbGokEkCkEOb0-g,,,,2.0,1.0,,,
+autor:UCL1MT278vSaQ83ZDkVWn1gw,autor,@elmorodriguez6978,/@elmorodriguez6978,UCL1MT278vSaQ83ZDkVWn1gw,,,,1.0,1.0,,,
+autor:UCLFdHr9BEbXHkoJopbEPLZw,autor,@kanterra4584,/@kanterra4584,UCLFdHr9BEbXHkoJopbEPLZw,,,,2.0,1.0,,,
+autor:UCLXYp1Cvc5DLtq5UQL5D9vw,autor,@jorgecifuentes-m5g,/@jorgecifuentes-m5g,UCLXYp1Cvc5DLtq5UQL5D9vw,,,,1.0,1.0,,,
+autor:UCLggDc_a5HriXv7I1h02sOA,autor,@guillermogonzalez5153,/@guillermogonzalez5153,UCLggDc_a5HriXv7I1h02sOA,,,,2.0,1.0,,,
+autor:UCLh1Kde4_vI1sTZBkTNP7RQ,autor,@JoelReynoso-d4r,/@JoelReynoso-d4r,UCLh1Kde4_vI1sTZBkTNP7RQ,,,,1.0,1.0,,,
+autor:UCN2N_wYOw6fMwCeSzdXLPIw,autor,@danielantoniogonzalezflore4901,/@danielantoniogonzalezflore4901,UCN2N_wYOw6fMwCeSzdXLPIw,,,,1.0,1.0,,,
+autor:UCN6qbfPSzFtjhqUDZ3Cv3CQ,autor,@carlosmedranovelasquez6380,/@carlosmedranovelasquez6380,UCN6qbfPSzFtjhqUDZ3Cv3CQ,,,,1.0,1.0,,,
+autor:UCNBnKqWf4d-rS4HwJRQljmQ,autor,@LE_A22,/@LE_A22,UCNBnKqWf4d-rS4HwJRQljmQ,,,,2.0,1.0,,,
+autor:UCNIeXbV_mEwpa412h1aqUWw,autor,@juandeleon9060,/@juandeleon9060,UCNIeXbV_mEwpa412h1aqUWw,,,,3.0,1.0,,,
+autor:UCNiMNUJvaRJb0_QLClqwVnA,autor,@Santiago.Nolasco,/@Santiago.Nolasco,UCNiMNUJvaRJb0_QLClqwVnA,,,,1.0,1.0,,,
+autor:UCNkcuy42zEwddwEcOd_HpnA,autor,@vanigomez492,/@vanigomez492,UCNkcuy42zEwddwEcOd_HpnA,,,,1.0,1.0,,,
+autor:UCNpt5CQlTzNjlAKY6CJtClQ,autor,@eustaquiogomez9975,/@eustaquiogomez9975,UCNpt5CQlTzNjlAKY6CJtClQ,,,,1.0,1.0,,,
+autor:UCO0zwwLWGyDgQmWPJ5Qrr1w,autor,@elsalvador3605,/@elsalvador3605,UCO0zwwLWGyDgQmWPJ5Qrr1w,,,,1.0,1.0,,,
+autor:UCOARn3hnfkB7-_Rwa8Hoqcw,autor,@nicelol5241,/@nicelol5241,UCOARn3hnfkB7-_Rwa8Hoqcw,,,,1.0,1.0,,,
+autor:UCOLGv5Pf6BF2wFcwUzgcvHg,autor,@welfrealdana5559,/@welfrealdana5559,UCOLGv5Pf6BF2wFcwUzgcvHg,,,,2.0,1.0,,,
+autor:UCOLHH4ZpMxPYF-Q6e6wvn5A,autor,@luisroldan7374,/@luisroldan7374,UCOLHH4ZpMxPYF-Q6e6wvn5A,,,,1.0,1.0,,,
+autor:UCOS8ViEkccrTZx2w2ccxotA,autor,@OscarHernandez-q8y,/@OscarHernandez-q8y,UCOS8ViEkccrTZx2w2ccxotA,,,,1.0,1.0,,,
+autor:UCOY3XpD9qMCRSA8AA8c4CAw,autor,@franciscorodas9686,/@franciscorodas9686,UCOY3XpD9qMCRSA8AA8c4CAw,,,,1.0,1.0,,,
+autor:UCOcUI5XkTYNMSFhZNMIPpGg,autor,@hendersonlopez3864,/@hendersonlopez3864,UCOcUI5XkTYNMSFhZNMIPpGg,,,,1.0,1.0,,,
+autor:UCOh6DaZC_x9HASnlRylEMfw,autor,@AndresMedina-v1s,/@AndresMedina-v1s,UCOh6DaZC_x9HASnlRylEMfw,,,,1.0,1.0,,,
+autor:UCPLW0HE3siElqCgXfgWxMqg,autor,@elizabethmonterroso7719,/@elizabethmonterroso7719,UCPLW0HE3siElqCgXfgWxMqg,,,,1.0,1.0,,,
+autor:UCPNXmbOBVeC4HS-xemvcPtQ,autor,@BelkisRodriguezRamirez,/@BelkisRodriguezRamirez,UCPNXmbOBVeC4HS-xemvcPtQ,,,,1.0,1.0,,,
+autor:UCPZueDLrCS4BmTBRMA4q0fA,autor,@kevinochoa3695,/@kevinochoa3695,UCPZueDLrCS4BmTBRMA4q0fA,,,,1.0,1.0,,,
+autor:UCQIdKuZ-OzuFqy0KjGrgesg,autor,@lyacausa,/@lyacausa,UCQIdKuZ-OzuFqy0KjGrgesg,,,,1.0,1.0,,,
+autor:UCQM2tCKRRytVDRxNUfCDqQQ,autor,@elioelias7267,/@elioelias7267,UCQM2tCKRRytVDRxNUfCDqQQ,,,,1.0,1.0,,,
+autor:UCQMMuADgqWUOcJpLwHOzC-g,autor,@Ripped-Yoda,/@Ripped-Yoda,UCQMMuADgqWUOcJpLwHOzC-g,,,,1.0,1.0,,,
+autor:UCQ_-LPP8JAbfkc-b1Q6NvWw,autor,@MegaKristenstewart,/@MegaKristenstewart,UCQ_-LPP8JAbfkc-b1Q6NvWw,,,,2.0,1.0,,,
+autor:UCQgYjVngJRfPHDLGB5X6ZjA,autor,@oscarnavas9996,/@oscarnavas9996,UCQgYjVngJRfPHDLGB5X6ZjA,,,,1.0,1.0,,,
+autor:UCQqetiwzzmRNTM5OWuXarGQ,autor,@isaiaslopezvelasquez1539,/@isaiaslopezvelasquez1539,UCQqetiwzzmRNTM5OWuXarGQ,,,,1.0,1.0,,,
+autor:UCQqlPPUGqAfWjd-FSh_qn7Q,autor,@estuardoargueta137,/@estuardoargueta137,UCQqlPPUGqAfWjd-FSh_qn7Q,,,,1.0,1.0,,,
+autor:UCQtICyzWmhC5woCtbNgaSmg,autor,@nestormendez6216,/@nestormendez6216,UCQtICyzWmhC5woCtbNgaSmg,,,,2.0,1.0,,,
+autor:UCQtSFINs1h6GHkpg9o5kMvg,autor,@MacarioMartinezruiz,/@MacarioMartinezruiz,UCQtSFINs1h6GHkpg9o5kMvg,,,,1.0,1.0,,,
+autor:UCQyOePccUP-fIJYzchAgZYw,autor,@aguilar4254,/@aguilar4254,UCQyOePccUP-fIJYzchAgZYw,,,,1.0,1.0,,,
+autor:UCRAquv8el-tQ30bN7MlmySQ,autor,@iamjimalesssa,/@iamjimalesssa,UCRAquv8el-tQ30bN7MlmySQ,,,,1.0,1.0,,,
+autor:UCRETAiYdh2dL5ZxB0_N1zDA,autor,@Joseroland21,/@Joseroland21,UCRETAiYdh2dL5ZxB0_N1zDA,,,,1.0,1.0,,,
+autor:UCRcSR3Lvn9DZAmJpVPANfZQ,autor,@WalksandSuch,/@WalksandSuch,UCRcSR3Lvn9DZAmJpVPANfZQ,,,,1.0,1.0,,,
+autor:UCRelkU8JiZBytTzebJxaa-w,autor,@danyraymundo2942,/@danyraymundo2942,UCRelkU8JiZBytTzebJxaa-w,,,,1.0,1.0,,,
+autor:UCRfkkatKrNtAARnXMMYBGlA,autor,@BernerSoza-mg3vx,/@BernerSoza-mg3vx,UCRfkkatKrNtAARnXMMYBGlA,,,,1.0,1.0,,,
+autor:UCRlCV9zSn7avAWh-9_XFWqQ,autor,@ronyarana8849,/@ronyarana8849,UCRlCV9zSn7avAWh-9_XFWqQ,,,,1.0,1.0,,,
+autor:UCRvPToDkkumha7WJAfCDk1A,autor,@ligiaguerra3057,/@ligiaguerra3057,UCRvPToDkkumha7WJAfCDk1A,,,,1.0,1.0,,,
+autor:UCRznz9-N3Qc1w-qNdLSIY2Q,autor,@jimmygomez724,/@jimmygomez724,UCRznz9-N3Qc1w-qNdLSIY2Q,,,,1.0,1.0,,,
+autor:UCSTAUWVc1_82DHYeqOsqEFA,autor,@TheAlexX_C,/@TheAlexX_C,UCSTAUWVc1_82DHYeqOsqEFA,,,,1.0,1.0,,,
+autor:UCSou6a2OuYGSvPjm5psquyA,autor,@FranciscoRivera-sf7ne,/@FranciscoRivera-sf7ne,UCSou6a2OuYGSvPjm5psquyA,,,,1.0,1.0,,,
+autor:UCTD6q1nyIe3Y7HhqjaMj72w,autor,@JuanChang-r6k,/@JuanChang-r6k,UCTD6q1nyIe3Y7HhqjaMj72w,,,,1.0,1.0,,,
+autor:UCTP3O0rMnc8z8v8jaDQwL0w,autor,@RobertoZelaya-x1v,/@RobertoZelaya-x1v,UCTP3O0rMnc8z8v8jaDQwL0w,,,,1.0,1.0,,,
+autor:UCTTILH6QCIxbTnEWxwRqs1g,autor,@3762Jorge,/@3762Jorge,UCTTILH6QCIxbTnEWxwRqs1g,,,,1.0,1.0,,,
+autor:UCThW2XNsAaBKme5PUt7n-Zg,autor,@thelmamoran8565,/@thelmamoran8565,UCThW2XNsAaBKme5PUt7n-Zg,,,,1.0,1.0,,,
+autor:UCTwSut16JyAg3mX6LVUNGqA,autor,@SuperVictor2005,/@SuperVictor2005,UCTwSut16JyAg3mX6LVUNGqA,,,,1.0,1.0,,,
+autor:UCTylKrsqkrBKIqubMu_5N0Q,autor,@edwingeovanymarroquinmarro6684,/@edwingeovanymarroquinmarro6684,UCTylKrsqkrBKIqubMu_5N0Q,,,,1.0,1.0,,,
+autor:UCUIIIPTVDVHAXqhC_5V6lPA,autor,@gorrarota,/@gorrarota,UCUIIIPTVDVHAXqhC_5V6lPA,,,,1.0,1.0,,,
+autor:UCUoYsrx1oZnCZ0usbBJn4fA,autor,@AnaDiaz-re9sq,/@AnaDiaz-re9sq,UCUoYsrx1oZnCZ0usbBJn4fA,,,,1.0,1.0,,,
+autor:UCV0iizTBoOfdAFX_thfI9BA,autor,@BenjaminLarios-jd8nk,/@BenjaminLarios-jd8nk,UCV0iizTBoOfdAFX_thfI9BA,,,,1.0,1.0,,,
+autor:UCV0lM03g5fg5pbPj97-sAtA,autor,@genarodelgado3929,/@genarodelgado3929,UCV0lM03g5fg5pbPj97-sAtA,,,,1.0,1.0,,,
+autor:UCV3fr-YOixFKCZBbJP1-X4w,autor,@albertoshernandez5251,/@albertoshernandez5251,UCV3fr-YOixFKCZBbJP1-X4w,,,,5.0,1.0,,,
+autor:UCVC2QugcI1G4RvlCiUqd1aQ,autor,@rwdm76,/@rwdm76,UCVC2QugcI1G4RvlCiUqd1aQ,,,,2.0,1.0,,,
+autor:UCVQf0tzL7xRzFJsABVVULpg,autor,@DennisseLopetegi,/@DennisseLopetegi,UCVQf0tzL7xRzFJsABVVULpg,,,,1.0,1.0,,,
+autor:UCVdjCrh4tQoX3haNAZv-n5A,autor,@aurahernandez5646,/@aurahernandez5646,UCVdjCrh4tQoX3haNAZv-n5A,,,,1.0,1.0,,,
+autor:UCVhif9eV0f8plICen2DnpKA,autor,@blogarteplus,/@blogarteplus,UCVhif9eV0f8plICen2DnpKA,,,,1.0,1.0,,,
+autor:UCW-JC6lebVmf2P1dmY_L94g,autor,@dinoraoroxon5771,/@dinoraoroxon5771,UCW-JC6lebVmf2P1dmY_L94g,,,,1.0,1.0,,,
+autor:UCW80DaMjQlEUibC98Cot-Dg,autor,@rogeraldana4289,/@rogeraldana4289,UCW80DaMjQlEUibC98Cot-Dg,,,,1.0,1.0,,,
+autor:UCWIZUtKJ636y-4TYrNvok0g,autor,@cesarandreas7824,/@cesarandreas7824,UCWIZUtKJ636y-4TYrNvok0g,,,,1.0,1.0,,,
+autor:UCWWkebAekppaL5b5CNlppuw,autor,@ninettmartinez425,/@ninettmartinez425,UCWWkebAekppaL5b5CNlppuw,,,,1.0,1.0,,,
+autor:UCWaRixDdpgllTBf4V0jPnKQ,autor,@hectormaaz5523,/@hectormaaz5523,UCWaRixDdpgllTBf4V0jPnKQ,,,,2.0,1.0,,,
+autor:UCWoAVGVqCn4xtINCMOTM4jg,autor,@OmarMartinez-vv8re,/@OmarMartinez-vv8re,UCWoAVGVqCn4xtINCMOTM4jg,,,,1.0,1.0,,,
+autor:UCWvntqPQx99k_Z_skWKqNSA,autor,@AntonioChiyal-x5s,/@AntonioChiyal-x5s,UCWvntqPQx99k_Z_skWKqNSA,,,,1.0,1.0,,,
+autor:UCXN2s7DwTJm33xO-pNkAdaA,autor,@edithsan7688,/@edithsan7688,UCXN2s7DwTJm33xO-pNkAdaA,,,,1.0,1.0,,,
+autor:UCXO1BBohNWXkK9SBDAG2ySg,autor,@JBFlute92,/@JBFlute92,UCXO1BBohNWXkK9SBDAG2ySg,,,,1.0,1.0,,,
+autor:UCXSkL3ejZ8qWYyF_M7s_QKA,autor,@JacintaTzoy,/@JacintaTzoy,UCXSkL3ejZ8qWYyF_M7s_QKA,,,,1.0,1.0,,,
+autor:UCXVLc8CmAO813ubM-fLvCDw,autor,@herminiasaquimux7565,/@herminiasaquimux7565,UCXVLc8CmAO813ubM-fLvCDw,,,,1.0,1.0,,,
+autor:UCXXh7yg5KUFIWylTiKVEFKQ,autor,@MrDuenderojo,/@MrDuenderojo,UCXXh7yg5KUFIWylTiKVEFKQ,,,,2.0,1.0,,,
+autor:UCXgr7vXlRrsaskPdo097kGA,autor,@Rogergh-nw4oj,/@Rogergh-nw4oj,UCXgr7vXlRrsaskPdo097kGA,,,,1.0,1.0,,,
+autor:UCXl30Y_upRqbti52fmjK4YA,autor,@capitanfrans,/@capitanfrans,UCXl30Y_upRqbti52fmjK4YA,,,,1.0,1.0,,,
+autor:UCXmrpc6Li0spcKxtS0Q_ptg,autor,@melvinperez6710,/@melvinperez6710,UCXmrpc6Li0spcKxtS0Q_ptg,,,,1.0,1.0,,,
+autor:UCXr8_5WtGeipe4haOoQDgyQ,autor,@amyherrera7352,/@amyherrera7352,UCXr8_5WtGeipe4haOoQDgyQ,,,,1.0,1.0,,,
+autor:UCY7Hq7F9Lnucf-Yr6JkHZNw,autor,@maynorcalel1442,/@maynorcalel1442,UCY7Hq7F9Lnucf-Yr6JkHZNw,,,,1.0,1.0,,,
+autor:UCYN4wSQ1Sx4_LurxLlW7MPg,autor,@belarminavillatoro6474,/@belarminavillatoro6474,UCYN4wSQ1Sx4_LurxLlW7MPg,,,,1.0,1.0,,,
+autor:UCYwpX26TrCxq8TvbKGRYLXA,autor,@beneficioelcaminovillacana8540,/@beneficioelcaminovillacana8540,UCYwpX26TrCxq8TvbKGRYLXA,,,,1.0,1.0,,,
+autor:UCZ51R_9Q9C0c8I3pAWhtmjQ,autor,@belvettzapeta1251,/@belvettzapeta1251,UCZ51R_9Q9C0c8I3pAWhtmjQ,,,,1.0,1.0,,,
+autor:UCZFQwqh90apuL8eFhvRBkUg,autor,@luisricardo9671,/@luisricardo9671,UCZFQwqh90apuL8eFhvRBkUg,,,,1.0,1.0,,,
+autor:UCZIQnb1fkwe39Iw2TAu-bGA,autor,@jorgegomez2237,/@jorgegomez2237,UCZIQnb1fkwe39Iw2TAu-bGA,,,,1.0,1.0,,,
+autor:UCZLG9qH0tUjNhEGFIUt0CYw,autor,@SoniaMarroquin-y6e,/@SoniaMarroquin-y6e,UCZLG9qH0tUjNhEGFIUt0CYw,,,,1.0,1.0,,,
+autor:UCZOmq6MwFDVoCaEl99BRRaw,autor,@daniloarevalo3170,/@daniloarevalo3170,UCZOmq6MwFDVoCaEl99BRRaw,,,,1.0,1.0,,,
+autor:UCZeIIQrGAedW8tCbKWmGY-A,autor,@mariocordon8873,/@mariocordon8873,UCZeIIQrGAedW8tCbKWmGY-A,,,,1.0,1.0,,,
+autor:UCZjm6U576nX8WOiLhmMR3bw,autor,@MariaNavarroYT,/@MariaNavarroYT,UCZjm6U576nX8WOiLhmMR3bw,,,,1.0,1.0,,,
+autor:UC_3xuTXvMIWU5MYP9HkJ3vQ,autor,@Historia-wm4os,/@Historia-wm4os,UC_3xuTXvMIWU5MYP9HkJ3vQ,,,,1.0,1.0,,,
+autor:UC_6KbBY1bsYXz9fwFS0eQRg,autor,@imrcp5694,/@imrcp5694,UC_6KbBY1bsYXz9fwFS0eQRg,,,,1.0,1.0,,,
+autor:UC_LYoGs5C3mbZKZuKuqYCvw,autor,@javiercifuentesarchila6041,/@javiercifuentesarchila6041,UC_LYoGs5C3mbZKZuKuqYCvw,,,,1.0,1.0,,,
+autor:UC_NRVt2UP88ZNTwzrZ66JSg,autor,@aditalissethevasquezrojas8039,/@aditalissethevasquezrojas8039,UC_NRVt2UP88ZNTwzrZ66JSg,,,,1.0,1.0,,,
+autor:UC_ljZ1hZXR9pzexFz87P5ZA,autor,@ChRiStOpHeR7969,/@ChRiStOpHeR7969,UC_ljZ1hZXR9pzexFz87P5ZA,,,,1.0,1.0,,,
+autor:UCa36MjQLoPAmgJo-R3G8WQA,autor,@elsasalguero6914,/@elsasalguero6914,UCa36MjQLoPAmgJo-R3G8WQA,,,,1.0,1.0,,,
+autor:UCaKAjTW9MVub_clgr4DRYjQ,autor,@josecastillo4390,/@josecastillo4390,UCaKAjTW9MVub_clgr4DRYjQ,,,,1.0,1.0,,,
+autor:UCaT4saRcyqCLE657Rq2hhZQ,autor,@elmilenial4064,/@elmilenial4064,UCaT4saRcyqCLE657Rq2hhZQ,,,,1.0,1.0,,,
+autor:UCaT6M2zp7X6r6Whd8Vv3kHQ,autor,@alexarcos8349,/@alexarcos8349,UCaT6M2zp7X6r6Whd8Vv3kHQ,,,,1.0,1.0,,,
+autor:UCat2qkYvqmtDNEmo2PVuhXw,autor,@DoraSalas-j5o,/@DoraSalas-j5o,UCat2qkYvqmtDNEmo2PVuhXw,,,,1.0,1.0,,,
+autor:UCbNanjFI51cwGqMAb2rOrBw,autor,@RosaMontesdeOca777,/@RosaMontesdeOca777,UCbNanjFI51cwGqMAb2rOrBw,,,,1.0,1.0,,,
+autor:UCbYoNG5J3Au5BqtbXogfEFw,autor,@Luis-gn3fj,/@Luis-gn3fj,UCbYoNG5J3Au5BqtbXogfEFw,,,,1.0,1.0,,,
+autor:UCbrtvygfRT6QXqWDNrOf-cA,autor,@Alejandro00710,/@Alejandro00710,UCbrtvygfRT6QXqWDNrOf-cA,,,,2.0,2.0,,,
+autor:UCcFIBN-rtC3d3hXeuN5TfWw,autor,@DenisRMC,/@DenisRMC,UCcFIBN-rtC3d3hXeuN5TfWw,,,,1.0,1.0,,,
+autor:UCc_F88PzGWtA1OPNUEASulA,autor,@rockyscarlet,/@rockyscarlet,UCc_F88PzGWtA1OPNUEASulA,,,,1.0,1.0,,,
+autor:UCcfdg8crmMJwEuLUsAhV7yg,autor,@RolandoRaguay,/@RolandoRaguay,UCcfdg8crmMJwEuLUsAhV7yg,,,,1.0,1.0,,,
+autor:UCdFlugHJJa4l3YqWuNRmvXw,autor,@MarcosCarillo-b1r,/@MarcosCarillo-b1r,UCdFlugHJJa4l3YqWuNRmvXw,,,,2.0,2.0,,,
+autor:UCdQAuWwyC99MB7Y02Umj26Q,autor,@miguelbran1268,/@miguelbran1268,UCdQAuWwyC99MB7Y02Umj26Q,,,,1.0,1.0,,,
+autor:UCe8JZoYkX5oKUZyivHYdXhw,autor,@FernandoGarcia-jg1fj,/@FernandoGarcia-jg1fj,UCe8JZoYkX5oKUZyivHYdXhw,,,,1.0,1.0,,,
+autor:UCeDNEtI8_a42bZ47wJiJMwQ,autor,@EdgarcalderonCalderong,/@EdgarcalderonCalderong,UCeDNEtI8_a42bZ47wJiJMwQ,,,,1.0,1.0,,,
+autor:UCeQk-WfEA-cJRq4EKeE7TOw,autor,@franciscojuarez9223,/@franciscojuarez9223,UCeQk-WfEA-cJRq4EKeE7TOw,,,,1.0,1.0,,,
+autor:UCefAH1MbvADWUjE9WVcB9EQ,autor,@jabriz8152,/@jabriz8152,UCefAH1MbvADWUjE9WVcB9EQ,,,,1.0,1.0,,,
+autor:UCf5lnNZF7Qrtli9v4N_23WQ,autor,@CarlosCortez-v5r,/@CarlosCortez-v5r,UCf5lnNZF7Qrtli9v4N_23WQ,,,,1.0,1.0,,,
+autor:UCfM3nrxtTQMY5jFx1v1J4Gg,autor,@edgarroldan5539,/@edgarroldan5539,UCfM3nrxtTQMY5jFx1v1J4Gg,,,,1.0,1.0,,,
+autor:UCfRqgt2O-vjzUDMZY_tnxQw,autor,@Williams-Garcia67E,/@Williams-Garcia67E,UCfRqgt2O-vjzUDMZY_tnxQw,,,,1.0,1.0,,,
+autor:UCfXykdbSU97rj987LDUGfvg,autor,@MariaSantos-c8y3h,/@MariaSantos-c8y3h,UCfXykdbSU97rj987LDUGfvg,,,,1.0,1.0,,,
+autor:UCfjhejO7LZy4doXURa7LZCQ,autor,@HonwayLee-z5g,/@HonwayLee-z5g,UCfjhejO7LZy4doXURa7LZCQ,,,,1.0,1.0,,,
+autor:UCfo_yUPzy1f1POwwZxhZ06Q,autor,@lara11roberto,/@lara11roberto,UCfo_yUPzy1f1POwwZxhZ06Q,,,,1.0,1.0,,,
+autor:UCg3eIfd7BrsLEqS0BLkftHA,autor,@ErmePérez-q4s,/@ErmeP%C3%A9rez-q4s,UCg3eIfd7BrsLEqS0BLkftHA,,,,3.0,1.0,,,
+autor:UCgGqw4aqMdMVSGkKiMgrJRQ,autor,@pattyfigueroa5609,/@pattyfigueroa5609,UCgGqw4aqMdMVSGkKiMgrJRQ,,,,1.0,1.0,,,
+autor:UCgJNFj5dnxXpcMvmuhZDPxA,autor,@NataliaRodriguez-rx5mr,/@NataliaRodriguez-rx5mr,UCgJNFj5dnxXpcMvmuhZDPxA,,,,1.0,1.0,,,
+autor:UCgLrWFdYitoP-b7-PxtUr-w,autor,@zetag,/@zetag,UCgLrWFdYitoP-b7-PxtUr-w,,,,1.0,1.0,,,
+autor:UCgLurCo-e019HGODcjXHWCw,autor,@perritojuega1,/@perritojuega1,UCgLurCo-e019HGODcjXHWCw,,,,1.0,1.0,,,
+autor:UCgQJgI9vu1FI2dnC9mrFthw,autor,@srms70,/@srms70,UCgQJgI9vu1FI2dnC9mrFthw,,,,1.0,1.0,,,
+autor:UCgQw_Sbq3ugruDUKsq1e0-A,autor,@marlenareano-h4t,/@marlenareano-h4t,UCgQw_Sbq3ugruDUKsq1e0-A,,,,1.0,1.0,,,
+autor:UCgvw7xIdGFupzpt1Y_BFkEA,autor,@fredygarcia9151,/@fredygarcia9151,UCgvw7xIdGFupzpt1Y_BFkEA,,,,1.0,1.0,,,
+autor:UCh5ESQvtzyHDhCA7XyekCFA,autor,@andyB5280,/@andyB5280,UCh5ESQvtzyHDhCA7XyekCFA,,,,3.0,1.0,,,
+autor:UChT7pzGytNd92Nmvi-zuWog,autor,@sparkvalkov,/@sparkvalkov,UChT7pzGytNd92Nmvi-zuWog,,,,1.0,1.0,,,
+autor:UChZknRmJkeGeQk0-mQuhDOg,autor,@OdilioRodríguez-c5w,/@OdilioRodr%C3%ADguez-c5w,UChZknRmJkeGeQk0-mQuhDOg,,,,1.0,1.0,,,
+autor:UCheEJ5GZuIvV0fj-nXyVwXw,autor,@rosaoliva9389,/@rosaoliva9389,UCheEJ5GZuIvV0fj-nXyVwXw,,,,1.0,1.0,,,
+autor:UChep9kVb5gQmpodEEl10Xlg,autor,@carlosaguilar-kz7ml,/@carlosaguilar-kz7ml,UChep9kVb5gQmpodEEl10Xlg,,,,1.0,1.0,,,
+autor:UChgkn5Jt5tWKYMoEOuCjz3Q,autor,@pablochitay46,/@pablochitay46,UChgkn5Jt5tWKYMoEOuCjz3Q,,,,1.0,1.0,,,
+autor:UChs3tU2BcKOT0CezykvAsGw,autor,@byronpontaza,/@byronpontaza,UChs3tU2BcKOT0CezykvAsGw,,,,3.0,1.0,,,
+autor:UChyps3dqY-VY1_wLeq-2lhw,autor,@maydamorales4395,/@maydamorales4395,UChyps3dqY-VY1_wLeq-2lhw,,,,1.0,1.0,,,
+autor:UCi-vPdnpQreC7BkFs40mJGA,autor,@bryansicasales4280,/@bryansicasales4280,UCi-vPdnpQreC7BkFs40mJGA,,,,1.0,1.0,,,
+autor:UCi1b_TRQfgO1Z9O2gNGGWNA,autor,@davidisraelesquitsaquil,/@davidisraelesquitsaquil,UCi1b_TRQfgO1Z9O2gNGGWNA,,,,2.0,1.0,,,
+autor:UCi2KiZq63sRq8Mfbcp-MelQ,autor,@eugeneramirez4405,/@eugeneramirez4405,UCi2KiZq63sRq8Mfbcp-MelQ,,,,6.0,1.0,,,
+autor:UCiC-Jn7wdgyQV4_Urk0DkWQ,autor,@pedroros6358,/@pedroros6358,UCiC-Jn7wdgyQV4_Urk0DkWQ,,,,1.0,1.0,,,
+autor:UCiGRBf2RNF0WRKhRVT7zFoA,autor,@edwinavila4876,/@edwinavila4876,UCiGRBf2RNF0WRKhRVT7zFoA,,,,1.0,1.0,,,
+autor:UCiMythXHsw7eQEMykCdmMUA,autor,@JavierBecerra-h6x,/@JavierBecerra-h6x,UCiMythXHsw7eQEMykCdmMUA,,,,1.0,1.0,,,
+autor:UCiOZX__1gahg1ypIj0_XG_w,autor,@mariogonzalezorellana8956,/@mariogonzalezorellana8956,UCiOZX__1gahg1ypIj0_XG_w,,,,1.0,1.0,,,
+autor:UCipetjeiWj4CZB6EbyYziZg,autor,@OseasSamayoa-ol5rz,/@OseasSamayoa-ol5rz,UCipetjeiWj4CZB6EbyYziZg,,,,1.0,1.0,,,
+autor:UCj-LL25XJnjxepPKCc3NGog,autor,@anaaguirre8985,/@anaaguirre8985,UCj-LL25XJnjxepPKCc3NGog,,,,1.0,1.0,,,
+autor:UCjJf-AJKRFFWtiN-CSwkDmA,autor,@2jose82,/@2jose82,UCjJf-AJKRFFWtiN-CSwkDmA,,,,1.0,1.0,,,
+autor:UCjSKM9j0Q7HLDr1hD6D-TUw,autor,@josehidalgo4875,/@josehidalgo4875,UCjSKM9j0Q7HLDr1hD6D-TUw,,,,1.0,1.0,,,
+autor:UCjZgFEowMBrsjodqfovzdKw,autor,@franciscoflores3120,/@franciscoflores3120,UCjZgFEowMBrsjodqfovzdKw,,,,2.0,2.0,,,
+autor:UCjmPuazZJzscrwvk0QR9RVw,autor,@mynorrodas8591,/@mynorrodas8591,UCjmPuazZJzscrwvk0QR9RVw,,,,1.0,1.0,,,
+autor:UCk4O-J1BhoqPmig1KLGJePA,autor,@lazarobarillas3575,/@lazarobarillas3575,UCk4O-J1BhoqPmig1KLGJePA,,,,1.0,1.0,,,
+autor:UCkVtmkK07b2zaVVNssX4lOg,autor,@HectorElias-u2l,/@HectorElias-u2l,UCkVtmkK07b2zaVVNssX4lOg,,,,1.0,1.0,,,
+autor:UCkbsS_3D-pvg1iHOld9uvIg,autor,@gonzalo6075,/@gonzalo6075,UCkbsS_3D-pvg1iHOld9uvIg,,,,1.0,1.0,,,
+autor:UCkd9W714-947dEE6ZOEBATA,autor,@ARGELIATELON,/@ARGELIATELON,UCkd9W714-947dEE6ZOEBATA,,,,2.0,1.0,,,
+autor:UCkxdJ_yGN2gghOMo2ybQtXQ,autor,@11223344An,/@11223344An,UCkxdJ_yGN2gghOMo2ybQtXQ,,,,1.0,1.0,,,
+autor:UCl0ekS9Tt0jJGtOEM18S63w,autor,@monkchapin,/@monkchapin,UCl0ekS9Tt0jJGtOEM18S63w,,,,1.0,1.0,,,
+autor:UCld2stqxaVSk0QdGncM224A,autor,@sarahernandez3873,/@sarahernandez3873,UCld2stqxaVSk0QdGncM224A,,,,1.0,1.0,,,
+autor:UClhMWQ7XKWywYvbRnuf8QsA,autor,@EcPerez-zz9oh,/@EcPerez-zz9oh,UClhMWQ7XKWywYvbRnuf8QsA,,,,1.0,1.0,,,
+autor:UCljDbleJul41G1TzOjOZAVA,autor,@hectorcarranza3777,/@hectorcarranza3777,UCljDbleJul41G1TzOjOZAVA,,,,1.0,1.0,,,
+autor:UClqA491Xa5fQcXcJJa-vTWw,autor,@AndresLemus-k2d,/@AndresLemus-k2d,UClqA491Xa5fQcXcJJa-vTWw,,,,1.0,1.0,,,
+autor:UClsrFGJKWPxxw7MiaEdKLXw,autor,@ericapaz5406,/@ericapaz5406,UClsrFGJKWPxxw7MiaEdKLXw,,,,1.0,1.0,,,
+autor:UCmjppp6ujz3SAnULvP3sZMw,autor,@marcomendez7509,/@marcomendez7509,UCmjppp6ujz3SAnULvP3sZMw,,,,1.0,1.0,,,
+autor:UCmvOgzmmXbjUthHy-WJ52hQ,autor,@mariorodas593,/@mariorodas593,UCmvOgzmmXbjUthHy-WJ52hQ,,,,1.0,1.0,,,
+autor:UCnU8wO1OurAmGstDw6VGjgQ,autor,@cmorera21,/@cmorera21,UCnU8wO1OurAmGstDw6VGjgQ,,,,1.0,1.0,,,
+autor:UCoGdCoJg2Lh0OX_jv6cG16g,autor,@Israel-u5i7i,/@Israel-u5i7i,UCoGdCoJg2Lh0OX_jv6cG16g,,,,2.0,1.0,,,
+autor:UColMq7LmaoY3MT6aIDGrGvA,autor,@quijotachapina1,/@quijotachapina1,UColMq7LmaoY3MT6aIDGrGvA,,,,1.0,1.0,,,
+autor:UCozFYHN0e_-vlQbX3wQGOug,autor,@jesusguzman2321,/@jesusguzman2321,UCozFYHN0e_-vlQbX3wQGOug,,,,1.0,1.0,,,
+autor:UCp29O_C7cchZV8IxV7Crdag,autor,@robertoescobar5507,/@robertoescobar5507,UCp29O_C7cchZV8IxV7Crdag,,,,2.0,1.0,,,
+autor:UCp4iw5_5SmV9VGTFSNVGOmQ,autor,@CARLOSSTREMS51,/@CARLOSSTREMS51,UCp4iw5_5SmV9VGTFSNVGOmQ,,,,1.0,1.0,,,
+autor:UCpIdtvoFHVLGASGB5ySqIEA,autor,@VidalVillatoro-p4w,/@VidalVillatoro-p4w,UCpIdtvoFHVLGASGB5ySqIEA,,,,1.0,1.0,,,
+autor:UCp_dAUfv8i3LW3zWc24dLaQ,autor,@MarioCortez-o6v,/@MarioCortez-o6v,UCp_dAUfv8i3LW3zWc24dLaQ,,,,1.0,1.0,,,
+autor:UCpe5jW3MIqkgTJ-PgkzvM6Q,autor,@carloslam5333,/@carloslam5333,UCpe5jW3MIqkgTJ-PgkzvM6Q,,,,1.0,1.0,,,
+autor:UCpl8rF8uv_8uui-QRvuJaRA,autor,@SergioGarcia-z9c,/@SergioGarcia-z9c,UCpl8rF8uv_8uui-QRvuJaRA,,,,1.0,1.0,,,
+autor:UCplrIQtaPj6au60_f2-mOYw,autor,@romeolopezherrarte799,/@romeolopezherrarte799,UCplrIQtaPj6au60_f2-mOYw,,,,1.0,1.0,,,
+autor:UCpsKOkt5iWTbenzeuq7dsmQ,autor,@inge_vergueta,/@inge_vergueta,UCpsKOkt5iWTbenzeuq7dsmQ,,,,3.0,3.0,,,
+autor:UCq3mDTTRZnUybct5M9OSXbg,autor,@MacoMorales-i2i2d,/@MacoMorales-i2i2d,UCq3mDTTRZnUybct5M9OSXbg,,,,1.0,1.0,,,
+autor:UCqCrvuoJpC-aVb0f4logQRQ,autor,@Lyrics_GT,/@Lyrics_GT,UCqCrvuoJpC-aVb0f4logQRQ,,,,1.0,1.0,,,
+autor:UCqilIa8r7iek5sGYg_q6ofA,autor,@rolandojuchuna484,/@rolandojuchuna484,UCqilIa8r7iek5sGYg_q6ofA,,,,1.0,1.0,,,
+autor:UCql1n3Ey6ULMSOACjMe-fxQ,autor,@RolandoGonzalez-o7g,/@RolandoGonzalez-o7g,UCql1n3Ey6ULMSOACjMe-fxQ,,,,1.0,1.0,,,
+autor:UCr1emrogPKkKTs_WTtx71xg,autor,@domingopeneleu6457,/@domingopeneleu6457,UCr1emrogPKkKTs_WTtx71xg,,,,1.0,1.0,,,
+autor:UCrJn_rbo_ENAdeqneS-RmRw,autor,@josecarrera9623,/@josecarrera9623,UCrJn_rbo_ENAdeqneS-RmRw,,,,2.0,1.0,,,
+autor:UCrqXyRsg-_hTosURZ-uvoKg,autor,@flornolberto2425,/@flornolberto2425,UCrqXyRsg-_hTosURZ-uvoKg,,,,1.0,1.0,,,
+autor:UCsGoJEvb-cFPZ2rWoJcXzEQ,autor,@sergiohinestroza9709,/@sergiohinestroza9709,UCsGoJEvb-cFPZ2rWoJcXzEQ,,,,1.0,1.0,,,
+autor:UCsJJAvrVGupdmhOqgtDp8dg,autor,@nestorlorenzana1168,/@nestorlorenzana1168,UCsJJAvrVGupdmhOqgtDp8dg,,,,1.0,1.0,,,
+autor:UCsSXdJct-nsS8DsABoEsaYA,autor,@IvánPérez-j4j,/@Iv%C3%A1nP%C3%A9rez-j4j,UCsSXdJct-nsS8DsABoEsaYA,,,,1.0,1.0,,,
+autor:UCsUCN0Yq_UyTvKjOJLmNrnQ,autor,@moisesvaldez4043,/@moisesvaldez4043,UCsUCN0Yq_UyTvKjOJLmNrnQ,,,,2.0,2.0,,,
+autor:UCs_5qeqdku9tGAq22y3OcuQ,autor,@alexandrevasquez4135,/@alexandrevasquez4135,UCs_5qeqdku9tGAq22y3OcuQ,,,,1.0,1.0,,,
+autor:UCsjs5Hp_r86x1xbK6FAeqaA,autor,@alvaroesquivel563,/@alvaroesquivel563,UCsjs5Hp_r86x1xbK6FAeqaA,,,,1.0,1.0,,,
+autor:UCtCtts20bW6F9CSohau51Iw,autor,@carlosgranados9875,/@carlosgranados9875,UCtCtts20bW6F9CSohau51Iw,,,,2.0,1.0,,,
+autor:UCtMBF_1O2jY2INlb_luuB_A,autor,@mynorgudiel8646,/@mynorgudiel8646,UCtMBF_1O2jY2INlb_luuB_A,,,,1.0,1.0,,,
+autor:UCtNfIBnc5S5DbbQj_yxgJTw,autor,@JosueRamirez-ey3ih,/@JosueRamirez-ey3ih,UCtNfIBnc5S5DbbQj_yxgJTw,,,,1.0,1.0,,,
+autor:UCtNyHmRZtvGF2hSvI2dUBWw,autor,@aureliomaldonado4793,/@aureliomaldonado4793,UCtNyHmRZtvGF2hSvI2dUBWw,,,,2.0,1.0,,,
+autor:UCtUR3_CAiE7fCoZHM6cMfyQ,autor,@mdelcid01,/@mdelcid01,UCtUR3_CAiE7fCoZHM6cMfyQ,,,,1.0,1.0,,,
+autor:UCtiHFjFu7d5v2XxHnKFUYig,autor,@Paul-gf7ec,/@Paul-gf7ec,UCtiHFjFu7d5v2XxHnKFUYig,,,,1.0,1.0,,,
+autor:UCtowGNY2lnlg6O2CkwDgkLg,autor,@taniagabrielacelis8434,/@taniagabrielacelis8434,UCtowGNY2lnlg6O2CkwDgkLg,,,,1.0,1.0,,,
+autor:UCtsxPYw8VUsH_FfnKg-0lmw,autor,@AlejandroPérez-b6r,/@AlejandroP%C3%A9rez-b6r,UCtsxPYw8VUsH_FfnKg-0lmw,,,,1.0,1.0,,,
+autor:UCu8_3-Wg-YzNyvHYQDEscfw,autor,@RolandoCastroPérez-d7y,/@RolandoCastroP%C3%A9rez-d7y,UCu8_3-Wg-YzNyvHYQDEscfw,,,,1.0,1.0,,,
+autor:UCuP4UK33HKtJE_S39ksmaTw,autor,@herbertaguilar1387,/@herbertaguilar1387,UCuP4UK33HKtJE_S39ksmaTw,,,,1.0,1.0,,,
+autor:UCuXmOjxC-htcprLgeVXz6Tg,autor,@jorgeaguilar-bq3uj,/@jorgeaguilar-bq3uj,UCuXmOjxC-htcprLgeVXz6Tg,,,,1.0,1.0,,,
+autor:UCueV9cTyTDwgQSec1x2dYgA,autor,@fredydomingo7062,/@fredydomingo7062,UCueV9cTyTDwgQSec1x2dYgA,,,,1.0,1.0,,,
+autor:UCujPF2nBgsTD62nWE3lcpIg,autor,@victorarturoruanobautista7588,/@victorarturoruanobautista7588,UCujPF2nBgsTD62nWE3lcpIg,,,,1.0,1.0,,,
+autor:UCusjriFsDHEc2AOjqk-p5ig,autor,@pablobarrios7931,/@pablobarrios7931,UCusjriFsDHEc2AOjqk-p5ig,,,,1.0,1.0,,,
+autor:UCut6b9S98nv84cVX89PmKzA,autor,@yeniferaguirre4498,/@yeniferaguirre4498,UCut6b9S98nv84cVX89PmKzA,,,,2.0,1.0,,,
+autor:UCvApqeCbLod-wejtT4CcVuA,autor,@davidgaher9550,/@davidgaher9550,UCvApqeCbLod-wejtT4CcVuA,,,,1.0,1.0,,,
+autor:UCvDwJBBY1mHK70aTEYl6rsA,autor,@cristianescobedo8296,/@cristianescobedo8296,UCvDwJBBY1mHK70aTEYl6rsA,,,,1.0,1.0,,,
+autor:UCvcu1kR8xMYy_I1Ty-2mV2Q,autor,@hashojea7348,/@hashojea7348,UCvcu1kR8xMYy_I1Ty-2mV2Q,,,,4.0,3.0,,,
+autor:UCvl1tzQeBeGy6efPTRJXSCw,autor,@RaulPerez-cw2vi,/@RaulPerez-cw2vi,UCvl1tzQeBeGy6efPTRJXSCw,,,,1.0,1.0,,,
+autor:UCwCfs-2zbD5k0lG-UVg_JBw,autor,@JessicaHuaz-96,/@JessicaHuaz-96,UCwCfs-2zbD5k0lG-UVg_JBw,,,,1.0,1.0,,,
+autor:UCwEe1RKlEv1UpNWmWYfSh4w,autor,@marioramirez299,/@marioramirez299,UCwEe1RKlEv1UpNWmWYfSh4w,,,,1.0,1.0,,,
+autor:UCwO2SXr0ggzwg6QWWrr01nQ,autor,@ricardofigueroa5720,/@ricardofigueroa5720,UCwO2SXr0ggzwg6QWWrr01nQ,,,,1.0,1.0,,,
+autor:UCwUAv3_LpWVtTIi7lkmTL7A,autor,@kingr4706,/@kingr4706,UCwUAv3_LpWVtTIi7lkmTL7A,,,,1.0,1.0,,,
+autor:UCwW2OFy95P7ZBkOPxWkpvYg,autor,@TeresaLucero-b5o,/@TeresaLucero-b5o,UCwW2OFy95P7ZBkOPxWkpvYg,,,,2.0,1.0,,,
+autor:UCwgCc9Jd_gG-uLE_SY-FfPg,autor,@armindapenados2841,/@armindapenados2841,UCwgCc9Jd_gG-uLE_SY-FfPg,,,,1.0,1.0,,,
+autor:UCwha8rxULYMVtNwZWeSkE1A,autor,@mariasamo8637,/@mariasamo8637,UCwha8rxULYMVtNwZWeSkE1A,,,,1.0,1.0,,,
+autor:UCwjUvRseNtJoItylIyIez7Q,autor,@Silviazea,/@Silviazea,UCwjUvRseNtJoItylIyIez7Q,,,,1.0,1.0,,,
+autor:UCwxoKK59nGCeBqB2sXfDBIw,autor,@vic-bonivideos,/@vic-bonivideos,UCwxoKK59nGCeBqB2sXfDBIw,,,,1.0,1.0,,,
+autor:UCxKR3RA8T-kxMgq_2WWhRcQ,autor,@elenaluarca9377,/@elenaluarca9377,UCxKR3RA8T-kxMgq_2WWhRcQ,,,,1.0,1.0,,,
+autor:UCxcoDvP-g2_KTZDmVZtvb3w,autor,@angelmartinez9523,/@angelmartinez9523,UCxcoDvP-g2_KTZDmVZtvb3w,,,,1.0,1.0,,,
+autor:UCxff05WuyvwELNITi7bj7UA,autor,@markoherrera,/@markoherrera,UCxff05WuyvwELNITi7bj7UA,,,,1.0,1.0,,,
+autor:UCxhtlxPV8AYWaNNyU6S9H8Q,autor,@WilR-s8r,/@WilR-s8r,UCxhtlxPV8AYWaNNyU6S9H8Q,,,,1.0,1.0,,,
+autor:UCyJhqmMbsvjpoarBBStA2kg,autor,@Murmullodelbarrio,/@Murmullodelbarrio,UCyJhqmMbsvjpoarBBStA2kg,,,,6.0,1.0,,,
+autor:UCySYJU5kUh7X8gVt9la2ISA,autor,@dantesarti4351,/@dantesarti4351,UCySYJU5kUh7X8gVt9la2ISA,,,,1.0,1.0,,,
+autor:UCyW68EGZey4ao_Vf2cR5Ztg,autor,@ZabalaXabier,/@ZabalaXabier,UCyW68EGZey4ao_Vf2cR5Ztg,,,,1.0,1.0,,,
+autor:UCylqlpsh8ENNM1LqgQ1KbxA,autor,@Jel.Awesh.M,/@Jel.Awesh.M,UCylqlpsh8ENNM1LqgQ1KbxA,,,,3.0,2.0,,,
+autor:UCyor0Mmm0ivLX2jIdyGp84Q,autor,@MiguelJordan-n3g,/@MiguelJordan-n3g,UCyor0Mmm0ivLX2jIdyGp84Q,,,,1.0,1.0,,,
+autor:UCyzf29IYjNw67gGIfsjgtxA,autor,@carlosoliva9249,/@carlosoliva9249,UCyzf29IYjNw67gGIfsjgtxA,,,,1.0,1.0,,,
+autor:UCz3gu01bmjNv0DpRq-K3XYg,autor,@eusebiovasquez4385,/@eusebiovasquez4385,UCz3gu01bmjNv0DpRq-K3XYg,,,,2.0,1.0,,,
+autor:UCzSfZlOVxBSs5ObD25ywxDQ,autor,@GilmarMaldonado-q9m,/@GilmarMaldonado-q9m,UCzSfZlOVxBSs5ObD25ywxDQ,,,,1.0,1.0,,,
+autor:UCzZ6dDCEsLMXbc5pCFXIprw,autor,@josegil3813,/@josegil3813,UCzZ6dDCEsLMXbc5pCFXIprw,,,,2.0,2.0,,,
+autor:UCzoL2l5H5eVlorWGH8AZfAg,autor,@jor77cas,/@jor77cas,UCzoL2l5H5eVlorWGH8AZfAg,,,,1.0,1.0,,,
+video:-5puKGEqcUc,video,INSIVUMEH pronostica incremento de lluvias para el fin de semana en Guatemala,/@T13NoticiasGuatemala,,-5puKGEqcUc,UCq0Cm-3SKthEySQc2JZBi1A,T13 Noticias Guatemala,0.0,,0.0,2357.0,News & Politics
+video:-E7OPOLjMug,video,BERNARDO ARÉVALO CALIFICA CAMBIO EN EL MP COMO EL FIN DE UNA ETAPA DE DETERIORO INSTITUCIONAL,/@iDocumenta,,-E7OPOLjMug,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,4.0,People & Blogs
+video:-KDglrIzRKo,video,¡HISTÓRICO! Mexico recupera petróleo robado por Guatemala... 🔔,/@M%C3%A9xicoPoder,,-KDglrIzRKo,UC-DpoeBbCMOMOH1-j71KPqA,México Poder,0.0,,0.0,29736.0,People & Blogs
+video:-O4Pa7qS9WQ,video,"Viaje completo Ciudad de Guatemala al IRTRA de Retalhuleu, menos tráfico, Diesel a Q42.59",/@GuateMayaTripGT,,-O4Pa7qS9WQ,UCSQM9AVr3rr7_GF8RH5KFGw,Guate Maya Trip,0.0,,0.0,383.0,Nonprofits & Activism
+video:06mFNPU0aB8,video,Capturan a presuntos delincuentes disfrazados de mujer señalados de cometer asalto,/@Noti7Guatemala,,06mFNPU0aB8,UCVpSRoZgngfSL03Nlbjtq9A,Noti7,14.0,,13.0,6692.0,News & Politics
+video:0LTLUY7LBlA,video,"Qué debes saber ANTES de viajar a GUATEMALA | Dónde cambiar DINERO, adquirir INTERNET y TRANSPORTE",/@deviajeconmigue,,0LTLUY7LBlA,UCfMjuFkpFo_QAWtvQqR2EHQ,De viaje con Migue,0.0,,0.0,6099.0,Travel & Events
+video:0a4_g1R1-aA,video,Acciones relevantes en el #Resumen24Horas,/@PNCdeGuatemala,,0a4_g1R1-aA,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,15455.0,Science & Technology
+video:0b2vfzXdCqs,video,Cadena Nacional del presidente Bernardo Arévalo,/@GobiernodelaRepublicadeGuatema,,0b2vfzXdCqs,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2725.0,Entertainment
+video:0eiVPMexNOo,video,CONRED se pronuncia tras sismos en el territorio nacional,/@TN23TodoNoticias,,0eiVPMexNOo,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,1875.0,News & Politics
+video:0iQD8zHxZIg,video,SE FILTRO un AUDIO de PANDILLEROS en Guatemala | DISPUTA POLITICA  Guatemala en medio de EMERGENCIA,/@TraslaVerdadSV,,0iQD8zHxZIg,UCoVACVT8WitFTc_Ok5yhYlg,Tras la Verdad SV,0.0,,0.0,36701.0,News & Politics
+video:1-hr8eCOt_I,video,Este es el impacto ante el incremento del tráfico en la capital por el inicio de clases,/@AztecaGuate,,1-hr8eCOt_I,UCwkVsH8aIOco3U_Fu7-UW5w,AztecaGuate,0.0,,0.0,289.0,Entertainment
+video:1HQLJycvzaQ,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,1HQLJycvzaQ,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1175.0,Entertainment
+video:1kSG-naIgqk,video,PRIMERA SEDE MIGRATORIA REGIONAL EN CHIQUIMULA,/@VicepresidenciaGuate,,1kSG-naIgqk,UCWYeiFUCO0SW6BxZ8aPxVTw,Vicepresidencia Guate,0.0,,0.0,48.0,Entertainment
+video:1w9faaYjhyU,video,Fundación de la República de Guatemala 21 marzo 1847,/@elprofedehistoriagt2046,,1w9faaYjhyU,UCdHETJl6cR5dye5XxEyqycQ,El profe de Historia Gt,0.0,,0.0,31697.0,People & Blogs
+video:1y61Kb9uSbg,video,Departamento de Tránsito de PNC certifica a 43 PMT en Educación Vial,/@mingobguate,,1y61Kb9uSbg,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,471.0,News & Politics
+video:1yHN9Ci7pXs,video,Municipalidad de Guatemala informa,/@MunicipalidaddeGuatemala-1551,,1yHN9Ci7pXs,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,1617.0,People & Blogs
+video:2iqOSL9YguA,video,Gabriel García Luna ya está en el MP para asumir como nuevo fiscal general,/@guatevision_oficial,,2iqOSL9YguA,UCDaIW3kDab95q7iCSeVAnbQ,Guatevisión,0.0,,0.0,5181.0,Entertainment
+video:2n31FhKmELI,video,TRÁFICO EN GUATEMALA,/@martinezfralis,,2n31FhKmELI,UC96TdbkzdlngA9hT1XNzJkw,Fralis Maxiel Martinez,0.0,,0.0,512.0,People & Blogs
+video:2p23yPpu6aQ,video,#Conred,/@NoticiasFAGt,,2p23yPpu6aQ,UC7PbHMtfWgBFZ_SSZ8iRhQg,Noticias-FA-Gt,0.0,,0.0,164.0,People & Blogs
+video:3-jKER3zqcA,video,VECINO VRS AGENTES DE LA PMT EN MAZATENANGO,/@audioschileros,,3-jKER3zqcA,UC-YGRGi0FeIA5441bGlHOPw,audioschileros,0.0,,0.0,70811.0,People & Blogs
+video:3LAwISMokIg,video,MUNICIPALIDAD DE GUATEMALA 17/12/2025,/@ConcejalesOposici%C3%B3n,,3LAwISMokIg,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,294.0,People & Blogs
+video:3Nfp9h5avBI,video,"Noticiero en Directo 1 pm, 28 de Agosto de 2026",/@GuatevisionNoticiero,,3Nfp9h5avBI,UCdSVqHGHzyMTXSafUHY-e-w,Noticiero Guatevisión 13 Hrs.,2.0,,2.0,573.0,News & Politics
+video:3P2OUk7aGmc,video,Presidente presenta Segundo Informe Presidencial en Sesión Solemne del Congreso de la República.,/@GobiernodelaRepublicadeGuatema,,3P2OUk7aGmc,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2838.0,Entertainment
+video:3S3KygWSjAQ,video,Himno de la Policía Nacional Civil de Guatemala,/@PNCdeGuatemala,,3S3KygWSjAQ,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,53021.0,News & Politics
+video:3bU7I_ZpXUk,video,Congreso inicia proceso para nombrar a nuevo Fiscal General en Guatemala y suceder a Consuelo Porras,/@PrensaLibreOficial,,3bU7I_ZpXUk,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,7465.0,News & Politics
+video:3onMfRym3OU,video,PRIMER PUENTE DONDE ARRIBA VA EL TRÁFICO Y ABAJO UN TREN EN GUATEMALA Y AMÉRICA LATINA.,/@CronosTime,,3onMfRym3OU,UCH1AYkCs1GpNK_xUwFYTsaQ,Cronos Time GT,0.0,,0.0,4484.0,Education
+video:45xQLtMlPdo,video,"PRESIDENTE DE GUATEMALA, BERNARDO ARÉVALO SE REFIERE AL “DÍA INTERNACIONAL DE LA LIBERTAD DE PRENSA”",/@iDocumenta,,45xQLtMlPdo,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,8.0,People & Blogs
+video:4DD1nlxWk2s,video,Fuertes LLUVIAS en el JABALI; a si luce una Tarde de Tormenta 😱,/@VIVAGUATEMALANB,,4DD1nlxWk2s,UCKu8ZkS9vriCetFagAGIMXA,VIVA GUATEMALA,0.0,,0.0,27111.0,Entertainment
+video:4FUed7cIhPU,video,El Sistema CONRED y el Gobierno de Guatemala trabajan unidos para atender emergencias.,/@Conred_GT,,4FUed7cIhPU,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,47.0,Education
+video:4H6w9FQAcS8,video,"Avances en temas de economía, precios de los combustibles y otros temas de interés nacional.",/@GobiernodelaRepublicadeGuatema,,4H6w9FQAcS8,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1489.0,Entertainment
+video:5DRG-WGTq1k,video,El Sistema CONRED continúa activo y trabajando de manera coordinada #VolcánDeFuego.,/@Conred_GT,,5DRG-WGTq1k,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,68.0,Education
+video:5MFnG5B7ric,video,Municipalidad de Guatemala   09/07/2025,/@ConcejalesOposici%C3%B3n,,5MFnG5B7ric,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,107.0,People & Blogs
+video:5OhxjDvuYbQ,video,"Operativos PMT ""Cero Tolerancia"" para fin de año",/@MunicipalidaddeGuatemala-1551,,5OhxjDvuYbQ,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,494.0,News & Politics
+video:5UNxNfcSzG4,video,Distinción del Cambio de la Rosa de la Paz a Pedro Castro López del INACOP,/@GobiernodelaRepublicadeGuatema,,5UNxNfcSzG4,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,741.0,Entertainment
+video:5Y7fntl6Rc8,video,Cómo llegar a TIKAL desde Ciudad de GUATEMALA en autobús o en Avión | transporte a PETÉN,/@deviajeconmigue,,5Y7fntl6Rc8,UCfMjuFkpFo_QAWtvQqR2EHQ,De viaje con Migue,0.0,,0.0,11061.0,Travel & Events
+video:5nw9G1vwnYY,video,Actriz guatemalteca caracteriza a Consuelo Porras frente al MP por salida del cargo,/@PrensaLibreOficial,,5nw9G1vwnYY,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,40327.0,News & Politics
+video:677N9cx_kKE,video,Carlos Pineda Seguridad I - Guatemala tiene solución | Ep. 2,/@carlospinedaGT,,677N9cx_kKE,UCInL6HZez6Qn8IHV8Achhxw,Carlos Pineda,0.0,,0.0,8568.0,People & Blogs
+video:6KlI_geqPOI,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt.,/@GobiernodelaRepublicadeGuatema,,6KlI_geqPOI,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2301.0,Entertainment
+video:6W4u8sGEnGM,video,Inician los trabajos de recuperación del Puente Belice II.,/@GobiernodelaRepublicadeGuatema,,6W4u8sGEnGM,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,45.0,,32.0,11670.0,Entertainment
+video:6Wf0ItQUaDU,video,“Queremos generar 60 mil empleos”: Victorino Carranza revela el plan y las pérdidas de la Gremipe,/@CampusTVHD,,6Wf0ItQUaDU,UCoXuxT5_LclvcoCeFoS_iUw,Campus TV,0.0,,0.0,2.0,News & Politics
+video:6y3KQmmg3Oc,video,Noticiero El Informativo. Nuestra semana de resultados.,/@GobiernodelaRepublicadeGuatema,,6y3KQmmg3Oc,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,303.0,Entertainment
+video:6z2Psav9Onw,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,6z2Psav9Onw,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,848.0,Entertainment
+video:74F3Mn_NWoE,video,"Acto de Graduación de los Cursos de Formación, Ascenso y Especialización Policial de la PNC.",/@GobiernodelaRepublicadeGuatema,,74F3Mn_NWoE,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1197.0,Entertainment
+video:7JerBdHtkWA,video,Cambio de horarios en Municipalidad de Guatemala,/@Canal3Guatemala,,7JerBdHtkWA,UCJcN367ge_Yo1p7b20_KSaA,Canal 3 Guatemala,0.0,,0.0,215.0,News & Politics
+video:7hfUg8Z-W2o,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt.,/@GobiernodelaRepublicadeGuatema,,7hfUg8Z-W2o,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2449.0,Entertainment
+video:7kuHyjwuE_o,video,Centro Municipal de Emprendimiento - Municipalidad de Guatemala,/@cmeguatemala,,7kuHyjwuE_o,UCBn6Y-Y3kCAQqYXHaMIjEVw,Centro Municipal de Emprendimiento MuniGuate,0.0,,0.0,528.0,Entertainment
+video:7mdtGeIHQnE,video,"#LHEnContexto: Gestión de riesgos en GUATEMALA: Lo que debes saber, explicado por la CONRED",/@lahoragt,,7mdtGeIHQnE,UCrAoF9-9Vvb9_zK0t-m2Rhg,La Hora,0.0,,0.0,570.0,News & Politics
+video:8CuQ2_HTaN0,video,Conferencia de Prensa del Gobierno de Guatemala.,/@GobiernodelaRepublicadeGuatema,,8CuQ2_HTaN0,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,735.0,Entertainment
+video:8n6momRcC04,video,Mantenimiento constante,/@MunicipalidaddeGuatemala-1551,,8n6momRcC04,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,91.0,News & Politics
+video:90oVm0P4_9Q,video,"El MINGOB a través del Viceministerio de Seguridad, combate  el crimen organizado.",/@mingobguate,,90oVm0P4_9Q,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,5.0,News & Politics
+video:9BIrwWQUdb8,video,"Capturan a ""guardián"" de parqueo utilizado por la mara Salvatrucha e incautan 5 vehículos robados.",/@PNCdeGuatemala,,9BIrwWQUdb8,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,23972.0,Science & Technology
+video:9Jacxvi9umU,video,Los responsables de bloquear información en Guatecompras,/@somoselcombo,,9Jacxvi9umU,UCDvpZGLyno6g-bi-wwYq4wQ,Somos El Combo,0.0,,0.0,7340.0,Entertainment
+video:9XFVeHiWDTo,video,En #LaRondaGT conoce las acciones que impulsamos para modernizar los puertos y aeropuertos del país.,/@GobiernodelaRepublicadeGuatema,,9XFVeHiWDTo,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1516.0,Entertainment
+video:9h7d1iDFaqo,video,Vuelve el tráfico lento en la ciudad capital,/@PrensaLibreOficial,,9h7d1iDFaqo,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,11396.0,News & Politics
+video:9wHujSu-nbQ,video,Quorum,/@quorumgt,,9wHujSu-nbQ,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,459.0,News & Politics
+video:AHzfpOL5sgw,video,Sistema de gobierno de Guatemala 🇬🇹,/@sumestudiosjuridicos.1313,,AHzfpOL5sgw,UCwlb2TaG9ywiD6uhHWTy-qg,SUM Estudios Jurídicos.,0.0,,0.0,2895.0,Education
+video:Aa7hIDCRh3g,video,Este BUS me LLEVO a UN PARAISO EN GUATEMALA,/@detodogt,,Aa7hIDCRh3g,UCDfEVbDrimcKw5lfbps915g,De todo Gt,0.0,,0.0,504374.0,People & Blogs
+video:AakUTlieyH0,video,Crisis de seguridad en Guatemala,/@miracanalantigua,,AakUTlieyH0,UC-GLagjBhWAZ3IOWFgzqIAw,Canal Antigua,0.0,,0.0,733.0,News & Politics
+video:Ab0RrbzxyBU,video,Municipalidad de Guatemala 17/11/2025,/@ConcejalesOposici%C3%B3n,,Ab0RrbzxyBU,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,117.0,People & Blogs
+video:AlbPEU3rbZs,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,AlbPEU3rbZs,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,870.0,Entertainment
+video:ArljwpsURdY,video,"Entrevista especial con Claudinne Ogaldes, Secretaria Ejecutiva de la SE-CONRED",/@Conred_GT,,ArljwpsURdY,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,416.0,Education
+video:B60bWqpVUIE,video,Así es el transporte público en Ciudad de Guatemala,/@PaulinoG,,B60bWqpVUIE,UCBedZZFhxFcMudI8oM5joSQ,PaulinoG,0.0,,0.0,96794.0,Travel & Events
+video:BLc_KXPng9g,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGT,/@GobiernodelaRepublicadeGuatema,,BLc_KXPng9g,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,720.0,Entertainment
+video:BUNeDEi0yVU,video,CIV LICITACIÓN 800 KM 110717,/@CIV_Guatemala,,BUNeDEi0yVU,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,26.0,People & Blogs
+video:BW41jT3t3oI,video,Provial,/@ProvialOficial_CIV,,BW41jT3t3oI,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,79.0,People & Blogs
+video:BbAeamItalk,video,ZARAGOZA DA UN PASO HACIA EL FORTALECIMIENTO DEL DEPORTE CON NUEVA CIUDAD DEPORTIVA,/@iDocumenta,,BbAeamItalk,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,7.0,News & Politics
+video:Bdn2nxDqQ90,video,Video Viral de PMT / GUATEMALA,/@carlosdelcid390,,Bdn2nxDqQ90,UC6XLvudi9BWjAzCR-6KAHiw,carlos del cid,0.0,,0.0,2482.0,Film & Animation
+video:Bi34XvRV6AM,video,Plan de Evacuación CONRED,/@MESCOGT,,Bi34XvRV6AM,UCyGWWWpmAP5AReA_o8bhaRg,MESCOGT,0.0,,0.0,58.0,People & Blogs
+video:BnZFUzpEDe4,video,Municipalidad de Guatemala se moderniza,/@MunicipalidaddeGuatemala-1551,,BnZFUzpEDe4,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,642.0,People & Blogs
+video:Boj5GILjbI0,video,"Spot Rendición de Cuentas, segundo cuatrimestre 2023 - 2",/@CIV_Guatemala,,Boj5GILjbI0,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,26.0,People & Blogs
+video:Bp4LtQT8Hk0,video,"Ciudad de Guatemala, el mejor lugar para vivir",/@MunicipalidaddeGuatemala-1551,,Bp4LtQT8Hk0,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,4265.0,Entertainment
+video:C5hJmAhpMMQ,video,"YOUTUBE PUNTO DE ENFOQUE MARIO MEJÍA, SUBDIRECTOR DE INSIVUMEH",/@INSIVUMEH_GT,,C5hJmAhpMMQ,UClgawHgsbqN6Nuok7ds-Szw,INSIVUMEH,0.0,,0.0,79.0,Science & Technology
+video:C8wk4HWwWyM,video,Duro golpe al crimen organizado en Granja Penal de Pavón.,/@GobiernodelaRepublicadeGuatema,,C8wk4HWwWyM,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2214.0,Entertainment
+video:CDg6kLRfiqQ,video,Acciones relevantes en el #Resumen24Horas,/@PNCdeGuatemala,,CDg6kLRfiqQ,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,11048.0,Science & Technology
+video:CJQ46Hr4HcU,video,Municipalidad de Guatemala  19/12/2025,/@ConcejalesOposici%C3%B3n,,CJQ46Hr4HcU,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,222.0,People & Blogs
+video:D3fRGjqHeHI,video,"Spot Rendición de Cuentas, segundo cuatrimestre 2023 - 1",/@CIV_Guatemala,,D3fRGjqHeHI,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,23.0,People & Blogs
+video:D4CEpAfkkPI,video,Policías arremeten contra agente de PMT en zona 10,/@PrensaLibreOficial,,D4CEpAfkkPI,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,79044.0,News & Politics
+video:DBvMeKT4gzo,video,La Familia MÁS RICA de GUATEMALA… Ni la Guerra les Quitó el Trono y Hoy son DUEÑOS de tu CERVEZA,/@fortunalatinaoficial,,DBvMeKT4gzo,UCP1YKuLnn1WhzrkxCv1LILQ,Fortuna Latina,0.0,,0.0,58881.0,People & Blogs
+video:DC1_qrLUvHI,video,Municipalidad de Guatemala 26/08/2026,/@ConcejalesOposici%C3%B3n,,DC1_qrLUvHI,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,49.0,People & Blogs
+video:DMAKF8n0XJs,video,Guatemala TV • ID (2024-2026),/@mdpls2,,DMAKF8n0XJs,UC7G_DpDtzHv0wbGJvvFCrNg,Mdpls²,0.0,,0.0,367.0,Film & Animation
+video:DX5eT-hVU8Q,video,250 años Ciudad de Guatemala,/@MunicipalidaddeGuatemala-1551,,DX5eT-hVU8Q,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,491.0,News & Politics
+video:DkxSkQipYwo,video,PRESIDENTE BERNARDO ARÉVALO PARTICIPA EN EL ACTO CONMEMORATIVO DEL DÍA DEL EJÉRCITO,/@iDocumenta,,DkxSkQipYwo,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,66.0,News & Politics
+video:EGfy1BxGLIk,video,Colabore con las medidas de la PMT,/@MunicipalidaddeGuatemala-1551,,EGfy1BxGLIk,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,1437.0,Education
+video:ELhvo8YnYnI,video,Insivumeh prevé lluvias fuertes por dos ondas del este,/@TN23TodoNoticias,,ELhvo8YnYnI,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,5182.0,News & Politics
+video:EQDcEgFpXCk,video,Guatemala: Gobierno refuerza lucha contra las pandillas en medio de crisis de seguridad,/@France24_es,,EQDcEgFpXCk,UCUdOoVWuWmgo1wByzcsyKDQ,FRANCE 24 Español,0.0,,0.0,5459.0,News & Politics
+video:EZfm-05qtWo,video,Municipalidad de Guatemala prepara plan de actividades en Semana Santa 2023,/@CucuruchoenGuatemala,,EZfm-05qtWo,UCFu4dCls6GPdTvgIeE9wjOA,Cucurucho en Guatemala,0.0,,0.0,128.0,People & Blogs
+video:F72Rdq5crG4,video,Cambios en el Ministerio de Comunicaciones: Salen Lizzette Benítez y Adrián Zapata Alamilla,/@miracanalantigua,,F72Rdq5crG4,UC-GLagjBhWAZ3IOWFgzqIAw,Canal Antigua,0.0,,0.0,1441.0,News & Politics
+video:FEc1BCuBiDg,video,¡Estamos con ustedes!,/@MunicipalidaddeGuatemala-1551,,FEc1BCuBiDg,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,1562.0,News & Politics
+video:FQP4JTo9ShA,video,Rafael Carrera y el nacimiento de Guatemala,/@MundoHistoriaTV,,FQP4JTo9ShA,UCvegRo82EipXUzAHQXZmr4A,MundoHistoria,0.0,,0.0,1420.0,Education
+video:FU5zLTb4inc,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,FU5zLTb4inc,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,549.0,News & Politics
+video:Fapc1-8m5Zc,video,Municipalidad de Guatemala 21/11/2025,/@ConcejalesOposici%C3%B3n,,Fapc1-8m5Zc,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,282.0,People & Blogs
+video:Fb2Ccfq5S9w,video,Reo y su esposa fueron asesinados dentro del Preventivo de zona 18,/@TN23TodoNoticias,,Fb2Ccfq5S9w,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,15431.0,News & Politics
+video:FuTz67jS7m0,video,124 nuevos brigadas refuerzan la seguridad vial en Guatemala,/@ProvialOficial_CIV,,FuTz67jS7m0,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,45.0,Education
+video:G2u4Rbq7zU4,video,Arévalo anuncia nueva cárcel de máxima seguridad en Guatemala,/@TN23TodoNoticias,,G2u4Rbq7zU4,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,6327.0,News & Politics
+video:GgU7qhmf020,video,Sueños GT: educación para la niñez de vendedores ambulantes en Antigua | Super - Episodio 1,/@quorumgt,,GgU7qhmf020,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,167.0,Nonprofits & Activism
+video:GjGMSFSE1gY,video,"“Gracias a dios, no hay reelección” 🤡",/@quorumgt,,GjGMSFSE1gY,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,130.0,News & Politics
+video:HMJXf1VdM5E,video,Lluvia inusual de Martes Santo provoca inundaciones en zona 1 de Villa Nueva,/@PrensaLibreOficial,,HMJXf1VdM5E,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,1688.0,News & Politics
+video:H_TGv_cMwww,video,PMT: La fuerza laboral reguladora del tránsito más grande,/@MunicipalidaddeGuatemala-1551,,H_TGv_cMwww,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,2383.0,News & Politics
+video:I277M6i4jnY,video,Gestión del Riesgo de Desastres desde las comunidades.,/@GobiernodelaRepublicadeGuatema,,I277M6i4jnY,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,242.0,Entertainment
+video:IZLflL4Hgco,video,El ciudadano Toriello da un paso al frente,/@TanGenteGT,,IZLflL4Hgco,UCGSQ821fpPy-yXL9mUmKbBg,TanGente Podcast,0.0,,0.0,28013.0,Entertainment
+video:IcF9rRdAtp8,video,Ministro de Comunicaciones Alejandro Sinibaldi realiza supervisión en la Ruta CA-1 Occidente,/@CIVguatemala,,IcF9rRdAtp8,UCiQAWoQNcuKIAvCCFQC54UQ,Ministerio de Comunicaciones Infraestructura y Vivienda,0.0,,0.0,211.0,People & Blogs
+video:J6ctng-yAnI,video,CIV PROVIAL GRADUACIÓN XV PROMOCIÓN BRIGADAS 140619,/@CIV_Guatemala,,J6ctng-yAnI,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,2981.0,People & Blogs
+video:JErfmk-TlRg,video,Rendición de Cuentas - Primer Cuatrimestre 2023,/@CIV_Guatemala,,JErfmk-TlRg,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,32.0,People & Blogs
+video:J_HBzJUTOus,video,Presentan estrategia nacional para prevenir violencia durante recorridos de antorchas,/@mingobguate,,J_HBzJUTOus,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,17.0,News & Politics
+video:JdxHJkQjM50,video,🚡 ¿Cómo va avanzando #AeroMetroGT?,/@MunicipalidaddeGuatemala-1551,,JdxHJkQjM50,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,20901.0,News & Politics
+video:JgmCtBQWNL8,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,JgmCtBQWNL8,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1165.0,Entertainment
+video:JkpVO1hx2f8,video,10 Preguntas a un año del Paro Nacional,/@quorumgt,,JkpVO1hx2f8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,3.0,,3.0,673.0,News & Politics
+video:Jr1hJ92H_Nc,video,"#SinMáscaras | GUERRA SUCIA PERO SUCIA EN SERIO LLEGA A TV AZTECA CON AMPARO, CAMIN Y CASTAÑEDA",/@ManuelPedreroOficial,,Jr1hJ92H_Nc,UCH4M_4Ed6SUidQthmZ60M2g,Manuel Pedrero,0.0,,0.0,62941.0,News & Politics
+video:K1IA6oTGws8,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,K1IA6oTGws8,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,530.0,News & Politics
+video:K2qWcueeMOc,video,#EnvivoDCA | Conferencia de prensa de Gobierno de Guatemala,/@dcaguatemala,,K2qWcueeMOc,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,802.0,News & Politics
+video:K50uijsHnAM,video,Informe desde Ciudad de Guatemala: crisis de seguridad tras ataques contra la Policía,/@France24_es,,K50uijsHnAM,UCUdOoVWuWmgo1wByzcsyKDQ,FRANCE 24 Español,0.0,,0.0,135249.0,News & Politics
+video:KIO6wIJXYY0,video,"Se tiene que cambiar el sistema electoral en Guatemala, asegura exfiscal",/@cnnee,,KIO6wIJXYY0,UC_lEiu6917IJz03TnntWUaQ,CNN en Español,0.0,,0.0,16830.0,News & Politics
+video:KWCyMd4dxkY,video,Recorrido de los 21K BAM de la Municipalidad de Guatemala,/@MunicipalidaddeGuatemala-1551,,KWCyMd4dxkY,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,13077.0,News & Politics
+video:KkNQhX_kg8A,video,🇬🇹HISTORIA de GUATEMALA en 17 minutos🇬🇹 - El Mapa de Sebas,/@ElMapadeSebas,,KkNQhX_kg8A,UCVbOEcs6RMxXXX3WWNtl_Fw,El Mapa de Sebas,0.0,,0.0,749356.0,Education
+video:LRzZy8xBrjA,video,Conferencia de prensa ante el incremento de los combustibles.,/@GobiernodelaRepublicadeGuatema,,LRzZy8xBrjA,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,670.0,Entertainment
+video:LeN6wpNIB-4,video,GUATEMALA RECIBE 135 NICARAGUENESES LIBERADOS POR ORTEGA,/@iDocumenta,,LeN6wpNIB-4,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,28.0,People & Blogs
+video:LqY_vAsa4PY,video,“Guatemala: Una historia escrita con corrupción”,/@PFNSEMEDIA,,LqY_vAsa4PY,UCBQ9OCZNvmC--OH_e-qGGiA,PFNSE MEDIA,0.0,,0.0,2291.0,News & Politics
+video:MMECHN8SFNw,video,"Noticiero en Directo 1 pm, 27 de Agosto de 2026",/@GuatevisionNoticiero,,MMECHN8SFNw,UCdSVqHGHzyMTXSafUHY-e-w,Noticiero Guatevisión 13 Hrs.,0.0,,0.0,4838.0,News & Politics
+video:MRJ9mKnXR9M,video,Labor de la PMT es honesta aseguran vecinos,/@MunicipalidaddeGuatemala-1551,,MRJ9mKnXR9M,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,1075.0,People & Blogs
+video:MdIa2Dtj77I,video,"Consejos para tu viaje a Guatemala: hospedaje, telefonía, transporte y más!   ✈️ 🇬🇹",/@soymildredsilva,,MdIa2Dtj77I,UCZyaNecz9ugVReNcNfXXurA,Aventuras de una programadora,0.0,,0.0,134775.0,People & Blogs
+video:Mh94uXZvCLo,video,DE LOS BOTS AL RECHAZO: CERIMEDO Y LA “GUERRILLA DE LAS REDES” | CAPÍTULO 3 DE 8,/@lacomanoticias,,Mh94uXZvCLo,UCBDxkiJk5id4TIOa1FotGUA,La  Coma,0.0,,0.0,21.0,News & Politics
+video:Mme4XikKnlc,video,Municipalidad anuncia 111 nuevos autobuses y 17 rutas para mejorar el transporte en la capital,/@PrensaLibreOficial,,Mme4XikKnlc,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,3146.0,News & Politics
+video:N1QkRu38BFE,video,¡YA CAYÓ ALITO MORENO! ALERTA LO DESTITUYEN DIPUTADOS VOTAN PARA SACARLO DEL SENADO! CLAUDIA INFORMA,/@alexisburelo,,N1QkRu38BFE,UC2EbdGoJZwR_WvkmB0i4rMg,Alexis Burelo,0.0,,0.0,15747.0,News & Politics
+video:NCvoO61aIfw,video,Ya casi! Así avanza el Aerómetro que cambiará el transporte en Guatemala,/@onelife5106,,NCvoO61aIfw,UCkXkEfAaEGxUaIT6TBBkwMw,One Life,0.0,,0.0,26744.0,Entertainment
+video:NcIcixCdQH4,video,PNC garantiza seguridad a turistas que visitan el colcán de Agua,/@PNCdeGuatemala,,NcIcixCdQH4,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,7681.0,Science & Technology
+video:Nc_Iy0MriYw,video,🛑🛑Actualización PROVIAL🛑🛑,/@ProvialOficial_CIV,,Nc_Iy0MriYw,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,179.0,News & Politics
+video:NnKpTEfhWjI,video,✅ ASÍ es una EXHIBICION DE BUSES EN GUATEMALA,/@detodogt,,NnKpTEfhWjI,UCDfEVbDrimcKw5lfbps915g,De todo Gt,0.0,,0.0,424874.0,Travel & Events
+video:O6gI0ooBM3E,video,¿Cómo es el tráfico en Guatemala? 56 días perdidos cada año y una emergencia nacional,/@Rep%C3%BAblica_tv,,O6gI0ooBM3E,UC8mJT9xUcwgEM1vaMaruysw,República TV,0.0,,0.0,16786.0,News & Politics
+video:OXf_VvvyIDw,video,Municipalidad de Guatemala 31/08/2026,/@ConcejalesOposici%C3%B3n,,OXf_VvvyIDw,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,28.0,People & Blogs
+video:OgOICSTSa7k,video,¡DÉJAME VIVIR! GUATEMALA INTENSIFICA LA LUCHA CONTRA LA CACERÍA ILEGAL DE FAUNA SILVESTRE,/@iDocumenta,,OgOICSTSa7k,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,6.0,News & Politics
+video:OkXlHx0hx-8,video,EE.UU. envía a mexicanos deportados a Guatemala antes de su regreso a México | Noticias Telemundo,/@noticias,,OkXlHx0hx-8,UCRwA1NUcUnwsly35ikGhp0A,Noticias Telemundo,25.0,,18.0,14200.0,News & Politics
+video:On7jqOm1bpg,video,🌟Seguimos avanzando🌱,/@CIV_Guatemala,,On7jqOm1bpg,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,10.0,News & Politics
+video:Oy6sKBhduu4,video,"Realizan Reunión Ordinaria de #CODEDE, 25 de febrero 2025.",/@camaritacastrogt,,Oy6sKBhduu4,UC_ONTY8RI6b-VqB-dhQ5qBQ,Camarita Castro GT,0.0,,0.0,84.0,People & Blogs
+video:Oztw_Hta52I,video,TRAFICO EN GUATEMALA,/@angelvasquez7611,,Oztw_Hta52I,UC6ZUGqkstVjgNPvxtb90d8A,CHAPINISIMO,0.0,,0.0,2326.0,Entertainment
+video:PMaSDoG0H1U,video,¿Adiós al tráfico? Así es la nueva carretera Radial 6 para Guatemala,/@laredguatemala,,PMaSDoG0H1U,UCMJ_FUWKr7PyXfvY55BdGZg,La Red 1061,0.0,,0.0,60.0,News & Politics
+video:Pg1qw0KJI4E,video,"Surgen detalles de la masacre en Boca del Monte: madre de un bombero e influencer, entre víctimas",/@PrensaLibreOficial,,Pg1qw0KJI4E,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,20503.0,News & Politics
+video:PjmxCj-a9Hg,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,PjmxCj-a9Hg,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,25.0,,19.0,3628.0,Entertainment
+video:Q-MNTYsZgk4,video,¿Qué ha pasado con la contaminación del aire?,/@quorumgt,,Q-MNTYsZgk4,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,45.0,News & Politics
+video:Q7j1OUxkn9w,video,Dañan puerta del área de parqueo del Congreso,/@infogtnoticias1325,,Q7j1OUxkn9w,UCmoP9Lvc92Bsl4Vu90kv9GQ,InfoGT Noticias,0.0,,0.0,4725.0,People & Blogs
+video:Q7nhEeibBK4,video,Desfile navideño 2024  -   @MunicipalidaddeGuatemala-1551,/@ALISMOLINACREA,,Q7nhEeibBK4,UCbKjY2f2sGaghyrIeqjZvmg,ALIS MOLINA CREA,0.0,,0.0,255.0,Entertainment
+video:QUG4etpjgos,video,Guatemala Habla sobre la seguridad en el país,/@dcaguatemala,,QUG4etpjgos,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,35.0,News & Politics
+video:Qc_oHqe4Cjc,video,QUÉ GUARDAS EN LA CINTURA?  🔫🥕🥓🐷🤔@lilyvlogs6899 @ElJuanete1987 @Soychap1n @SimplementeFlori,/@robosymentiras,,Qc_oHqe4Cjc,UCzwR2o8LFAgAMfO0KIcFh0A,CANALES ROBOS Y MENTIRAS 💰🧐,0.0,,0.0,2166.0,People & Blogs
+video:R-fRv_WoZOE,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGT,/@GobiernodelaRepublicadeGuatema,,R-fRv_WoZOE,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1284.0,Entertainment
+video:RIpKKQh26cg,video,Ejército de Guatemala descubre túnel para fuga masiva en penal de Pavón,/@TN23TodoNoticias,,RIpKKQh26cg,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,29782.0,News & Politics
+video:RjG-y7Y2-k4,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,RjG-y7Y2-k4,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,239.0,News & Politics
+video:Rk-3ks9mh3o,video,CIV ✔️ garantiza transparencia 🔍 y rendición de cuentas📝,/@CIV_Guatemala,,Rk-3ks9mh3o,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,21.0,News & Politics
+video:ShYWqmOpjFk,video,Ministro de Comunicaciones reitera sobre avances en ruta Palín-Escuintla,/@lahoragt,,ShYWqmOpjFk,UCrAoF9-9Vvb9_zK0t-m2Rhg,La Hora,0.0,,0.0,242.0,News & Politics
+video:SryjaiL2B4Q,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,SryjaiL2B4Q,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,352.0,News & Politics
+video:THY2YBne3QE,video,"Los ALUCINANTES autobuses de Guatemala | ""Burras""",/@luisitocomunica,,THY2YBne3QE,UCECJDeK0MNapZbpaOzxrUPA,Luisito Comunica,0.0,,0.0,8190449.0,Comedy
+video:TSID63-IC3Y,video,Operativo Relámpago de -PROVIAL - DGT - DIACO -  en 41 Calle Zona 8 de la ciudad Capital.,/@ProvialOficial_CIV,,TSID63-IC3Y,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,332.0,People & Blogs
+video:TT4qJ5FXHYE,video,"I’x K’at: el primer equipo guatemalteco de pelota maya, conformado únicamente por mujeres.",/@quorumgt,,TT4qJ5FXHYE,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,4.0,,4.0,1075.0,News & Politics
+video:TTijnAoFnzY,video,Conred reprograma simulacro nacional para el 24 de febrero,/@T13NoticiasGuatemala,,TTijnAoFnzY,UCq0Cm-3SKthEySQc2JZBi1A,T13 Noticias Guatemala,0.0,,0.0,200.0,News & Politics
+video:TXlMv6bt25w,video,"Más de 42 mil afectados por lluvias en Guatemala; Conred reporta 1,046 emergencias",/@PrensaLibreOficial,,TXlMv6bt25w,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,2294.0,News & Politics
+video:TnZGNY1RsJE,video,Festival navideño 2025 @MunicipalidaddeGuatemala-1551,/@Real_HeX4EveR,,TnZGNY1RsJE,UCuc8l25EFE17DV8dD64d2AQ,HeX4EveR,0.0,,0.0,148.0,People & Blogs
+video:UDFS8gl80h8,video,#AprendeConCONRED qué es el Sistema CONRED y quienes lo conforman.,/@Conred_GT,,UDFS8gl80h8,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,521.0,Education
+video:UTf26hS1UJ8,video,🚦💙 PROVIAL: Proteger y Servir,/@ProvialOficial_CIV,,UTf26hS1UJ8,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,38.0,Education
+video:UcvHq8j-J38,video,"Ministerio de Comunicaciones, Infraestructura y Vivienda y los Consejos de Desarrollo",/@Minfin-GT,,UcvHq8j-J38,UCJJ071vIw7Bu8lJmXfiVrKw,Ministerio de Finanzas Públicas Guatemala,0.0,,0.0,222.0,News & Politics
+video:UhL9y3KUl8E,video,SHAI WA: la vecina queer de Casa Presidencial,/@quorumgt,,UhL9y3KUl8E,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1.0,,1.0,1755.0,News & Politics
+video:UzeOcBM9cuU,video,Conred Podcast Episodio 04: Amenaza sísmica y volcánica en Guatemala,/@Conred_GT,,UzeOcBM9cuU,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,127.0,Education
+video:VfBrLONPnFM,video,ME quité el MIEDO de viajar en los buses de GUATEMALA 🔥,/@detodogt,,VfBrLONPnFM,UCDfEVbDrimcKw5lfbps915g,De todo Gt,0.0,,0.0,329489.0,People & Blogs
+video:VgcpKa1h_2Q,video,CONQUISTA LA CIUDAD / 21K BAM de la Municipalidad de Guatemala,/@21KMuniGuate,,VgcpKa1h_2Q,UC_nkMVSKgO9PeEaZ3LbPodg,21KMuniGuate,0.0,,0.0,3110.0,Sports
+video:VuIl4tjeKGQ,video,La ciudad sigue modernizándose para ti y tu familia.,/@MunicipalidaddeGuatemala-1551,,VuIl4tjeKGQ,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,39168.0,News & Politics
+video:W415t12o3DA,video,Mujer con crisis nerviosa tras intento de asalto,/@TN23TodoNoticias,,W415t12o3DA,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,0.0,,0.0,4737.0,News & Politics
+video:WIUZtitfLRw,video,Caminar en una ciudad hecha para carros,/@quorumgt,,WIUZtitfLRw,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,6.0,,6.0,422.0,News & Politics
+video:WQcgx8rs0Qo,video,"PMT SE BURL4 DE UN MOTORISTA D1SC4PACIT4D0, DISCULPESE POR FAVOR VILLA NUEVA, GUATEMALA.",/@CronosTime,,WQcgx8rs0Qo,UCH1AYkCs1GpNK_xUwFYTsaQ,Cronos Time GT,0.0,,0.0,1861.0,Education
+video:WXA2Apo79jA,video,Resumen de atención a Emergencias CIV,/@CIV_Guatemala,,WXA2Apo79jA,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,29.0,News & Politics
+video:WXgGL9rZUHo,video,#EnvivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,WXgGL9rZUHo,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,190.0,News & Politics
+video:XLkVzqqL34Q,video,Nueva Mega Autopista Xochi en Guatemala 🇬🇹 ¿Vale la pena? (Te ahorra hasta 3 horas),/@onelife5106,,XLkVzqqL34Q,UCkXkEfAaEGxUaIT6TBBkwMw,One Life,0.0,,0.0,44510.0,Entertainment
+video:XVZM15KVXjM,video,Conoce sobre la actualización de la Norma para la Reducción de Desastres número 2 (NRD2).,/@Conred_GT,,XVZM15KVXjM,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,267.0,Education
+video:X_FAIef8qlE,video,Cruzando la ciudad a puro Transmetro,/@quorumgt,,X_FAIef8qlE,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1.0,,1.0,1140.0,News & Politics
+video:XktDG8dmcd0,video,Torrenciales lluvias dejan decenas de muertos y miles de evacuados,/@dwespanol,,XktDG8dmcd0,UCT4Jg8h03dD0iN3Pb5L0PMA,DW Español,0.0,,0.0,5171.0,News & Politics
+video:YJohmVLc9QA,video,How to Get Around Guatemala: Complete Transportation Guide (2026),/@theroamingrosses,,YJohmVLc9QA,UCCM52vmXEcGzRlYyjP47PPg,Chris & Grace,0.0,,0.0,3897.0,Travel & Events
+video:YLFXK2c60Xc,video,Por estas razones el 65% de las denuncias por violación en Guatemala nunca llega a un tribunal,/@quorumgt,,YLFXK2c60Xc,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,200.0,News & Politics
+video:YSsECnqTVik,video,Suscriben convenios para transferencia de fondos a CAIMUS y entidades especializadas,/@mingobguate,,YSsECnqTVik,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,15.0,News & Politics
+video:ZHJoIah2Owo,video,Conoce como funciona el Sistema Conred  #laprevenciónestareadetodos,/@Conred_GT,,ZHJoIah2Owo,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,182.0,Education
+video:ZNwStkzWgso,video,Elección judicial en Guatemala: Astrid Lemus y Luis Bermejo electos para corte de constitucionalidad,/@cnnee,,ZNwStkzWgso,UC_lEiu6917IJz03TnntWUaQ,CNN en Español,0.0,,0.0,24636.0,News & Politics
+video:ZPBiWdHXg20,video,Piloto de tráiler accidentado en ruta al Atlántico era un menor y murió en el lugar,/@PrensaLibreOficial,,ZPBiWdHXg20,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,233632.0,News & Politics
+video:ZS74P3DnykA,video,"Policía Nacional Civil gradúa 3,978 nuevos agentes",/@PNCdeGuatemala,,ZS74P3DnykA,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,115270.0,News & Politics
+video:Z_pWnOi7oRw,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,Z_pWnOi7oRw,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,1329.0,News & Politics
+video:ZhrDgVZkhg4,video,FORMACION BRIGADA DE PROVIAL,/@provialguatemala4072,,ZhrDgVZkhg4,UCnbd_gs8-e1CQ6izIYtnSig,PROVIAL GUATEMALA,0.0,,0.0,4419.0,People & Blogs
+video:_1VIxOLyaUQ,video,Sonido de trafico y ciudad 💤 ruido de calle para dormir bebés y relajarse,/@ambient_sound_explorer,,_1VIxOLyaUQ,UCKZ0c9xQAIokTOf4iPJd5jw,Ambient Sound Explorer,0.0,,0.0,330057.0,Entertainment
+video:_3kK0or6QI0,video,PROVIAL guatemala,/@heto009,,_3kK0or6QI0,UCdd624oESXuVlcGtrzMWEBQ,heto009,0.0,,0.0,2054.0,News & Politics
+video:_Lcbi4NCHRA,video,Tercer Informe General de la República,/@GobiernodeGuatemala,,_Lcbi4NCHRA,UCh4GjKBcqxOsL_Bt8gCCSLg,Gobierno de Guatemala,0.0,,0.0,305269.0,News & Politics
+video:_NSq2q0mzCY,video,42K y 21K MuniGuate 🏃🏻🏃🏻‍♀️,/@MunicipalidaddeGuatemala-1551,,_NSq2q0mzCY,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,47.0,News & Politics
+video:_cUZT7LMKE0,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGt,/@GobiernodelaRepublicadeGuatema,,_cUZT7LMKE0,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2708.0,Entertainment
+video:a2zgl-1KZwY,video,#CadenaNacional | Mensaje del Presidente Bernardo Arévalo a la nación,/@GobiernodelaRepublicadeGuatema,,a2zgl-1KZwY,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2334.0,Entertainment
+video:a3QGSpNx9Mg,video,Guatemala ya no aguanta el tráfico… ¿Funcionará el Aerómetro?,/@entrecaminostv,,a3QGSpNx9Mg,UCHBzKtCUFwHuKFGD3bEHexQ,Entre Caminos,0.0,,0.0,8098.0,Travel & Events
+video:a6QFfhpY53g,video,Provial Informa,/@ProvialOficial_CIV,,a6QFfhpY53g,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,49.0,People & Blogs
+video:aRKgOSxgsF0,video,@GobiernodeGuatemala,/@luisarturocebergulban6982,,aRKgOSxgsF0,UCX2epzWFbtqhO1Tn2au9NXQ,luis arturo ceberg ulban,0.0,,0.0,2.0,People & Blogs
+video:aSbvMYJhmCc,video,Policía Nacional Civil,/@mingobguate,,aSbvMYJhmCc,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,4346.0,News & Politics
+video:a_kAe9IhBbo,video,Tráiler impacta pasarela en Aguilar Batres y provoca cierre parcial hacia la capital,/@PrensaLibreOficial,,a_kAe9IhBbo,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,255.0,News & Politics
+video:ahicr7fQREY,video,Conred Podcast Episodio 9: Servidores Cívicos construyendo una cultura de prevención,/@Conred_GT,,ahicr7fQREY,UC6SA1dVHvAkc6yNS_t5cbGw,Conred,0.0,,0.0,65.0,Education
+video:almmnboHkwM,video,Se mueve Guate 🚌,/@MunicipalidaddeGuatemala-1551,,almmnboHkwM,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,297.0,News & Politics
+video:anFbrgqxdzY,video,Horas Antes del Big One | Dentro de Ciudad de Guatemala Exactamente Antes del Terremoto (1976),/@NostalgiaLatina-k2e,,anFbrgqxdzY,UC6Y7Hk0Otm2xeX1WoHOQp6Q,Nostalgia Latina,0.0,,0.0,222656.0,People & Blogs
+video:aoz2j4TTl4E,video,Rutas Alternas a partir del lunes 03 de agosto por avances de #AeroMetroGT,/@MunicipalidaddeGuatemala-1551,,aoz2j4TTl4E,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,8905.0,News & Politics
+video:bBz8nX4pMxc,video,Conred e Insivumeh informan sobre sismos en Guatemala este 31 de julio,/@guatevision_oficial,,bBz8nX4pMxc,UCDaIW3kDab95q7iCSeVAnbQ,Guatevisión,0.0,,0.0,1115.0,Entertainment
+video:bMoENbSBSNs,video,¿Por qué Guatemala es una República? El decreto del 21 de marzo de 1847 y Rafael Carrera,/@elprofedehistoriagt2046,,bMoENbSBSNs,UCdHETJl6cR5dye5XxEyqycQ,El profe de Historia Gt,0.0,,0.0,1134.0,Education
+video:b_Hkrkl3adA,video,Bloqueos en Guatemala este 31 de agosto por alza en combustibles afectan rutas principales,/@PrensaLibreOficial,,b_Hkrkl3adA,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,7.0,,7.0,5469.0,News & Politics
+video:bg1KCMaIrRM,video,"¡Atención, vecinos!",/@MunicipalidaddeGuatemala-1551,,bg1KCMaIrRM,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,1965.0,News & Politics
+video:bzosgvntOXU,video,Municipalidad de Guatemala 05/09/2025,/@ConcejalesOposici%C3%B3n,,bzosgvntOXU,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,160.0,People & Blogs
+video:cl3Rpw9MstQ,video,Municipalidad de Guatemala sigue trabajando,/@MunicipalidaddeGuatemala-1551,,cl3Rpw9MstQ,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,484.0,News & Politics
+video:cpoiRUtF9uU,video,Congreso termina jornada sin acuerdos para aliviar precio de combustibles #ALAS7AM (02/09/2026),/@miracanalantigua,,cpoiRUtF9uU,UC-GLagjBhWAZ3IOWFgzqIAw,Canal Antigua,0.0,,0.0,117.0,News & Politics
+video:csqia7f3OIE,video,SISTEMA CONRED Y METODOLOGÍA DE LOS 6 PASOS,/@CarlitosGamboa,,csqia7f3OIE,UCzQX0cEQzCZ4ff9-P3gELug,Carlitos Gamboa,0.0,,0.0,509.0,People & Blogs
+video:d-V_Aw1t6nI,video,Graduacion  de la 57 Promocion  de la Policia Nacional Civil  de Guatemala.,/@PNCdeGuatemala,,d-V_Aw1t6nI,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,1643.0,People & Blogs
+video:dJcNu9YYwh4,video,"Lluvias, ceniza y calor extremo: así estará el clima en Guatemala, según Insivumeh",/@PrensaLibreOficial,,dJcNu9YYwh4,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,1061.0,News & Politics
+video:dLctzx8qCgA,video,¿Cómo la CIA ALTERÓ el DESTINO de GUATEMALA para siempre?,/@AlanDelmonte,,dLctzx8qCgA,UCYaMaLJVbMlLwpPACbxPUuQ,Alan Delmonte,0.0,,0.0,108616.0,Education
+video:dWhSTyhegeQ,video,Personal de Provial explica de empresas que verificarán implementación de limitadores de velocidad,/@lahoragt,,dWhSTyhegeQ,UCrAoF9-9Vvb9_zK0t-m2Rhg,La Hora,0.0,,0.0,341.0,News & Politics
+video:dccwBXfxxiI,video,¡Espacios iluminados y seguros!,/@MunicipalidaddeGuatemala-1551,,dccwBXfxxiI,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,38773.0,News & Politics
+video:dsyLiSCrwcU,video,"3 KIEBRES ES DOLOROSO QUE EN CHIQUIMULA AÚN HAY COMUNIDADES SIN ENERGÍA ELÉCTRICA, GUATEMALA.",/@CronosTime,,dsyLiSCrwcU,UCH1AYkCs1GpNK_xUwFYTsaQ,Cronos Time GT,0.0,,0.0,701.0,Education
+video:dvy9rQpqLWY,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGT,/@GobiernodelaRepublicadeGuatema,,dvy9rQpqLWY,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,959.0,Entertainment
+video:dya9nbxqWXE,video,ANDY EL MUÑEQUITO TRABAJADOR 🥴🏍🥴🤣@Soychap1n @lucilaylossinar @lilyvlogs6899,/@robosymentiras,,dya9nbxqWXE,UCzwR2o8LFAgAMfO0KIcFh0A,CANALES ROBOS Y MENTIRAS 💰🧐,0.0,,0.0,4939.0,People & Blogs
+video:ebbgBtNrRz8,video,Las fuertes lluvias en Guatemala dejan al menos tres fallecidos en zonas rurales | Telemundo,/@noticias,,ebbgBtNrRz8,UCRwA1NUcUnwsly35ikGhp0A,Noticias Telemundo,0.0,,0.0,63249.0,News & Politics
+video:ewdf3q1tuCA,video,INTERPOL Guatemala captura a mujer por prostituir a señoritas,/@Noti7Guatemala,,ewdf3q1tuCA,UCVpSRoZgngfSL03Nlbjtq9A,Noti7,0.0,,0.0,71048.0,News & Politics
+video:fBljA_npiMs,video,Refuerzan acciones para prevenir y combatir la trata de personas,/@mingobguate,,fBljA_npiMs,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,36.0,News & Politics
+video:fenMcON-DjY,video,Encendido del Fuego Patrio y Mensaje Vicepresidencial,/@GobiernodelaRepublicadeGuatema,,fenMcON-DjY,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,424.0,Entertainment
+video:ffguGnMImL0,video,CIV inicia trabajos de bacheo y limpieza en las diferentes rutas del país,/@GobiernodeGuatemala,,ffguGnMImL0,UCh4GjKBcqxOsL_Bt8gCCSLg,Gobierno de Guatemala,0.0,,0.0,848.0,News & Politics
+video:g0aCNpZaAZ8,video,PMT de Guatemala es ejemplo para otros municipios,/@MunicipalidaddeGuatemala-1551,,g0aCNpZaAZ8,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,4103.0,News & Politics
+video:gF42rhVhP8w,video,Tenemos un gran problema con la seguridad de las construcciones en Guatemala,/@TanGenteGT,,gF42rhVhP8w,UCGSQ821fpPy-yXL9mUmKbBg,TanGente Podcast,0.0,,0.0,9033.0,Entertainment
+video:gbcggAMJczg,video,Dionel  Art s Vídeo danzando con la muerte,/@Dionel.Art_music,,gbcggAMJczg,UCedKfsLot_SfwJrfW5OzpPg,Dionel.Art_music,0.0,,0.0,7.0,People & Blogs
+video:go4jAhCJS0w,video,Así reaccionaría la guardia presidencial de la Saas en caso de una emergencia,/@PrensaLibreOficial,,go4jAhCJS0w,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,7381.0,News & Politics
+video:hGOvuWe8P3Q,video,🔴ENTREGAN A NOROÑA ALITO NEGOCIA CON MONREAL PREPARAN MEGÁFONOS PORROS DEL PRIAN,/@VittorBlogs,,hGOvuWe8P3Q,UClivsn4u-h1uJkORB6PD9SQ,Vittor Blogs,0.0,,0.0,6682.0,News & Politics
+video:hy0mwEHr6V0,video,MI3 será utilizado dentro de las evaluaciones a aspirantes a PNC,/@mingobguate,,hy0mwEHr6V0,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,127595.0,News & Politics
+video:iBX5DMQSf3s,video,Conmemoramos el 153 Aniversario de la Escuela Politécnica y Día del cadete.,/@GobiernodelaRepublicadeGuatema,,iBX5DMQSf3s,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1264.0,Entertainment
+video:iCbGedZRRE8,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGT,/@GobiernodelaRepublicadeGuatema,,iCbGedZRRE8,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1058.0,Entertainment
+video:iEmScdnYQdg,video,La nueva ruta que evita El Trébol,/@Tr%C3%A1ficoSinCensuraGT,,iEmScdnYQdg,UCmzHLdcizBNiyN5t2mEPp3A,Tráfico Sin Censura,0.0,,0.0,8502.0,People & Blogs
+video:iWYddxEszoM,video,#EnVivoDCA | Conferencia de prensa del Gobierno de Guatemala,/@dcaguatemala,,iWYddxEszoM,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,264.0,News & Politics
+video:iacCQ4VyWWc,video,"Los conservadores y los liberales, Historia de Guatemala",/@panda0157,,iacCQ4VyWWc,UC-rcR68a-aLwAnszxTG4--A,Panda 01,0.0,,0.0,25431.0,People & Blogs
+video:ifJFNGT4azU,video,Podcast Guatemala Ahora Yo Se: Medidas De Seguridad Con el Lic. Ariel Yos y el Lic. Gabriel Quiñones,/@AhoraYose,,ifJFNGT4azU,UC1B5-Dun1FHWae_rIJdfhow,Ahora Yose,0.0,,0.0,3631.0,People & Blogs
+video:is3Mk5oC19g,video,Capturan a ladrón que había quedado grabado mientras robaba en una parroquia de Retalhuleu,/@TN23TodoNoticias,,is3Mk5oC19g,UCt5Dw7ePnn0AqPqRF8Xpjkw,TN23 Guatemala,7.0,,7.0,4616.0,News & Politics
+video:j43HgwYFKfk,video,La cooptación de Walter Mazariegos en la USAC,/@quorumgt,,j43HgwYFKfk,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,50.0,,49.0,10156.0,News & Politics
+video:j4akBH678fw,video,El paso a desnivel Calzada Roosevelt lleva más conexión y mejor movilidad para la población.,/@GobiernodelaRepublicadeGuatema,,j4akBH678fw,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,649.0,Entertainment
+video:jQGvhMPMuAI,video,#DiálogoCentral | El clima de la semana: adiós a la canícula ¿llegan las lluvias? 🌦️,/@miracanalantigua,,jQGvhMPMuAI,UC-GLagjBhWAZ3IOWFgzqIAw,Canal Antigua,0.0,,0.0,214.0,News & Politics
+video:jSw-nFh94qQ,video,Gobernación promueve espacios de sana convivencia,/@mingobguate,,jSw-nFh94qQ,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,59.0,News & Politics
+video:kaZgtwqwLrI,video,@rumzacapait @GobiernodeGuatemala,/@AnabellacordonArtista,,kaZgtwqwLrI,UCgRLnesCOuua3-JgFlzdS2w,TRAYECTORIA Y EXITO CON ANABELLA CORDON,0.0,,0.0,74.0,People & Blogs
+video:kjwvEESqSHA,video,¿VALE la PENA VIAJAR de GUATEMALA a  XELA en BUS?  Descúbrelo,/@detodogt,,kjwvEESqSHA,UCDfEVbDrimcKw5lfbps915g,De todo Gt,0.0,,0.0,216172.0,People & Blogs
+video:l-mH80ygqFY,video,Avances en proyectos municipales por el desarrollo y bienestar en la ciudad.,/@MunicipalidaddeGuatemala-1551,,l-mH80ygqFY,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,256.0,News & Politics
+video:lAsODhYGcTE,video,Gobierno busca a toda costa sacar a Consuelo Porras,/@noticiasvr,,lAsODhYGcTE,UCzPhFkpD8lwvlX8nGpJqdUw,Noticias VR,0.0,,0.0,3.0,People & Blogs
+video:lNuxq8OKCpc,video,Lluvias convierten calles en ríos en Villa Nueva y San Miguel Petapa,/@PrensaLibreOficial,,lNuxq8OKCpc,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,7663.0,News & Politics
+video:lYyGqHAL5nM,video,Comuna lanzó nueva imagen de la PM y PMT,/@MunicipalidaddeGuatemala-1551,,lYyGqHAL5nM,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,286.0,People & Blogs
+video:lj983NWyAQY,video,Plan 2032 Ciudad de Guatemala,/@MunicipalidaddeGuatemala-1551,,lj983NWyAQY,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,25.0,,25.0,304089.0,News & Politics
+video:lkdwGwrJKeM,video,🇬🇹 ¿Es seguro VIAJAR a Guatemala? Consejos prácticos para que todo te salga bien,/@UnAngelViajando,,lkdwGwrJKeM,UCeMAsS36ZiA56ZNtS8VSuOg,Un Angel Viajando,0.0,,0.0,5298.0,Travel & Events
+video:mCoOL2p0il4,video,Municipalidad de Guatemala   08/08/2025,/@ConcejalesOposici%C3%B3n,,mCoOL2p0il4,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,118.0,People & Blogs
+video:mPtR2HskBTE,video,Municipalidad de Guatemala   17/02/2025,/@ConcejalesOposici%C3%B3n,,mPtR2HskBTE,UCW_PHqwqCCalvQGOEsVU0jw,Concejales de Oposición - Muni Guate,0.0,,0.0,729.0,People & Blogs
+video:mQH6bhmp_LY,video,Quorum: ¿Cómo investigamos la crisis del agua?,/@quorumgt,,mQH6bhmp_LY,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,142.0,News & Politics
+video:n31eyGuRKqo,video,El tráfico en Guatemala nos está enfermando - TanGente Salud Mental,/@TanGenteGT,,n31eyGuRKqo,UCGSQ821fpPy-yXL9mUmKbBg,TanGente Podcast,0.0,,0.0,932.0,People & Blogs
+video:n4xHxJPNr78,video,🚫LOS FAMOSOS BUSES ESMERALDA los mas RÁPIDOS DE GUATEMALA 😱,/@detodogt,,n4xHxJPNr78,UCDfEVbDrimcKw5lfbps915g,De todo Gt,0.0,,0.0,3152619.0,People & Blogs
+video:n8iP75gIpmw,video,Qué rico come tu diputado,/@quorumgt,,n8iP75gIpmw,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,161.0,,128.0,11775.0,News & Politics
+video:nKJhNH86HGE,video,Se realiza taller de UNICEF sobre el plan de acción de la política pública contra la violencia sexua,/@mingobguate,,nKJhNH86HGE,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,7.0,News & Politics
+video:nPbC8-Ebat4,video,Pareja de sicarios capturada tras ataque armado contra piloto de autobús,/@PNCdeGuatemala,,nPbC8-Ebat4,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,70537.0,Science & Technology
+video:ncOU7iZR5jY,video,Carlos Pineda y Andre Pozuelos | Seguridad II- Guatemala tiene solución | Ep. 3,/@carlospinedaGT,,ncOU7iZR5jY,UCInL6HZez6Qn8IHV8Achhxw,Carlos Pineda,0.0,,0.0,3279.0,People & Blogs
+video:ndAZjHqzzT8,video,Internet: escoger el menos malo,/@quorumgt,,ndAZjHqzzT8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,12.0,,10.0,717.0,News & Politics
+video:nhhXiHI4rrw,video,Policía Nacional Civil participa en desfile del día del Ejército. #ProtegerYServir,/@PNCdeGuatemala,,nhhXiHI4rrw,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,21534.0,News & Politics
+video:nv6wMdQ997Q,video,PMT en todo,/@MunicipalidaddeGuatemala-1551,,nv6wMdQ997Q,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,2107.0,News & Politics
+video:pNInRBsPbHE,video,Encuentro por el agua,/@quorumgt,,pNInRBsPbHE,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,0.0,,0.0,185.0,News & Politics
+video:qFsSnnRdJBg,video,Avanza construcción de la Estrategia Nacional de Datos Abiertos,/@mingobguate,,qFsSnnRdJBg,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,11.0,News & Politics
+video:qrdEegnTnaY,video,XVII Promoción de Brigadas PROVIAL,/@ProvialOficial_CIV,,qrdEegnTnaY,UCuKuUrmHoNaJJHE27Aac9PQ,PROVIAL-CIV,0.0,,0.0,416.0,People & Blogs
+video:rNpBtQXUMbE,video,PMT es ejemplo en Guatemala,/@MunicipalidaddeGuatemala-1551,,rNpBtQXUMbE,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,3212.0,News & Politics
+video:rQEb4el3Lok,video,"Policía Nacional Civil en busca de mareros, imitadores y colaboradores de grupos delictivos",/@PNCdeGuatemala,,rQEb4el3Lok,UCHsYnV67K3J0yJ4QeciVCww,PNCdeGuatemala,0.0,,0.0,9637.0,News & Politics
+video:rSQKmOX1Tfc,video,TU VIDA VALE  PROVIAL  TIEMPO AZUL & PAOLA PÉRLOP,/@moscavision,,rSQKmOX1Tfc,UCquHy3UnphbYGF62_j6W_yQ,Mosca Visión,0.0,,0.0,5262.0,Music
+video:rjFut_yJcr8,video,Ministro de CIV conversó sobre los retos  actuales de la infraestructura vial en Guatemala,/@miracanalantigua,,rjFut_yJcr8,UC-GLagjBhWAZ3IOWFgzqIAw,Canal Antigua,0.0,,0.0,800.0,News & Politics
+video:s0eco-BofOs,video,¿Quiénes pagan más en Centroamérica?,/@quorumgt,,s0eco-BofOs,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1.0,,1.0,220.0,News & Politics
+video:sAPrXzrdstM,video,Funciones del Ministerio de Gobernación,/@mingobguate,,sAPrXzrdstM,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,8970.0,News & Politics
+video:soZMwC0Cj18,video,Lluvias causan inundaciones y deslizamiento en Alta Verapaz,/@PrensaLibreOficial,,soZMwC0Cj18,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,1405.0,News & Politics
+video:tEfZlrP4L5I,video,#EnVivoDCA | Conferencia de Prensa del Gobierno de Guatemala,/@dcaguatemala,,tEfZlrP4L5I,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,265.0,News & Politics
+video:tK__qZZ-H5w,video,Conferencia de Prensa del Gobierno de Guatemala. #LaRondaGT,/@GobiernodelaRepublicadeGuatema,,tK__qZZ-H5w,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,866.0,Entertainment
+video:tXLhWHWGaao,video,Breve historia política de Guatemala,/@cronicapanamericana,,tXLhWHWGaao,UCo1g4EQqLwMO9RqEv1rCUpQ,Crónica Panamericana,0.0,,0.0,144134.0,People & Blogs
+video:tb6LaOWGAIo,video,"Guía Definitiva para viajar a Guatemala 2026 🇬🇹 Qué ver, itinerarios, precios y consejos",/@Welcometoelmundo,,tb6LaOWGAIo,UC70eD0hNEwDNAfNlqfRWlGA,Welcome to el Mundo,0.0,,0.0,104869.0,Travel & Events
+video:tcAQGuuo_Uc,video,El Ministerio de Gobernación Guatemala  brinda conferencia de prensa.,/@GobiernodelaRepublicadeGuatema,,tcAQGuuo_Uc,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,2254.0,Entertainment
+video:tg2QuZFdn4c,video,🔴 En Vivo |  Sesión Solemne de Consejo de Gobierno en Limón,/@PresidenciadelaRepublicaCR,,tg2QuZFdn4c,UCLXHie0velori7_dqu8w_bQ,Presidencia de la República,0.0,,0.0,15726.0,News & Politics
+video:tmvTbeQNCTI,video,"Hoy SABRÁN Qué Grado ACADÉMICO Tenemos, Todos Son PROFESIONALES",/@GentedeGuate,,tmvTbeQNCTI,UCTClcvXaWXGeZheUQFTQLRw,Gente de Guate,0.0,,0.0,15482.0,Entertainment
+video:tqcZFVSXARQ,video,¿Listo para decir tengo #MiPrimeraCasa? 🏠✨,/@GobiernodelaRepublicadeGuatema,,tqcZFVSXARQ,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1373.0,Entertainment
+video:vA6p51f14J4,video,Horarios especiales por celebraciones de fin de año,/@MunicipalidaddeGuatemala-1551,,vA6p51f14J4,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,606.0,News & Politics
+video:vCtk_0NzB3s,video,Clima en Guatemala esta semana: calor de hasta 39 °C y lluvias con tormentas,/@PrensaLibreOficial,,vCtk_0NzB3s,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,1534.0,News & Politics
+video:vDVXM8ODuzM,video,#EnVivoDCA | Conferencia de Prensa del Gobierno de Guatemala,/@dcaguatemala,,vDVXM8ODuzM,UCaivrAhro2BpsJdrPe-IyRg,Diario de Centro América,0.0,,0.0,214.0,News & Politics
+video:vNUiF-stTdo,video,resumen de noticias,/@tvinfomguatemala,,vNUiF-stTdo,UCYaCfDw7q5l_S1UHjdfzODQ,INFOM TV,0.0,,0.0,23.0,News & Politics
+video:vp9MPfDG6AE,video,"Comunicado – COVIAL / Ministerio de Comunicaciones, Infraestructura y Vivienda",/@Noti7Guatemala,,vp9MPfDG6AE,UCVpSRoZgngfSL03Nlbjtq9A,Noti7,0.0,,0.0,260.0,News & Politics
+video:vqcF9RFMOLQ,video,"Ciudad de Guatemala, el mejor lugar para vivir",/@MunicipalidaddeGuatemala-1551,,vqcF9RFMOLQ,UCXa6LVjBzUtmcM3cwbd9e2w,Municipalidad de Guatemala,0.0,,0.0,215.0,News & Politics
+video:w57G_5jsqtU,video,Tráfico intenso por regreso a clases del sector público extiende horas pico en el área metropolitana,/@PrensaLibreOficial,,w57G_5jsqtU,UCEepOY2svuxbsJ-zsAPT9Fg,PrensaLibreOficial,0.0,,0.0,625.0,News & Politics
+video:wS6yC3yOAeA,video,Noticiero El Informativo. Nuestra semana de resultados.,/@GobiernodelaRepublicadeGuatema,,wS6yC3yOAeA,UC-ZtFBHzgkYFh7whZkuR_Ag,Gobierno de la República de Guatemala,0.0,,0.0,1383.0,Entertainment
+video:wVncmfsugww,video,"Spot Rendición de Cuentas, tercer cuatrimestre 2023 - 1",/@CIV_Guatemala,,wVncmfsugww,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,15.0,People & Blogs
+video:wYZPaJdVuhE,video,#LaCharla ¿Quién dirigirá el sistema portuario y qué decisiones debe tomar primero?,/@guatevision_oficial,,wYZPaJdVuhE,UCDaIW3kDab95q7iCSeVAnbQ,Guatevisión,0.0,,0.0,202.0,News & Politics
+video:wm1f52Mvzag,video,Gloria Álvarez: ¿Podría ser la próxima presidenta de Guatemala?,/@jorgeramos-asiveolascosas,,wm1f52Mvzag,UCN5tcDI7z6vN9s3p3n_JtoQ,Jorge Ramos,0.0,,0.0,31357.0,News & Politics
+video:wpYwX-bGoz0,video,CIV prioriza proyectos con potencial para generar desarrollo en Guatemala,/@CIV_Guatemala,,wpYwX-bGoz0,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,468.0,People & Blogs
+video:x9TPnjUeuoo,video,VIDEO INSTITUCIONAL PROVIAL,/@CIV_Guatemala,,x9TPnjUeuoo,UCAutgrPkiLhZxTB-Ujje1fw,CIV -Ministerio de Comunicaciones,0.0,,0.0,2250.0,People & Blogs
+video:xEcC_aMDhAk,video,MINGOB y COPADEH avanzan en la protección de personas defensoras de DDHH,/@mingobguate,,xEcC_aMDhAk,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,17.0,News & Politics
+video:xQgP0n8hVSI,video,"Primero te usan, y cuando ya no les sirves te desechan.",/@mingobguate,,xQgP0n8hVSI,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,28.0,News & Politics
+video:x_CB0ZRLQTA,video,Ricardo Quiñónez paga con nuestros impuestos netcenter,/@AlcaldexAccidente,,x_CB0ZRLQTA,UCaFyLdpZa60tkGfjOsznHSg,AlcaldexAccidente,0.0,,0.0,29419.0,People & Blogs
+video:y8XMbMxMF8E,video,"Gracias a la inteligencia, coordinación y firmeza, se dió un duro golpe al crimen organizado",/@mingobguate,,y8XMbMxMF8E,UC8u2nvyHewt-mjdWSj0HJmQ,Ministerio de Gobernación,0.0,,0.0,84.0,News & Politics
+video:yCmBtmOm6nw,video,“¿DÓNDE ESTÁN?”: GOBIERNO IMPULSA MECANISMO PARA BUSCAR A DESAPARECIDOS DEL CONFLICTO ARMADO,/@iDocumenta,,yCmBtmOm6nw,UCgItjn_ZWFWcv1MlpKIkqgQ,IDocumenta,0.0,,0.0,6.0,News & Politics
+video:yLZS3JiEBg8,video,Arroz con pollo a la MONOPOLIO,/@quorumgt,,yLZS3JiEBg8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,16.0,,16.0,1954.0,News & Politics
+video:zfJlUXRSaCU,video,Brief Political History of Guatemala,/@cronicapanamericana,,zfJlUXRSaCU,UCo1g4EQqLwMO9RqEv1rCUpQ,Crónica Panamericana,0.0,,0.0,53547.0,People & Blogs
+video:zweosulrwA8,video,Edén por Salud: empleo inclusivo para personas con discapacidad en Antigua | Super - Episodio 2,/@quorumgt,,zweosulrwA8,UCE4rsXcgDb6e1-a9iTbWzfg,Quorum,1.0,,1.0,52.0,Nonprofits & Activism
+video:zyA0BpEYcQU,video,Discusión entre conductor y jefe de la PMT,/@NuestroMundoGuatemala,,zyA0BpEYcQU,UC_Lj2naQPP8vmyDu-AEOo-w,Nuestro Mundo,0.0,,0.0,55349.0,People & Blogs

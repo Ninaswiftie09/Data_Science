@@ -1,0 +1,9 @@
+channel_name,positivo,negativo,neutral,n,porcentaje_positivo,porcentaje_negativo,porcentaje_neutral,comparacion_descriptiva
+Gobierno de la República de Guatemala,18,9,43,70,25.714285714285715,12.857142857142858,61.42857142857143,True
+Municipalidad de Guatemala,5,0,20,25,20.0,0.0,80.0,True
+Noti7,2,0,12,14,14.285714285714286,0.0,85.71428571428571,True
+Noticias Telemundo,4,2,19,25,16.0,8.0,76.0,True
+Noticiero Guatevisión 13 Hrs.,0,1,1,2,0.0,50.0,50.0,False
+PrensaLibreOficial,1,0,6,7,14.285714285714286,0.0,85.71428571428571,False
+Quorum,49,26,181,256,19.140625,10.15625,70.703125,True
+TN23 Guatemala,0,0,7,7,0.0,0.0,100.0,False

@@ -1,0 +1,7 @@
+source_query,positivo,negativo,neutral,n,porcentaje_positivo,porcentaje_negativo,porcentaje_neutral,comparacion_descriptiva
+@GobiernodeGuatemala,5,2,18,25,20.0,8.0,72.0,True
+@quorumgt,8,4,13,25,32.0,16.0,52.0,True
+@quorumgt/videos,41,22,168,231,17.748917748917748,9.523809523809524,72.72727272727273,True
+Gobierno de la República de Guatemala,13,7,25,45,28.88888888888889,15.555555555555555,55.55555555555556,True
+Municipalidad de Guatemala,5,0,20,25,20.0,0.0,80.0,True
+guatemala noticias,7,3,45,55,12.727272727272727,5.454545454545454,81.81818181818181,True
