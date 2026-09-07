@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import json
 from collections import Counter
@@ -27,7 +27,16 @@ def topologia(g, nombre):
 
 def dibujar(g, nombre, comunidades=None):
     fig, ax = plt.subplots(figsize=(10, 7))
-    pos = nx.spring_layout(g, seed=42, iterations=100, weight='weight')
+    componentes = sorted(nx.connected_components(g), key=len, reverse=True)
+    activos = [c for c in componentes if len(c)>1]
+    aislados = [next(iter(c)) for c in componentes if len(c)==1]
+    pos = {}
+    for i, componente in enumerate(activos):
+        local = nx.spring_layout(g.subgraph(sorted(componente)), seed=42, iterations=100, weight='weight')
+        for n, xy in local.items():
+            pos[n] = (xy[0] + (i % 3)*3, xy[1] - (i // 3)*3)
+    for i,n in enumerate(aislados):
+        pos[n] = ((i % 40)*0.19-1, -((len(activos)+2)//3)*3-0.2*(i//40))
     colores = [comunidades[n] if comunidades else (0 if str(n).startswith('autor:') else 1) for n in g]
     nx.draw_networkx(g, pos, ax=ax, with_labels=False, node_color=colores,
                      cmap=plt.get_cmap('turbo'), node_size=[12+3*g.degree(n)**0.5 for n in g],

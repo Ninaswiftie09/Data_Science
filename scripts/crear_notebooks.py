@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 
@@ -125,13 +125,13 @@ def notebook_exploratorio(valores: dict[str, object]) -> nbf.NotebookNode:
             f"""
 # Laboratorio 6
 
-## Avance de análisis exploratorio
+## Análisis exploratorio
 
 Repositorio
 
 {REPOSITORIO}
 
-Este avance cubre la carga, la integración, la limpieza y el análisis exploratorio de los datos. También deja preparada la información que se usa para construir la red bipartita.
+Este análisis cubre la carga, la integración, la limpieza y el análisis exploratorio de los datos. También deja preparada la información que se usa para construir la red bipartita.
 """
         ),
         codigo(
@@ -265,7 +265,7 @@ pd.DataFrame({
             """
 ### Limpieza de texto
 
-Se conserva texto_original para auditoría y para análisis posteriores. texto_limpio se pasa a minúsculas. Se eliminan URL, menciones, puntuación, números, emojis y palabras vacías en español. En los hashtags se elimina el símbolo y se conserva la palabra. No se aplicó lematización porque el proyecto todavía no incluye un modelo de español validado y una regla simple podría cambiar nombres o palabras de manera incorrecta.
+Se conserva texto_original para auditoría y para el análisis de sentimiento. texto_limpio se pasa a minúsculas. Se eliminan URL, menciones, puntuación, números, emojis y palabras vacías en español. En los hashtags se elimina el símbolo y se conserva la palabra. No se aplicó lematización para conservar las formas observadas y evitar alterar nombres propios con reglas morfológicas simples.
 
 No se eliminaron registros por el resultado de la limpieza. Los textos vacíos se conservan para que el número de comentarios siga siendo auditable.
 """
@@ -368,13 +368,14 @@ Los primeros autores que aparecen como puntos de articulación son {valores['nom
 
 #### Qué temas y sentimientos caracterizan las principales comunidades
 
-En este avance se usan componentes conectadas como una descripción preliminar. Todavía no se aplica un algoritmo de comunidades. {valores['resumen_comunidades']}
+Las comunidades se detectan con Louvain en la proyección de autores. Sus tamaños, contenidos y sentimientos se presentan en el notebook 03.Resultados_Finales. Las componentes conectadas no se consideran equivalentes a comunidades.
 
-El análisis de sentimiento de este avance usa un léxico pequeño y transparente en español. Clasifica {int(sentimientos.get('positivo', 0))} comentarios como positivos, {int(sentimientos.get('negativo', 0))} como negativos y {int(sentimientos.get('neutral', 0))} como neutrales. Es un resultado preliminar y no detecta bien ironía, contexto ni negaciones.
+El sentimiento usa un léxico en español sobre el texto original, conserva las negaciones y aplica una inversión local de polaridad. Clasifica {int(sentimientos.get('positivo', 0))} comentarios como positivos, {int(sentimientos.get('negativo', 0))} como negativos y {int(sentimientos.get('neutral', 0))} como neutrales. La etiqueta neutral también incluye textos sin palabras reconocidas o con balance cero; no prueba neutralidad real.
+
 
 #### La visibilidad coincide con la participación observada
 
-No coincide de forma directa. El video con más visualizaciones dentro de los videos comentados es {top_vistas['title']}, con {int(top_vistas['view_count'])} visualizaciones y {int(top_vistas['comentarios'])} comentarios. El video con más comentarios tiene {int(top_video['view_count'])} visualizaciones y {int(top_video['comentarios'])} comentarios.
+No coincide de forma directa. El video con más visualizaciones dentro de todos los videos recolectados es {top_vistas['title']}, con {int(top_vistas['view_count'])} visualizaciones y {int(top_vistas['comentarios'])} comentarios. El video con más comentarios tiene {int(top_video['view_count'])} visualizaciones y {int(top_video['comentarios'])} comentarios.
 
 #### Qué conclusiones están limitadas por la recolección
 
@@ -400,7 +401,7 @@ Se observaron {total_respuestas} respuestas distribuidas en {con_respuestas} com
         ),
         markdown(
             """
-## Cierre del avance
+## Conclusiones del análisis
 
 La muestra tiene una participación muy concentrada en pocos videos y canales. La mayoría de autores aparece en un solo video. Existen algunos cruces de audiencia y puntos de articulación que se revisan con más detalle en el notebook de la red bipartita. Todas las conclusiones describen únicamente los datos recolectados.
 """
@@ -430,7 +431,7 @@ Repositorio
 
 {REPOSITORIO}
 
-Este notebook presenta la actividad 4 del avance.
+Este notebook presenta la actividad 4 del laboratorio.
 """
         ),
         codigo(
@@ -550,12 +551,12 @@ display(videos_compartidos.head(15))
         codigo("resumen_componentes(red, comentarios)"),
         markdown(
             """
-Las componentes muestran grupos separados por falta de autores compartidos en los datos. Un grupo separado puede reflejar una audiencia distinta, pero también puede aparecer porque la recolección no incluyó suficientes comentarios. La detección formal de comunidades se realizará en la siguiente parte del laboratorio.
+Las componentes muestran grupos separados por falta de autores compartidos en los datos. Un grupo separado puede reflejar una audiencia distinta, pero también puede aparecer porque la recolección no incluyó suficientes comentarios. La detección formal de comunidades se presenta en el notebook 03.Resultados_Finales.
 """
         ),
         markdown(
             """
-## Conclusión del avance de red
+## Conclusión del análisis de red
 
 La red confirma que la mayor parte de la participación observada ocurre alrededor de pocos videos y que casi todos los autores aparecen en un solo contenido. Los pocos autores recurrentes ayudan a unir videos o canales. La estructura solo representa coparticipación en los comentarios recolectados.
 """
@@ -580,3 +581,5 @@ def guardar_notebooks() -> None:
 if __name__ == "__main__":
     guardar_notebooks()
     print("Notebooks creados")
+
+

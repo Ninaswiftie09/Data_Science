@@ -1,82 +1,68 @@
-# Laboratorio 6
+﻿# Laboratorio 6
 
-## Integrantes
+## Integrante
 
-- Nina Nájera Marakovits, 231088
+Nina Nájera Marakovits, 231088.
 
-## Repositorio
+## Repositorio y espacio colaborativo
+
+El repositorio de GitHub se utiliza como espacio colaborativo de código y registro de versiones:
 
 https://github.com/Ninaswiftie09/Data_Science/tree/Laboratorio6
 
-## Contenido del avance
+## Entrega
 
-Este avance cubre las actividades 1 a 4 del laboratorio.
+El informe con resultados, visualizaciones, interpretación y conclusiones está en output/pdf/Laboratorio_6_YouTube.pdf.
 
-- Carga y comprensión de los datos
-- Integración por video_id
-- Diagnóstico de calidad
-- Limpieza y preparación de texto
-- Análisis exploratorio
-- Construcción de la red bipartita autor video
-- Tabla de nodos y tabla de aristas
-- Visualización de la red completa
+Los notebooks ejecutados contienen las actividades 1 a 10:
 
-Los resultados están en estos notebooks.
+- notebooks/01.Analisis_Exploratorio.ipynb: integración, calidad, limpieza, exploración y preguntas.
+- notebooks/02.Red_Bipartita.ipynb: construcción, tablas y visualización completa.
+- notebooks/03.Resultados_Finales.ipynb: proyecciones, topología, comunidades, centralidades, sentimiento y conclusiones.
 
-- notebooks/01.Analisis_Exploratorio.ipynb
-- notebooks/02.Red_Bipartita.ipynb
-
-El código reutilizable está en la carpeta scripts. Los archivos originales están en data/raw y las tablas procesadas están en data/processed.
+Los archivos originales se conservan en data/raw. Las tablas reproducibles están en data/processed y las figuras finales en output/figures. El código reutilizable y los generadores están en scripts; se conservan los módulos existentes como base del análisis.
 
 ## Instalación
 
-Se recomienda usar Python 3.11 o una versión más reciente.
+Se requiere Python 3.11 o posterior. La entrega fue ejecutada con Python 3.13.
 
 ```bash
 python -m venv .venv
-```
-
-En Windows se activa el entorno con este comando.
-
-```bash
 .venv\Scripts\activate
-```
-
-Después se instalan las dependencias.
-
-```bash
 python -m pip install -r requirements.txt
 ```
 
-## Ejecución
+## Reproducción completa
 
-Para procesar los datos y crear las tablas se usa este comando desde la raíz del proyecto.
-
-```bash
-python -m scripts.analisis_avance
-```
-
-Para crear de nuevo los notebooks se usa este comando.
+Desde la raíz del repositorio:
 
 ```bash
-python -m scripts.crear_notebooks
+python -m scripts.generar_entrega
+python -m scripts.verificar_final
 ```
 
-Luego se abren los notebooks con Jupyter y se ejecutan todas las celdas.
+El primer comando procesa los datos, crea las tablas y figuras, regenera los tres notebooks, ejecuta sus celdas y construye el PDF. Sobrescribe los resultados generados. No requiere modelos ni servicios externos. El segundo comprueba llaves, integración, pesos de ambas proyecciones mediante conjuntos independientes, cobertura de comunidades, conteos de sentimiento y ejecución de notebooks.
+
+Para generar solo las tablas y figuras:
 
 ```bash
-jupyter notebook
+python -m scripts.analisis_final
 ```
 
-Para comprobar las llaves, la unión, los pesos y la estructura bipartita se usa este comando.
+Los módulos scripts.analisis_avance y scripts.crear_notebooks conservan sus nombres por compatibilidad. crear_notebooks genera los dos primeros notebooks sin ejecutar; generar_entrega es el comando de entrega completa.
 
-```bash
-python -m scripts.verificar_avance
-```
+## Decisiones metodológicas
 
-## Decisiones principales
+Los ID se mantienen como llaves; los nombres y handles son etiquetas. La bipartita conserva los 293 videos, incluidos 274 sin comentarios recolectados. La suma de pesos es 406 comentarios; las proyecciones cuentan vecinos distintos y no multiplican relaciones por comentarios repetidos.
 
-Los identificadores se mantienen como llaves y los nombres se usan solo como etiquetas. El texto original se conserva. La copia limpia elimina URL, menciones, puntuación, números, emojis y palabras vacías. Los hashtags conservan la palabra sin el símbolo. No se aplica lematización porque el proyecto todavía no tiene un modelo de español validado.
+Louvain se aplica a la proyección ponderada de autores con resolución 1 y semilla 42. Se comparan tres semillas. La intermediación y cercanía se calculan sobre caminos sin pesos en la bipartita, porque los pesos representan frecuencia y no distancia.
 
-reply_count no se usa para crear relaciones entre autores porque el archivo no indica quién respondió. Una arista de la red solo representa que un autor comentó en un video.
+El sentimiento utiliza el léxico español del proyecto sobre el texto original con una regla local de negación. Es una clasificación descriptiva sin precisión validada; neutral también puede significar ausencia de vocabulario reconocido. Los grupos con menos de 10 comentarios se muestran pero no se comparan como evidencia estable. La consulta de búsqueda describe la selección y no constituye una etiqueta temática validada.
 
+reply_count no identifica relaciones entre autores. Los videos sin cobertura no se interpretan como videos sin audiencia. Las conclusiones se limitan a la muestra y no establecen causalidad.
+
+## Fuentes metodológicas
+
+- https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.louvain.louvain_communities.html
+- https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html
+- https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.closeness_centrality.html

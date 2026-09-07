@@ -7,3 +7,7 @@ pandas
 scikit-learn
 vaderSentiment
 wordcloud
+nbclient
+reportlab
+beautifulsoup4
+Pillow
