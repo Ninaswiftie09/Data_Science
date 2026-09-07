@@ -384,15 +384,23 @@ def popularidad_participacion(tabla_video: pd.DataFrame) -> pd.DataFrame:
 
 
 def clasificar_sentimiento(texto_limpio: str) -> tuple[int, str]:
-    tokens = set(texto_limpio.split())
-    puntuacion = len(tokens & PALABRAS_POSITIVAS) - len(tokens & PALABRAS_NEGATIVAS)
+    texto = unicodedata.normalize("NFKD", str(texto_limpio).lower())
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    tokens = re.findall(r"[a-z?]+|[.!?;,]", texto)
+    puntuacion = 0
+    for i, token in enumerate(tokens):
+        valor = int(token in PALABRAS_POSITIVAS) - int(token in PALABRAS_NEGATIVAS)
+        anteriores = tokens[max(0, i - 3):i]
+        if any(t in {"no", "nunca", "jamas", "sin"} for t in anteriores) and not any(t in ".!?;," for t in anteriores):
+            valor *= -1
+        puntuacion += valor
     etiqueta = "positivo" if puntuacion > 0 else "negativo" if puntuacion < 0 else "neutral"
     return puntuacion, etiqueta
 
 
 def agregar_sentimiento_exploratorio(comentarios: pd.DataFrame) -> pd.DataFrame:
     resultado = comentarios.copy()
-    pares = resultado["texto_limpio"].map(clasificar_sentimiento)
+    pares = resultado["texto_original"].map(clasificar_sentimiento)
     resultado["sentimiento_puntaje"] = pares.map(lambda valor: valor[0])
     resultado["sentimiento"] = pares.map(lambda valor: valor[1])
     return resultado
@@ -429,7 +437,7 @@ def crear_tablas_red(
     autores["canal"] = pd.NA
 
     videos_nodos = (
-        videos[videos["video_id"].isin(comentarios["video_id"])]
+        videos
         .copy()
         .rename(columns={"title": "etiqueta", "view_count": "visualizaciones"})
     )
@@ -437,7 +445,8 @@ def crear_tablas_red(
         comentarios=("comment_id", "count"),
         autores_unicos=("author_channel_id", "nunique"),
     )
-    videos_nodos = videos_nodos.join(conteos_video, on="video_id")
+    videos_nodos = videos_nodos.join(conteos_video, on="video_id").fillna({"comentarios": 0, "autores_unicos": 0})
+    videos_nodos["categoria"] = videos_nodos["category"]
     videos_nodos["nodo_id"] = "video:" + videos_nodos["video_id"].astype(str)
     videos_nodos["tipo"] = "video"
     videos_nodos["handle"] = videos_nodos["channel_handle"]
