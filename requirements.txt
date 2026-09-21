@@ -1,9 +1,0 @@
-jupyter
-matplotlib
-networkx
-nbformat
-numpy
-pandas
-scikit-learn
-vaderSentiment
-wordcloud
