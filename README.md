@@ -52,7 +52,7 @@ para la población. Una persona puede contribuir observaciones en varios períod
 ## Entrega
 
 Subir el notebook ejecutado y el enlace del repositorio:
-https://github.com/Ninaswiftie09/Data_Science
+https://github.com/Ninaswiftie09/Data_Science/tree/Laboratorio7
 
 El informe LaTeX de la raíz es opcional y está excluido de Git.
 Los gráficos se encuentran en `processed/images/` con los mismos nombres
