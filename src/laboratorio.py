@@ -34,6 +34,10 @@ EXPECTED = {'2025T1': (51588, 270), '2025T2': (51167, 270),
             '2025T3': (51583, 270), '2025T4': (49338, 302), '2026T1': (49843, 270)}
 
 def session():
+    pd.set_option('display.max_rows', 100)
+    pd.set_option('display.max_columns', 25)
+    pd.set_option('display.float_format', lambda x: f'{x:,.3f}')
+    plt.rcParams.update({'font.size': 11, 'axes.titlesize': 12})
     spark = (SparkSession.builder.master('local[2]').appName('ENEIC Laboratorio 7')
              .config('spark.driver.memory', '2g').config('spark.sql.shuffle.partitions', '4')
              .config('spark.ui.showConsoleProgress', 'false').getOrCreate())
@@ -201,7 +205,7 @@ def descriptive(df):
         records.append({'variable': c, **{k: row[k] for k in ['n', 'media', 'desviacion', 'minimo', 'maximo']},
                         'p25': row.p[0], 'mediana': row.p[1], 'p75': row.p[2], 'p95': row.p[3]})
     result = {'descriptivos': save_table(pd.DataFrame(records), 'descriptivos')}
-    fig, axes = plt.subplots(1, 3, figsize=(14, 4))
+    fig, axes = plt.subplots(3, 1, figsize=(8, 10))
     for ax, (c, labels) in zip(axes, LABELS.items()):
         table = df.groupBy(c).agg(F.count('*').alias('n'),
                    F.expr('percentile(salario_mensual, 0.5)').alias('mediana')).orderBy(c).toPandas()
@@ -223,7 +227,7 @@ def descriptive(df):
     ax.set_xscale('log'); ax.set_xlabel('Salario mensual (Q), escala logarítmica')
     ax.set_ylabel('Registros'); ax.set_title('Distribución del salario mensual, 2025')
     figure(fig, 'distribucion_salarios.png')
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+    fig, axes = plt.subplots(2, 1, figsize=(8, 7))
     for ax, c in zip(axes, ['nivel_educativo', 'categoria_ocupacional']):
         t = result[c]
         ax.barh(t.etiqueta, t.mediana, color='#367896')

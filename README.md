@@ -59,3 +59,15 @@ Los gráficos se encuentran en `processed/images/` con los mismos nombres
 que utiliza el informe. No es necesario subir los Excel ni los Parquet a GitHub.
 
 Fuente: https://www.ine.gob.gt/encuesta-nacional-de-empleo-e-ingresos/
+
+## Resultados principales
+
+Se analizaron 53,025 registros elegibles de 2025. El salario mediano fue
+Q3,000 y la media Q3,421.68. No se encontraron claves duplicadas dentro
+de cada período. La comparación de K entre 2 y 5 seleccionó dos grupos,
+con silhouette de 0.5545. La base preparada de 2026 contiene 13,258 registros.
+
+Las tablas se calculan sobre el conjunto completo. La revisión comprobó que
+las exclusiones cierran con los conteos originales, que los grupos suman la
+población analítica y que la matriz de correlación es simétrica. El notebook
+se ejecutó de principio a fin en Docker.

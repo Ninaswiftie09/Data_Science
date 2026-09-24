@@ -1,0 +1,41 @@
+periodo,paso,criterio,antes,excluidos,despues
+2025T1,1,Edad finita y al menos 15,51588,16253,35335
+2025T1,2,Ocupado,35335,13062,22273
+2025T1,3,Asalariado: categorías 1 a 4,22273,8854,13419
+2025T1,4,Salario finito y positivo,13419,0,13419
+2025T1,5,Años de antigüedad finitos y no negativos,13419,0,13419
+2025T1,6,Meses enteros entre 0 y 11,13419,0,13419
+2025T1,7,Antigüedad no mayor a edad,13419,0,13419
+2025T1,8,"Horas finitas en (0,168]",13419,0,13419
+2025T2,1,Edad finita y al menos 15,51167,15882,35285
+2025T2,2,Ocupado,35285,12942,22343
+2025T2,3,Asalariado: categorías 1 a 4,22343,8851,13492
+2025T2,4,Salario finito y positivo,13492,0,13492
+2025T2,5,Años de antigüedad finitos y no negativos,13492,0,13492
+2025T2,6,Meses enteros entre 0 y 11,13492,0,13492
+2025T2,7,Antigüedad no mayor a edad,13492,0,13492
+2025T2,8,"Horas finitas en (0,168]",13492,0,13492
+2025T3,1,Edad finita y al menos 15,51583,15767,35816
+2025T3,2,Ocupado,35816,13443,22373
+2025T3,3,Asalariado: categorías 1 a 4,22373,8923,13450
+2025T3,4,Salario finito y positivo,13450,0,13450
+2025T3,5,Años de antigüedad finitos y no negativos,13450,0,13450
+2025T3,6,Meses enteros entre 0 y 11,13450,0,13450
+2025T3,7,Antigüedad no mayor a edad,13450,0,13450
+2025T3,8,"Horas finitas en (0,168]",13450,0,13450
+2025T4,1,Edad finita y al menos 15,49338,14984,34354
+2025T4,2,Ocupado,34354,13121,21233
+2025T4,3,Asalariado: categorías 1 a 4,21233,8569,12664
+2025T4,4,Salario finito y positivo,12664,0,12664
+2025T4,5,Años de antigüedad finitos y no negativos,12664,0,12664
+2025T4,6,Meses enteros entre 0 y 11,12664,0,12664
+2025T4,7,Antigüedad no mayor a edad,12664,0,12664
+2025T4,8,"Horas finitas en (0,168]",12664,0,12664
+2026T1,1,Edad finita y al menos 15,49843,14803,35040
+2026T1,2,Ocupado,35040,13306,21734
+2026T1,3,Asalariado: categorías 1 a 4,21734,8476,13258
+2026T1,4,Salario finito y positivo,13258,0,13258
+2026T1,5,Años de antigüedad finitos y no negativos,13258,0,13258
+2026T1,6,Meses enteros entre 0 y 11,13258,0,13258
+2026T1,7,Antigüedad no mayor a edad,13258,0,13258
+2026T1,8,"Horas finitas en (0,168]",13258,0,13258
