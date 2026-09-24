@@ -9,7 +9,7 @@ correlaciones y segmentación con KMeans. Se utiliza Spark 3.5.1 y Java 17.
 
 1. Iniciar Docker Desktop.
 2. Ejecutar `docker compose build`.
-3. Descargar los datos con `docker compose run --rm pyspark python scripts/download_data.py`.
+3. Descargar los datos con `docker compose run --rm pyspark python src/download_data.py`.
 4. Ejecutar `docker compose up -d`.
 5. Consultar `docker compose logs pyspark` y abrir el enlace local de Jupyter con su token.
 6. Abrir `notebooks/Laboratorio_7_Spark_MLlib.ipynb` y ejecutar todas las celdas en orden.
@@ -28,7 +28,7 @@ analítica y los resultados se vuelven a calcular en Spark.
 
 - `notebooks/Laboratorio_7_Spark_MLlib.ipynb`: procedimiento, resultados e interpretación.
 - `src/laboratorio.py`: funciones de preparación y análisis utilizadas por el notebook.
-- `scripts/download_data.py`: descarga de las bases de Personas y sus diccionarios.
+- `src/download_data.py`: descarga de las bases de Personas y sus diccionarios.
 - `data/sources.json`: enlaces oficiales y huellas de los archivos utilizados.
 - `data/raw/` y `data/dictionaries/`: descargas locales, excluidas de Git por tamaño.
 - `processed/images/`: gráficos del análisis.
