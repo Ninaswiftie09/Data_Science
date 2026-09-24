@@ -1,4 +1,4 @@
-﻿# Laboratorio 7. Spark MLlib
+# Laboratorio 7. Spark MLlib
 
 Nina Najera, 231088. Universidad del Valle de Guatemala, Data Science.
 
@@ -31,10 +31,10 @@ analítica y los resultados se vuelven a calcular en Spark.
 - `src/download_data.py`: descarga de las bases de Personas y sus diccionarios.
 - `data/sources.json`: enlaces oficiales y huellas de los archivos utilizados.
 - `data/raw/` y `data/dictionaries/`: descargas locales, excluidas de Git por tamaño.
-- `processed/images/`: gráficos del análisis.
-- `processed/tables/`: resultados agregados y auditorías en CSV.
-- `processed/parquet/`: datos originales convertidos y conjuntos preparados separados por año; se regeneran.
-- `processed/models/`: KMeans elegido y estandarizador; se regeneran.
+- `data/processed/images/`: gráficos del análisis.
+- `data/processed/tables/`: resultados agregados y auditorías en CSV.
+- `data/processed/parquet/`: datos originales convertidos y conjuntos preparados separados por año; se regeneran.
+- `data/processed/models/`: KMeans elegido y estandarizador; se regeneran.
 - `notebooks/Spark_03_SparkML_Nina_Najera.ipynb`: ejercicio individual conservado como evidencia del requisito del curso. Sus datos NBA pertenecen al trabajo anterior y pueden recuperarse del historial de Git.
 
 ## Criterios
@@ -55,7 +55,7 @@ Subir el notebook ejecutado y el enlace del repositorio:
 https://github.com/Ninaswiftie09/Data_Science/tree/Laboratorio7
 
 El informe LaTeX de la raíz es opcional y está excluido de Git.
-Los gráficos se encuentran en `processed/images/` con los mismos nombres
+Los gráficos se encuentran en `data/processed/images/` con los mismos nombres
 que utiliza el informe. No es necesario subir los Excel ni los Parquet a GitHub.
 
 Fuente: https://www.ine.gob.gt/encuesta-nacional-de-empleo-e-ingresos/

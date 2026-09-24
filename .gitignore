@@ -23,8 +23,8 @@ tmp/
 data/raw/*.xlsx
 data/dictionaries/*.xlsx
 *.download
-processed/parquet/
-processed/models/
+data/processed/parquet/
+data/processed/models/
 artifacts/
 spark-warehouse/
 *.log

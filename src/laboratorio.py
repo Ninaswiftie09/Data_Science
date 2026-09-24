@@ -15,7 +15,7 @@ from pyspark.ml.clustering import KMeans
 from pyspark.ml.evaluation import ClusteringEvaluator
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "processed"
+OUT = ROOT / "data" / "processed"
 COLS = ['P05D01', 'P02A03', 'P05C07A', 'P05C07B', 'P05H01A',
         'P03A03A', 'P05C16', 'DOMINIO', 'OCUPADOS', 'NUM_HOGAR',
         'NUM_PERSONA', 'FACTOR', 'ANIO', 'TRIMESTRE']
