@@ -18,3 +18,20 @@ Thumbs.db
 
 # Archivos temporales
 tmp/
+
+# Datos originales y archivos que se pueden regenerar
+data/raw/*.xlsx
+data/dictionaries/*.xlsx
+*.download
+processed/parquet/
+processed/models/
+artifacts/
+spark-warehouse/
+*.log
+
+# Informe local para Overleaf
+/*.tex
+/*.pdf
+/*.aux
+/*.out
+/*.toc

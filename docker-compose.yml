@@ -1,21 +1,17 @@
-version: "3.8"
-
-services:
+﻿services:
   pyspark:
-    build: .
+    build:
+      context: .
+      dockerfile: dockerfile
     container_name: pyspark311-jdk17
     ports:
-      - "8888:8888"
+      - "127.0.0.1:8888:8888"
     volumes:
-      - ./working_dir:/opt/app/working_dir
-      - ./notebooks:/opt/app/notebooks
+      - .:/opt/app
     environment:
-      - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-      - PYSPARK_PYTHON=/usr/local/bin/python
+      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
+      PYSPARK_PYTHON: /usr/local/bin/python
+      MPLBACKEND: Agg
     command: >
-      jupyter notebook
-      --ip=0.0.0.0
-      --port=8888
-      --no-browser
-      --NotebookApp.token=''
-      --notebook-dir=/opt/app
+      jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
+      --ServerApp.root_dir=/opt/app

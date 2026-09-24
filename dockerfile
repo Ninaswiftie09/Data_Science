@@ -32,3 +32,7 @@ USER spark
 
 EXPOSE 8888
 CMD ["bash"]
+
+USER root
+RUN pip install --no-cache-dir openpyxl==3.1.5 nbconvert==7.17.0
+USER spark
