@@ -1,0 +1,5 @@
+﻿Indicador,Serie ganadora,Valor,Método de cálculo,Interpretación
+Mayor estacionalidad,Región América Del Centro,0.2630802402850311,"1 − Var(residuo)/Var(estacional + residuo), mínimo 0; log1p, serie completa",Patrón mensual más marcado
+Mayor crecimiento,Vía Terrestre,2.1295016142716316,100 × (exp(12 × pendiente OLS de log1p mensual) − 1),Tendencia anual aproximada; no es variación interanual
+Mayor volatilidad,Vía Marítima,1.1339141578199363,Desviación estándar muestral / media mensual,Mayor dispersión relativa
+Mayor caída en 2020,Vía Terrestre,-75.22540476711872,100 × (total 2020 / total 2019 − 1); excluye base 2019 cero,Mayor caída porcentual entre series con base comparable

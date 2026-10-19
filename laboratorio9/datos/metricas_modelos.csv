@@ -1,0 +1,6 @@
+﻿Modelo,RMSE,MAE,Precision_fuente,Prueba_inicio,Prueba_fin
+Prophet,139548.877,132304.568,3 decimales guardados en notebook; no disponibles más decimales originales,2021-04-01,2026-06-01
+"SARIMA (1, 1, 1) x (0, 0, 1, 12)",175899.616,162379.98,3 decimales guardados en notebook; no disponibles más decimales originales,2021-04-01,2026-06-01
+Suavizamiento exponencial simple,180598.233,165372.541,3 decimales guardados en notebook; no disponibles más decimales originales,2021-04-01,2026-06-01
+Seasonal naive,219663.869,207321.637,3 decimales guardados en notebook; no disponibles más decimales originales,2021-04-01,2026-06-01
+Holt Winters,241513.187,224794.346,3 decimales guardados en notebook; no disponibles más decimales originales,2021-04-01,2026-06-01

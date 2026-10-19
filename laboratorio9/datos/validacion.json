@@ -1,0 +1,48 @@
+{
+  "Totales_coinciden": true,
+  "Metricas_y_cobertura_coinciden": true,
+  "PNG_verificados": [
+    {
+      "Archivo": "01_evolucion_historica.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1650,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "02_estacionalidad_mensual.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1650,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "03_vias_ingreso.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1650,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "04_mercados_origen.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1650,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "05_comparacion_series.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1410,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "06_comparacion_modelos.png",
+      "Ancho_px": 3900,
+      "Alto_px": 1800,
+      "DPI": 299.9994
+    },
+    {
+      "Archivo": "07_prediccion_prophet.png",
+      "Ancho_px": 3600,
+      "Alto_px": 1800,
+      "DPI": 299.9994
+    }
+  ]
+}
